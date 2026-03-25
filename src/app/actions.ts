@@ -1,6 +1,7 @@
 "use server";
 
 import { supabase } from "@/lib/supabase";
+import { sendApplicationNotification } from "@/lib/email";
 
 export async function submitApplication(formData: FormData) {
   const name = formData.get("name") as string;
@@ -19,6 +20,12 @@ export async function submitApplication(formData: FormData) {
   if (error) {
     console.error("Supabase insert error:", error);
     return { success: false, error: "Coś poszło nie tak. Spróbuj ponownie." };
+  }
+
+  try {
+    await sendApplicationNotification({ name, email, occupation, motivation });
+  } catch (err) {
+    console.error("Email notification error:", err);
   }
 
   return { success: true };

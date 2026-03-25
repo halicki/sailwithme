@@ -48,3 +48,4 @@ public/images/instagram/
 
 # playwright mcp
 .playwright-mcp/
+.env*.local
