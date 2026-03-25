@@ -36,6 +36,15 @@ yarn-error.log*
 # vercel
 .vercel
 
+# superpowers brainstorm files
+.superpowers/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# instagram reference photos
+public/images/instagram/
+
+# playwright mcp
+.playwright-mcp/

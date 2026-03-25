@@ -1,26 +1,217 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-inter);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+
+    /* Colors */
+    --bg-primary: #0c1929;
+    --bg-secondary: #132d46;
+    --bg-tertiary: #0f2236;
+    --text-primary: #e8edf2;
+    --text-secondary: #c5d0db;
+    --text-muted: rgba(232, 237, 242, 0.45);
+    --accent: #8eb8d4;
+    --accent-light: #afd0e6;
+    --accent-dark: #5a94b8;
+    --accent-rgb: 142, 184, 212;
+    --border-subtle: rgba(142, 184, 212, 0.1);
+    --border-accent: rgba(142, 184, 212, 0.25);
+    --font-display: var(--font-playfair);
+    --card-radius: 4px;
+    --card-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    --hero-gradient: linear-gradient(180deg, #0a1520 0%, #0f2a42 40%, #132d46 70%, #0c1929 100%);
+    --scrollbar-track: #0c1929;
+    --scrollbar-thumb: #1e4060;
+
+    /* Typography */
+    --section-py: 4rem;
+    --hero-title-size: clamp(3rem, 8vw, 7rem);
+    --hero-title-weight: 300;
+    --hero-title-tracking: 0.15em;
+    --heading-weight: 300;
+    --heading-tracking: 0.05em;
+    --label-size: 11px;
+    --label-tracking: 0.25em;
+    --label-weight: 400;
+    --body-line-height: 1.8;
+
+    /* Cards */
+    --card-padding: 1.25rem;
+    --card-border-width: 1px;
+    --card-bg: rgba(19, 45, 70, 0.4);
+
+    /* Buttons */
+    --btn-radius: 0px;
+    --btn-px: 3rem;
+    --btn-py: 1rem;
+    --btn-font-size: 11px;
+    --btn-tracking: 0.3em;
+    --btn-weight: 400;
+    --btn-border-width: 1px;
+    --btn-bg: transparent;
+    --btn-color: var(--accent);
+    --btn-border-color: rgba(142, 184, 212, 0.4);
+
+    /* Decorative */
+    --glow-size: 800px;
+    --glow-intensity: 0.04;
+    --transition-duration: 0.5s;
+    --transition-easing: cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Inputs */
+    --input-radius: 0px;
+    --input-border-width: 1px;
+    --input-py: 1rem;
+
+    /* Timeline */
+    --timeline-width: 1px;
+    --timeline-style: solid;
+
+    /* Crew CTA card */
+    --cta-card-border-style: solid;
+  }
+
+  @media (min-width: 640px) {
+    html {
+      --section-py: 10rem;
+      --card-padding: 2rem;
+    }
+  }
+
+  body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-display), system-ui, sans-serif;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    opacity: 0.8;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  /* Card hover */
+  .theme-card {
+    transition: all var(--transition-duration) var(--transition-easing);
+  }
+  .theme-card:hover {
+    border-color: rgba(var(--accent-rgb), 0.4);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+  }
+
+  /* Input — bottom border only */
+  .theme-input {
+    transition: all var(--transition-duration) var(--transition-easing);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--border-subtle);
+    border-radius: 0;
+    background: transparent;
+    padding-left: 0;
+  }
+  .theme-input:focus {
+    outline: none;
+    border-bottom-color: var(--accent);
+    box-shadow: 0 1px 0 0 rgba(var(--accent-rgb), 0.3);
+  }
+
+  /* Button hover */
+  .theme-btn {
+    transition: all var(--transition-duration) var(--transition-easing);
+  }
+  .theme-btn:hover {
+    background: rgba(var(--accent-rgb), 0.1);
+    border-color: var(--accent);
+  }
+
+  /* Section divider */
+  .theme-divider {
+    width: 80px;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(var(--accent-rgb), 0.3), transparent);
+  }
+
+  /* Hero connector "i" */
+  .hero-connector {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: center;
+    margin: 1.5rem 0;
+  }
+  .hero-connector::before,
+  .hero-connector::after {
+    content: "";
+    width: 60px;
+    height: 1px;
+    background: rgba(var(--accent-rgb), 0.3);
+  }
+
+  /* Scroll indicator */
+  .theme-scroll-indicator {
+    animation: fadeFloat 3s ease-in-out infinite;
+  }
+
+  /* Crew photo */
+  .theme-crew-photo {
+    border: 1px solid rgba(var(--accent-rgb), 0.25) !important;
+  }
+}
+
+@keyframes fadeFloat {
+  0%, 100% { opacity: 0.3; transform: translateY(0); }
+  50% { opacity: 0.6; transform: translateY(6px); }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in-up {
+  opacity: 0;
+  animation: fadeInUp 0.8s var(--transition-easing) forwards;
+}
+.animate-fade-in-up-d1 { animation-delay: 0.1s; }
+.animate-fade-in-up-d2 { animation-delay: 0.25s; }
+.animate-fade-in-up-d3 { animation-delay: 0.4s; }
+.animate-fade-in-up-d4 { animation-delay: 0.55s; }
+.animate-fade-in-up-d5 { animation-delay: 0.7s; }
+
+.animate-in {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s var(--transition-easing), transform 0.7s var(--transition-easing);
+}
+.animate-in.is-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
