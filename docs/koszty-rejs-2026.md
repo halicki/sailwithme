@@ -14,7 +14,24 @@
 
 ## A. Charter jachtu
 
-Ceny z platform charterowych na czerwiec (high season), rejon Ateny/Lavrion:
+### Oceanis 52 (nówka 2026) — KAVAS Yachting, Marina Alimos
+
+Model "Kos 52.1", 6 kabin, 2026, baza Alimos. Źródło: kavas.com/price-list.html
+
+| Okres | Cena/tydzień |
+|-------|-------------|
+| Period A (peak, lip–sie) | 9 500 EUR |
+| Period B (high) | 8 400 EUR |
+| Period C (mid) | 7 600 EUR |
+| Period D (low) | 5 900 EUR |
+
+Kaucja: 3 500 EUR. Czyszczenie + pościel: ~255 EUR.
+
+**Czerwiec to mid/high season → realnie 7 600–8 400 EUR (32 700–36 100 PLN)**
+
+Kavas notuje: "May, June and September offer excellent sailing conditions at lower charter rates" — co sugeruje Period C (7 600 EUR) dla czerwca, ale późny czerwiec (20–27.06) może być już Period B (8 400 EUR).
+
+### Oceanis 51.1 (starszy model) — inne źródła
 
 | Źródło | Cena/tydzień |
 |--------|-------------|
@@ -22,11 +39,18 @@ Ceny z platform charterowych na czerwiec (high season), rejon Ateny/Lavrion:
 | Prima Sailing (Alimos, początek lipca) | ~3 960 EUR (zniżka z 7 300) |
 | Click&Boat (Ateny) | ~2 600 EUR (372 EUR/dzień) |
 | SamBoat (różne) | 1 750–2 240 EUR |
-| 12knots | od ~2 450 EUR |
+| KAVAS (51.1) | od 3 100 EUR |
 
-**Realistyczna cena z early booking: 3 500–5 000 EUR (15 050–21 500 PLN)**
+**Różnica nówka vs. starszy model: ~3 000–4 000 EUR/tydzień (prawie 2x drożej)**
 
-Szacunek Arka: 28 000 PLN (~6 500 EUR) — górny koniec. Do zweryfikowania.
+### Podsumowanie charterowe
+
+| Wariant | Cena | PLN |
+|---------|------|-----|
+| Oceanis 52 nówka (KAVAS, czerwiec) | 7 600–8 400 EUR | 32 700–36 100 PLN |
+| Oceanis 51.1 starszy (różne, czerwiec) | 3 500–5 000 EUR | 15 050–21 500 PLN |
+
+Szacunek Arka (28 000 PLN / ~6 500 EUR) — realistyczny dla starszego 51.1 w dobrej cenie. Nówka 52 będzie droższa.
 
 ### Dodatkowe opłaty charterowe
 
@@ -121,9 +145,12 @@ Szacunek Arka: 28 000 PLN (~6 500 EUR) — górny koniec. Do zweryfikowania.
 
 Koszty które Arek pokrywa i musi odzyskać z opłat uczestników:
 
-| Pozycja | MIN (EUR) | REAL (EUR) | MAX (EUR) |
-|---------|-----------|------------|-----------|
-| Charter jachtu | 3 500 | 4 500 | 6 500 |
+MIN = starszy Oceanis 51.1, REAL = Oceanis 52 nówka (Period C), MAX = Oceanis 52 nówka (Period B)
+
+| Pozycja | MIN / 51.1 (EUR) | REAL / 52 nówka (EUR) | MAX / 52 nówka (EUR) |
+|---------|-------------------|----------------------|---------------------|
+| Charter jachtu | 4 500 | 7 600 | 8 400 |
+| Czyszczenie + pościel | 200 | 255 | 255 |
 | Damage waiver (CDW) | 200 | 300 | 400 |
 | Cruising tax + transit log | 158 | 158 | 158 |
 | Opłaty portowe | 50 | 85 | 120 |
@@ -132,8 +159,8 @@ Koszty które Arek pokrywa i musi odzyskać z opłat uczestników:
 | Jedzenie na lądzie (wszyscy 11 osób) | 1 320 | 1 760 | 2 200 |
 | Transfery + inne | 260 | 300 | 340 |
 | Loty Piotr + Kamila | 210 | 280 | 370 |
-| **RAZEM** | **6 328 EUR** | **8 193 EUR** | **11 078 EUR** |
-| **RAZEM PLN** | **27 210 PLN** | **35 230 PLN** | **47 635 PLN** |
+| **RAZEM** | **7 528 EUR** | **11 548 EUR** | **13 233 EUR** |
+| **RAZEM PLN** | **32 370 PLN** | **49 656 PLN** | **56 902 PLN** |
 
 ---
 
@@ -142,63 +169,80 @@ Koszty które Arek pokrywa i musi odzyskać z opłat uczestników:
 ### Wariant A: All-inclusive (bez lotów)
 Uczestnik płaci za: charter, jedzenie, transfery, porty. Lot kupuje sam.
 
-| | MIN | REAL | MAX |
+| | MIN (51.1) | REAL (52 nówka) | MAX (52 nówka) |
 |---|-----|------|-----|
-| Koszt/os (8 ucz.) | 791 EUR | 1 024 EUR | 1 385 EUR |
-| W PLN | 3 400 PLN | 4 400 PLN | 5 955 PLN |
-| Z 10% buforem | 870 EUR | 1 127 EUR | 1 523 EUR |
-| **W PLN z buforem** | **3 740 PLN** | **4 845 PLN** | **6 550 PLN** |
+| Koszt/os (8 ucz.) | 941 EUR | 1 444 EUR | 1 654 EUR |
+| W PLN | 4 046 PLN | 6 209 PLN | 7 112 PLN |
+| Z 10% buforem | 1 035 EUR | 1 588 EUR | 1 820 EUR |
+| **W PLN z buforem** | **4 451 PLN** | **6 828 PLN** | **7 826 PLN** |
 
 ### Wariant B: Jedzenie na lądzie osobno
 Uczestnik płaci za: charter, prowiant, transfery, porty. Kolacje w tawernach na własny koszt.
 
-| | MIN | REAL | MAX |
+| | MIN (51.1) | REAL (52 nówka) | MAX (52 nówka) |
 |---|-----|------|-----|
-| Koszty bez jedzenia na lądzie | 5 008 EUR | 6 433 EUR | 8 878 EUR |
-| Koszt/os (8 ucz.) | 626 EUR | 804 EUR | 1 110 EUR |
-| **W PLN** | **2 692 PLN** | **3 457 PLN** | **4 773 PLN** |
+| Koszty bez jedzenia na lądzie | 6 208 EUR | 9 788 EUR | 11 033 EUR |
+| Koszt/os (8 ucz.) | 776 EUR | 1 224 EUR | 1 379 EUR |
+| **W PLN** | **3 337 PLN** | **5 263 PLN** | **5 930 PLN** |
 | + jedzenie na lądzie ~160–200 EUR/os | ~690–860 PLN | | |
 
 ---
 
 ## Rekomendacja cenowa
 
-### Scenariusz REAL (charter ~4 500 EUR), wariant A (all-inclusive bez lotów):
-**Cena: 4 900–5 200 PLN/os** (~1 140–1 210 EUR)
+### Oceanis 52 nówka (KAVAS), wariant A (all-inclusive bez lotów):
+**Cena: 6 800–7 800 PLN/os** (~1 580–1 810 EUR)
 
-- Pokrywa wszystkie koszty + 10–15% buffer
+- Pokrywa wszystkie koszty + 10% buffer
 - Lot: uczestnik kupuje sam (450–700 PLN)
-- Łączny koszt uczestnika: **5 400–5 900 PLN**
+- Łączny koszt uczestnika: **7 300–8 500 PLN**
 
-### Scenariusz MAX (charter 28k PLN / 6 500 EUR):
-**Cena: 6 000–6 500 PLN/os** (~1 395–1 512 EUR)
+### Starszy Oceanis 51.1, wariant A (all-inclusive bez lotów):
+**Cena: 4 500–5 000 PLN/os** (~1 050–1 160 EUR)
 
-- Łączny koszt z lotem: **6 500–7 200 PLN**
+- Łączny koszt z lotem: **5 000–5 700 PLN**
 
-### Wrażliwość na liczbę uczestników
+### Wrażliwość na liczbę uczestników (Oceanis 52 nówka, REAL)
 
-| Uczestników | Cena/os (REAL) | Cena/os (MAX) |
-|-------------|---------------|---------------|
-| 6 | 6 460 PLN | 8 730 PLN |
-| 7 | 5 535 PLN | 7 485 PLN |
-| **8** | **4 845 PLN** | **6 550 PLN** |
-| 9 | 4 305 PLN | 5 820 PLN |
-| 10 | 3 875 PLN | 5 240 PLN |
+| Uczestników | Cena/os | Z lotem |
+|-------------|---------|---------|
+| 6 | 9 100 PLN | 9 600–9 800 PLN |
+| 7 | 7 800 PLN | 8 300–8 500 PLN |
+| **8** | **6 828 PLN** | **7 300–7 500 PLN** |
+| 9 | 6 070 PLN | 6 500–6 800 PLN |
+| 10 | 5 460 PLN | 5 900–6 200 PLN |
+
+---
+
+## Kluczowa decyzja: nówka vs. starszy model
+
+| | Oceanis 52 nówka (2026) | Oceanis 51.1 starszy (2020-2023) |
+|---|---|---|
+| Charter/tydzień | 7 600–8 400 EUR | 3 500–5 000 EUR |
+| Cena/os (8 ucz.) | 6 800–7 800 PLN | 4 500–5 000 PLN |
+| Kaucja | 3 500 EUR | 2 500–3 500 EUR |
+| Stan | Nowy, pełne wyposażenie | Dobry, standardowe wyposażenie |
+| Różnica | Premium za nówkę | Sprawdzony, tańszy |
+
+**Nówka jest ~2x droższa w charterze.** To +2 000–3 000 PLN/os. Pytanie: czy uczestnicy zauważą/docenią różnicę?
 
 ---
 
 ## Do zweryfikowania
 
-1. **Cena charteru** — 28k PLN to szacunek czy konkretna oferta? Warto sprawdzić: Prima Sailing, Kekeris Yachts, Istion Yachting
-2. **Model kaucji** — 3 000–3 700 EUR do zebrania od uczestników (~420–460 EUR/os). Zwrotna. CDW 200–400 EUR zmniejsza ją do ~500 EUR.
-3. **All-inclusive vs. jedzenie osobno** — wpływa na cenę o ~700 PLN/os
-4. **Minimum uczestników** — przy 6 osobach cena rośnie znacząco
+1. **Nówka vs. starszy model** — kluczowa decyzja cenowa. Różnica ~2 000–3 000 PLN/os.
+2. **Dostępność na 20–27 czerwca** — KAVAS ma Oceanis 52 w Alimos. Sprawdzić czy termin wolny.
+3. **Model kaucji** — 3 500 EUR do zebrania od uczestników (~440 EUR/os). Zwrotna. CDW zmniejsza ją.
+4. **All-inclusive vs. jedzenie osobno** — wpływa na cenę o ~700 PLN/os
+5. **Minimum uczestników** — przy 6 osobach na nówce cena ~9 100 PLN/os (bardzo drogo)
 
 ## Źródła
-- Prima Sailing, Click&Boat, SamBoat, 12knots, Kekeris Yachts — ceny charterów
+- [KAVAS Yachting — cennik](https://www.kavas.com/price-list.html) — Oceanis 52 (Kos 52.1), nówka 2026
+- [KAVAS — 6 kabin](https://www.kavas.com/our-yachts/6-cabin-yachts.html)
+- [Boataround — Oceanis 52 Kos](https://www.boataround.com/us/boat/beneteau-oceanis-52-kos-521)
+- [Istion Yachting — Oceanis 52](https://www.istion.com/news/sail-with-confidence-beneteau-oceanis-52)
+- Prima Sailing, Click&Boat, SamBoat, 12knots — ceny 51.1
 - PlainSailing, Noonsite — opłaty portowe Grecja
 - GlobalPetrolPrices — ceny diesla Grecja
-- Sailoscope — koszty życia na jachcie Grecja 2025
 - MarinaReservation — podatek TEPAI
 - Ryanair, Kiwi.com — ceny lotów WAW→ATH
-- Sailing Issues — przewodnik po Hydrze
