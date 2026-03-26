@@ -233,7 +233,7 @@ Pod marką Respire prowadzi sesje oddechowe łączące różne techniki — od s
 
 Jako programista rozumie systemy i struktury, ale ten rejs zaprojektował z zupełnie innej perspektywy — jako doświadczenie, które ma Cię zmienić, nie rozrywkę, która ma Cię odciągnąć od codzienności. Zebrał ludzi, którzy są najlepsi w tym, co robią, i stworzył przestrzeń, w której każdy dzień jest inny, każde wyzwanie jest prawdziwe, a każdy wieczór to okazja do refleksji.`,
       onRetreat:
-        "Sternik Beneteau Oceanis 52, organizator i człowiek odpowiedzialny za to, żeby wszystko działało. Na pokładzie nauczy Cię podstaw żeglowania — od stawiania żagli po czytanie wiatru.",
+        "Sternik Beneteau Oceanis 51.1, organizator i człowiek odpowiedzialny za to, żeby wszystko działało. Na pokładzie nauczy Cię podstaw żeglowania — od stawiania żagli po czytanie wiatru.",
     },
     credentials: ["Jachtowy sternik morski", "Nauczyciel żeglowania PZŻ", "Organizator rejsu"],
     quote:
@@ -244,9 +244,9 @@ Jako programista rozumie systemy i struktury, ale ten rejs zaprojektował z zupe
 // ─── Yacht ───────────────────────────────────────────────────────────────────
 
 export const yachtInfo: YachtInfo = {
-  name: "Beneteau Oceanis 52",
+  name: "Beneteau Oceanis 51.1",
   headline: "16 metrów domu na morzu",
-  description: "Beneteau Oceanis 52 — pięć kabin, przestronny kokpit i wszystko, czego potrzebujesz, żeby przez tydzień żyć na wodzie. To nie luksusowy hotel. To dom, który zabiera Cię tam, gdzie chcesz.",
+  description: "Beneteau Oceanis 51.1 — pięć kabin, przestronny kokpit i wszystko, czego potrzebujesz, żeby przez tydzień żyć na wodzie. To nie luksusowy hotel. To dom, który zabiera Cię tam, gdzie chcesz.",
   comforts: [
     {
       title: "5 kabin z naturalnym światłem",
@@ -266,11 +266,11 @@ export const yachtInfo: YachtInfo = {
     }
   ],
   images: [
-    { src: "/images/yacht-main.webp", alt: "Beneteau Oceanis 52 — widok z zewnątrz" },
+    { src: "/images/yacht-main.webp", alt: "Beneteau Oceanis 51.1 — widok z zewnątrz" },
     { src: "/images/yacht-cockpit.webp", alt: "Kokpit — przestrzeń wspólna" },
     { src: "/images/yacht-cabin.webp", alt: "Kabina z panoramicznymi oknami" }
   ],
-  specUrl: "https://www.beneteau.com/oceanis/oceanis-52"
+  specUrl: "https://www.beneteau.com/en/oceanis/oceanis-51-1"
 };
 
 // ─── Route ──────────────────────────────────────────────────────────────────
