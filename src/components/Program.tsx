@@ -74,6 +74,14 @@ export default function Program() {
                   <span className="text-xs sm:text-sm ml-2" style={{ color: "var(--text-muted)" }}>
                     — {day.description}
                   </span>
+                  {day.location && (
+                    <span
+                      className="text-xs sm:text-sm ml-1"
+                      style={{ color: "var(--accent)", opacity: 0.6 }}
+                    >
+                      {" "}· {day.location}
+                    </span>
+                  )}
                 </div>
               </div>
             );

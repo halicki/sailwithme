@@ -21,27 +21,38 @@ export interface CrewMember {
   quote?: string;
 }
 
+export interface YachtComfort {
+  title: string;
+  description: string;
+}
+
 export interface YachtImage {
   src: string;
   alt: string;
-  caption?: string;
-}
-
-export interface YachtFeature {
-  title: string;
-  description: string;
-  image?: string;
 }
 
 export interface YachtInfo {
   name: string;
-  subtitle: string;
-  specUrl: string;
+  headline: string;
   description: string;
-  designHighlights: string[];
-  specs: { label: string; value: string }[];
+  comforts: YachtComfort[];
   images: YachtImage[];
-  features: YachtFeature[];
+  specUrl: string;
+}
+
+export interface RouteStop {
+  name: string;
+  tagline: string;
+  hints: string[];
+  freeDivingNote?: string;
+}
+
+export interface RouteContent {
+  heading: string;
+  subheading: string;
+  intro: string;
+  stops: RouteStop[];
+  closingTease: string;
 }
 
 // ─── Hero ────────────────────────────────────────────────────────────────────
@@ -99,37 +110,44 @@ export const programDays = [
     day: 1,
     name: "Spotkanie",
     description: "Poznanie załogi, pierwszy oddech na pokładzie, odpłynięcie",
+    location: "Ateny / Marina",
   },
   {
     day: 2,
     name: "Żeglowanie",
     description: "Nauka prowadzenia jachtu — wiatr jako nauczyciel",
+    location: "Egina",
   },
   {
     day: 3,
     name: "Głębia",
     description: "Pierwsze zanurzenie — freediving z Piotrem Błaszczakiem",
+    location: "Poros",
   },
   {
     day: 4,
     name: "Oddech",
     description: "Breathwork o wschodzie słońca, eksploracja wysp",
+    location: "Hydra",
   },
   {
     day: 5,
     name: "Wyzwanie",
     description: "Nocne żeglowanie, cisza, rozmowy pod gwiazdami",
+    location: "w morzu",
   },
   {
     day: 6,
     name: "Ekspedycja",
     description:
       "Odkrywanie ukrytych zatok, nurkowanie, gotowanie na pokładzie",
+    location: "ukryte zatoki",
   },
   {
     day: 7,
     name: "Transformacja",
     description: "Podsumowanie podróży — co zabierasz ze sobą?",
+    location: "Ateny",
   },
 ];
 
@@ -227,68 +245,80 @@ Jako programista rozumie systemy i struktury, ale ten rejs zaprojektował z zupe
 
 export const yachtInfo: YachtInfo = {
   name: "Beneteau Oceanis 52",
-  subtitle: "Nasz dom na 7 dni",
-  specUrl: "https://www.beneteau.com/oceanis/oceanis-52",
-  description:
-    "16 metrów przestrzeni, komfortu i wolności. Pięć kabin z naturalnym światłem, ogromny kokpit na wieczorne rozmowy pod gwiazdami i platforma kąpielowa, z której skoczysz prosto do morza. To nie hotel — to dom, który zabiera Cię tam, gdzie chcesz.",
-  designHighlights: [
-    "Design Innovation Award 2025",
-    "16 metrów",
-    "5 kabin",
-    "Platforma kąpielowa",
-  ],
-  specs: [
-    { label: "Długość", value: "16 m" },
-    { label: "Kabiny", value: "5" },
-    { label: "Miejsca", value: "do 12 osób" },
-    { label: "Pokład", value: "drewno Iroko" },
+  headline: "16 metrów domu na morzu",
+  description: "Beneteau Oceanis 52 — pięć kabin, przestronny kokpit i wszystko, czego potrzebujesz, żeby przez tydzień żyć na wodzie. To nie luksusowy hotel. To dom, który zabiera Cię tam, gdzie chcesz.",
+  comforts: [
+    {
+      title: "5 kabin z naturalnym światłem",
+      description: "Każdy ma swoją prywatną przestrzeń na sen i regenerację."
+    },
+    {
+      title: "Kuchnia i salon",
+      description: "Wspólne posiłki, poranna kawa, wieczorne rozmowy — wszystko na pokładzie."
+    },
+    {
+      title: "Platforma kąpielowa",
+      description: "Skok do morza prosto z jachtu — codziennie."
+    },
+    {
+      title: "16 metrów stabilności",
+      description: "Jacht zaprojektowany na pełne morze. Bezpieczny, stabilny, wygodny."
+    }
   ],
   images: [
+    { src: "/images/yacht-main.webp", alt: "Beneteau Oceanis 52 — widok z zewnątrz" },
+    { src: "/images/yacht-cockpit.webp", alt: "Kokpit — przestrzeń wspólna" },
+    { src: "/images/yacht-cabin.webp", alt: "Kabina z panoramicznymi oknami" }
+  ],
+  specUrl: "https://www.beneteau.com/oceanis/oceanis-52"
+};
+
+// ─── Route ──────────────────────────────────────────────────────────────────
+
+export const routeContent: RouteContent = {
+  heading: "Zatoka Sarońska",
+  subheading: "7 dni między wyspami Grecji",
+  intro: "Pięćdziesiąt mil morskich od Aten zaczyna się inny świat. Wyspa bez samochodów, starożytny teatr z doskonałą akustyką, zatoki z turkusową wodą — i cisza, jakiej nie znajdziesz na lądzie.",
+  stops: [
     {
-      src: "/images/yacht-main.webp",
-      alt: "Beneteau Oceanis 52 — widok z zewnątrz",
+      name: "Egina",
+      tagline: "Pierwsza wyspa. Pierwszy oddech na morzu.",
+      hints: [
+        "Świątynia Afai z widokiem na trzy wyspy",
+        "Pistacjowe gaje i portowe tawerny",
+        "17 mil morskich od Aten — wystarczy, żeby zapomnieć o lądzie",
+      ],
     },
     {
-      src: "/images/yacht-cockpit.webp",
-      alt: "Kokpit — full-beam design",
-      caption: "Kokpit full-beam z 30% większą przestrzenią",
+      name: "Poros",
+      tagline: "Wąska cieśnina między wyspą a lądem, gdzie czas zwalnia.",
+      hints: [
+        "Cytrynowy las u podnóża wzgórza",
+        "Kotwicowisko w zatoce Love Bay",
+        "Stąd widać Peloponez — tak blisko, że prawie go dotkniesz",
+      ],
     },
     {
-      src: "/images/yacht-interior.webp",
-      alt: "Salon i mesa nawigacyjna",
-      caption: "Wnętrze Nauta Design — dąb i Corian",
+      name: "Hydra",
+      tagline: "Wyspa bez samochodów, bez pośpiechu, bez kompromisów.",
+      hints: [
+        "Klify, czysta woda i skalne formacje pod powierzchnią",
+        "Port, w którym czas zatrzymał się sto lat temu",
+        "Uliczki z kamienia, osły zamiast taksówek",
+      ],
+      freeDivingNote: "Krystalicznie czysta woda i skaliste dno — idealne warunki do freedivingu z Piotrem.",
     },
     {
-      src: "/images/yacht-cabin.webp",
-      alt: "Kabina właściciela",
-      caption: "Kabina z panoramicznymi oknami",
-    },
-    {
-      src: "/images/yacht-deck.webp",
-      alt: "Pokład z Iroko",
-      caption: "Pokład z certyfikowanego drewna Iroko",
+      name: "Epidauros",
+      tagline: "Starożytny teatr, w którym szept niesie się do ostatniego rzędu.",
+      hints: [
+        "Akustyka, której nie da się wyjaśnić — trzeba usłyszeć",
+        "Dojście od strony morza, nie z parkingu turystycznego",
+        "Jedna z najlepszych kotwic w Zatoce Sarońskiej",
+      ],
     },
   ],
-  features: [
-    {
-      title: "Wnętrze",
-      description:
-        "Jasne kabiny z panoramicznymi oknami, ciepłe drewno i przestrzenny salon. Miejsce, w którym po dniu na morzu poczujesz się jak w domu — tylko z lepszym widokiem.",
-      image: "/images/yacht-interior.webp",
-    },
-    {
-      title: "Kokpit",
-      description:
-        "Największa przestrzeń na jachcie — tu będziecie jeść, rozmawiać i patrzeć na zachody słońca. Podwójne stoły, grill, wygodne siedziska i bezpośredni dostęp do wody.",
-      image: "/images/yacht-cockpit.webp",
-    },
-    {
-      title: "Na wodzie",
-      description:
-        "Jacht zaprojektowany tak, żebyś mógł go prowadzić — nawet jeśli nigdy wcześniej nie stałeś za sterem. Nauczymy Cię wszystkiego na miejscu.",
-      image: "/images/yacht-deck.webp",
-    },
-  ],
+  closingTease: "...i kilka zatok, których nie znajdziesz na żadnej mapie.",
 };
 
 // ─── FAQ ─────────────────────────────────────────────────────────────────────

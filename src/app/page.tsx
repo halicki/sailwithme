@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Manifesto from "@/components/Manifesto";
 import ForWhom from "@/components/ForWhom";
 import Program from "@/components/Program";
+import Route from "@/components/Route";
 import Yacht from "@/components/Yacht";
 import Crew from "@/components/Crew";
 import ApplicationForm from "@/components/ApplicationForm";
@@ -16,8 +17,9 @@ export default function Home() {
       <Manifesto />
       <ForWhom />
       <Program />
-      <Yacht />
+      <Route />
       <Crew />
+      <Yacht />
       <ApplicationForm />
       <FAQ />
       <Footer />
