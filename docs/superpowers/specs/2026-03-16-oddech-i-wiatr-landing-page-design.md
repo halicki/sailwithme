@@ -9,9 +9,10 @@ Arek organizuje cykliczny rejs żeglarski "Oddech i Wiatr" — transformacyjną 
 **Pozycjonowanie:** Transformacyjna podróż żeglarska — miks retreatu, rozwoju osobistego i ekspedycji. Każdy dzień ma inny charakter (żeglowanie, freediving, breathwork, wyzwania). Narracja "podróży wojownika" — od spotkania do transformacji.
 
 **Wyróżniki:**
+
 - Kuratowana grupa (przedsiębiorcy, twórcy, liderzy)
 - Piotr Błaszczak (@wobliczuwody) — reprezentant Polski we freedivingu — lekcje freedivingu
-- Kamila Kowalczyk (@respire_kamilla_kowalczyk) — breathwork / sesje oddechowe
+- Kamilla Kowalczyk (@respire_kamilla_kowalczyk) — breathwork / sesje oddechowe
 - Arek Halicki (@arek.halicki) — skipper & organizator
 - Jacht: [Beneteau Oceanis 52](https://www.beneteau.com/oceanis/oceanis-52)
 - Aktywne uczestnictwo w żeglowaniu (nie cruise)
@@ -35,22 +36,26 @@ Arek organizuje cykliczny rejs żeglarski "Oddech i Wiatr" — transformacyjną 
 ## Struktura strony (one-pager, optymalizacja konwersji)
 
 ### Sekcja 1: Hero
+
 - Duży tytuł: ODDECH i WIATR
 - Podtytuł: "Rejs transformacyjny · Grecja 2026"
 - Data: 20–27 Czerwca · Zatoka Sarońska · 7 dni
 - CTA: "Dołącz do załogi ↓" (scroll do formularza)
 
 ### Sekcja 2: Manifesto
+
 - Nagłówek: "To nie jest zwykły rejs."
 - Krótki, mocny tekst opisujący czym jest i czym NIE jest ten rejs
 - Kończy się: "Nie szukamy pasażerów. Szukamy załogi."
 
 ### Sekcja 3: Dla kogo (samoselekcja)
+
 - Nagłówek: "Czy to jest dla Ciebie?"
 - 4 cechy idealnego uczestnika w gridzie
 - Info: "8–10 miejsc. Każda osoba jest wybierana."
 
 ### Sekcja 4: Program / 7 dni
+
 - Nagłówek: "7 dni. 7 wyzwań."
 - Timeline z numerowanymi dniami (01–07)
 - Każdy dzień: nazwa + krótki opis
@@ -67,12 +72,13 @@ Arek organizuje cykliczny rejs żeglarski "Oddech i Wiatr" — transformacyjną 
 - Nagłówek: "Kto stoi za sterami"
 - **Dedykowana, pełna sekcja per osoba** (nie małe karty):
   - **Piotr Błaszczak** — freediving, reprezentant Polski, IG: @wobliczuwody, zdjęcie, opis co wnosi
-  - **Kamila Kowalczyk** — breathwork / sesje oddechowe, IG: @respire_kamilla_kowalczyk, zdjęcie, opis
+  - **Kamilla Kowalczyk** — breathwork / sesje oddechowe, IG: @respire_kamilla_kowalczyk, zdjęcie, opis
   - **Arek Halicki** — skipper & organizator, IG: @arek.halicki, zdjęcie, opis
 - **Ostatni element: "Ty?"** — dashed border, złoty akcent, CTA "Dołącz →"
 - Kliknięcie "Ty?" scrolluje do formularza
 
 ### Sekcja 7: Formularz zgłoszeniowy
+
 - Nagłówek: "Dołącz do załogi"
 - Pola: Imię, Email, Kim jesteś / czym się zajmujesz?, Dlaczego chcesz płynąć z nami?
 - Przycisk: "Wyślij zgłoszenie"
@@ -80,10 +86,12 @@ Arek organizuje cykliczny rejs żeglarski "Oddech i Wiatr" — transformacyjną 
 - Po wysłaniu: komunikat sukcesu inline (bez przekierowania)
 
 ### Sekcja 8: FAQ / Szczegóły praktyczne
+
 - Grid z odpowiedziami: Kiedy?, Gdzie?, Ile osób?, Cena?, Doświadczenie?, Loty?
 - Prosta, informacyjna sekcja rozwiązująca ostatnie wątpliwości
 
 ### Footer
+
 - Minimalistyczny: "Oddech i Wiatr © 2026"
 
 ## Dane: tabela Supabase

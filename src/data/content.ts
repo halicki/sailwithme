@@ -158,7 +158,8 @@ export const crewMembers: CrewMember[] = [
     slug: "piotr",
     name: "Piotr Błaszczak",
     role: "Freediving",
-    tagline: "Cisza pod wodą jest głośniejsza niż myślisz.",
+    tagline:
+      "Freediving to nie tylko sport. To najspokojniejsza podróż w głąb siebie, jaką możesz odbyć.",
     instagram: "wobliczuwody",
     website: "https://wobliczuwody.pl",
     brand: "W Obliczu Wody",
@@ -166,12 +167,12 @@ export const crewMembers: CrewMember[] = [
     portraitImage: "/images/piotr-portrait.jpg",
     bio: {
       intro:
-        "Reprezentant Polski we freedivingu, numer 1 w rankingach CMAS i AIDA wśród mężczyzn w Polsce. Człowiek, który zamienił fascynację głębiną w sposób życia — i potrafi zabrać Cię tam ze sobą.",
-      story: `Wszystko zaczęło się na Bali. Jedno zanurzenie wystarczyło, żeby Piotr zrozumiał, że pod powierzchnią wody jest coś, czego szukał całe życie — cisza, której nie da się znaleźć na lądzie.
+        "Wielokrotny mistrz Polski w wodach słodkich. Człowiek, który zamienił fascynację głębiną w sposób życia — i potrafi zabrać Cię tam ze sobą.",
+      story: `Wszystko zaczęło się na basenie Y-40 we Włoszech. Jedno zanurzenie wystarczyło, żeby Piotr zrozumiał, że pod powierzchnią wody jest coś, czego szukał całe życie — cisza, której nie da się znaleźć na lądzie.
 
 Zanim odkrył freediving, przez ponad 10 lat żył slacklinem i highlinem. Był współtwórcą Urban Highline Festival w Lublinie — pierwszego i największego festiwalu highline'owego w przestrzeni miejskiej na świecie. Przeskakiwanie między budynkami na taśmie nauczyło go tego, co potem okazało się kluczowe pod wodą: panowania nad strachem, kontroli oddechu i zaufania do własnego ciała.
 
-Od 2022 roku jest członkiem kadry narodowej w nurkowaniu głębokim. Trenuje i uczy w Deep Spot — najgłębszym basenie w Europie (45,5 metra czystej wody w temperaturze 32°C). Jako instruktor SSI Freediving Level 1 łączy technikę z treningiem mentalnym i hipnozą, pomagając uczniom przełamywać psychiczne bariery związane z głębokością.`,
+Od 2022 roku jest członkiem kadry narodowej w nurkowaniu głębokościowym. Trenuje i uczy w Deep Spot — najgłębszym basenie w Europie (45,5 metra czystej wody w temperaturze 32°C). Jako instruktor SSI Advanced Freedivier łączy technikę z treningiem mentalnym i hipnozą, pomagając uczniom przełamywać psychiczne bariery związane z głębokością.`,
       onRetreat:
         "Na rejsie poprowadzi lekcje freedivingu — od pierwszego świadomego wdechu po zanurzenie w ciszę greckiego morza. Każda sesja to nie tylko technika, ale praca z głową: oddech, focus, zaufanie. Nie musisz mieć doświadczenia — musisz mieć odwagę.",
     },
@@ -194,18 +195,18 @@ Od 2022 roku jest członkiem kadry narodowej w nurkowaniu głębokim. Trenuje i 
       "Freediving to nie sport ekstremalny. To najspokojniejsza rzecz, jaką możesz zrobić — jeśli pozwolisz sobie odpuścić.",
   },
   {
-    slug: "kamila",
-    name: "Kamila Kowalczyk",
+    slug: "kamilla",
+    name: "Kamilla Kowalczyk",
     role: "Breathwork",
     tagline: "Oddech to najpotężniejsze narzędzie, jakie masz.",
     instagram: "respire_kamilla_kowalczyk",
     brand: "Respire",
-    heroImage: "/images/kamila-hero.jpg",
-    portraitImage: "/images/kamila-portrait.jpg",
+    heroImage: "/images/kamilla-hero.jpg",
+    portraitImage: "/images/kamilla-portrait.jpg",
     bio: {
       intro:
         "Instruktorka breathworku i założycielka Respire — przestrzeni, w której oddech staje się narzędziem transformacji. Wierzy, że świadomy oddech zmienia nie tylko ciało, ale sposób, w jaki przeżywasz życie.",
-      story: `Kamila odkryła breathwork w momencie, kiedy szukała czegoś głębszego niż medytacja. Pierwszy oddech świadomy — naprawdę świadomy — zmienił jej perspektywę. Zrozumiała, że mamy w sobie narzędzie, które jest dostępne zawsze, wszędzie, za darmo — i które większość z nas kompletnie ignoruje.
+      story: `Kamilla odkryła breathwork w momencie, kiedy szukała czegoś głębszego niż medytacja. Pierwszy oddech świadomy — naprawdę świadomy — zmienił jej perspektywę. Zrozumiała, że mamy w sobie narzędzie, które jest dostępne zawsze, wszędzie, za darmo — i które większość z nas kompletnie ignoruje.
 
 Pod marką Respire prowadzi sesje oddechowe łączące różne techniki — od spokojnych, regulujących układ nerwowy, po intensywne sesje transformacyjne, które potrafią wydobyć emocje ukryte głęboko pod powierzchnią. Jej podejście jest ciepłe, ale bezkompromisowe: oddech nie kłamie i nie pozwala Ci się schować.`,
       onRetreat:
@@ -216,7 +217,7 @@ Pod marką Respire prowadzi sesje oddechowe łączące różne techniki — od s
       "Założycielka Respire",
     ],
     quote:
-      "Nie musisz jechać na drugi koniec świata, żeby się zmienić. Wystarczy, że zaczniesz oddychać.",
+      "Możesz zrozumieć. Możesz wszystko zmienić. Możesz być. Wystarczy oddech.",
   },
   {
     slug: "arek",
@@ -235,9 +236,12 @@ Jako programista rozumie systemy i struktury, ale ten rejs zaprojektował z zupe
       onRetreat:
         "Sternik Beneteau Oceanis 51.1, organizator i człowiek odpowiedzialny za to, żeby wszystko działało. Na pokładzie nauczy Cię podstaw żeglowania — od stawiania żagli po czytanie wiatru.",
     },
-    credentials: ["Jachtowy sternik morski", "Nauczyciel żeglowania PZŻ", "Organizator rejsu"],
-    quote:
-      "Na morzu nie da się udawać. Wiatr nie negocjuje, fala nie czeka.",
+    credentials: [
+      "Jachtowy sternik morski",
+      "Nauczyciel żeglowania PZŻ",
+      "Organizator rejsu",
+    ],
+    quote: "Na morzu nie da się udawać. Wiatr nie negocjuje, fala nie czeka.",
   },
 ];
 
@@ -246,31 +250,37 @@ Jako programista rozumie systemy i struktury, ale ten rejs zaprojektował z zupe
 export const yachtInfo: YachtInfo = {
   name: "Beneteau Oceanis 51.1",
   headline: "16 metrów domu na morzu",
-  description: "Beneteau Oceanis 51.1 — pięć kabin, przestronny kokpit i wszystko, czego potrzebujesz, żeby przez tydzień żyć na wodzie. To nie luksusowy hotel. To dom, który zabiera Cię tam, gdzie chcesz.",
+  description:
+    "Beneteau Oceanis 51.1 — pięć kabin, przestronny kokpit i wszystko, czego potrzebujesz, żeby przez tydzień żyć na wodzie. To nie luksusowy hotel. To dom, który zabiera Cię tam, gdzie chcesz.",
   comforts: [
     {
       title: "5 kabin z naturalnym światłem",
-      description: "Każdy ma swoją prywatną przestrzeń na sen i regenerację."
+      description: "Każdy ma swoją prywatną przestrzeń na sen i regenerację.",
     },
     {
       title: "Kuchnia i salon",
-      description: "Wspólne posiłki, poranna kawa, wieczorne rozmowy — wszystko na pokładzie."
+      description:
+        "Wspólne posiłki, poranna kawa, wieczorne rozmowy — wszystko na pokładzie.",
     },
     {
       title: "Platforma kąpielowa",
-      description: "Skok do morza prosto z jachtu — codziennie."
+      description: "Skok do morza prosto z jachtu — codziennie.",
     },
     {
       title: "16 metrów stabilności",
-      description: "Jacht zaprojektowany na pełne morze. Bezpieczny, stabilny, wygodny."
-    }
+      description:
+        "Jacht zaprojektowany na pełne morze. Bezpieczny, stabilny, wygodny.",
+    },
   ],
   images: [
-    { src: "/images/yacht-main.webp", alt: "Beneteau Oceanis 51.1 — widok z zewnątrz" },
+    {
+      src: "/images/yacht-main.webp",
+      alt: "Beneteau Oceanis 51.1 — widok z zewnątrz",
+    },
     { src: "/images/yacht-cockpit.webp", alt: "Kokpit — przestrzeń wspólna" },
-    { src: "/images/yacht-cabin.webp", alt: "Kabina z panoramicznymi oknami" }
+    { src: "/images/yacht-cabin.webp", alt: "Kabina z panoramicznymi oknami" },
   ],
-  specUrl: "https://www.beneteau.com/en/oceanis/oceanis-51-1"
+  specUrl: "https://www.beneteau.com/en/oceanis/oceanis-51-1",
 };
 
 // ─── Route ──────────────────────────────────────────────────────────────────
@@ -278,7 +288,8 @@ export const yachtInfo: YachtInfo = {
 export const routeContent: RouteContent = {
   heading: "Zatoka Sarońska",
   subheading: "7 dni między wyspami Grecji",
-  intro: "Pięćdziesiąt mil morskich od Aten zaczyna się inny świat. Wyspa bez samochodów, starożytny teatr z doskonałą akustyką, zatoki z turkusową wodą — i cisza, jakiej nie znajdziesz na lądzie.",
+  intro:
+    "Pięćdziesiąt mil morskich od Aten zaczyna się inny świat. Wyspa bez samochodów, starożytny teatr z doskonałą akustyką, zatoki z turkusową wodą — i cisza, jakiej nie znajdziesz na lądzie.",
   stops: [
     {
       name: "Egina",
@@ -306,11 +317,13 @@ export const routeContent: RouteContent = {
         "Port, w którym czas zatrzymał się sto lat temu",
         "Uliczki z kamienia, osły zamiast taksówek",
       ],
-      freeDivingNote: "Krystalicznie czysta woda i skaliste dno — idealne warunki do freedivingu z Piotrem.",
+      freeDivingNote:
+        "Krystalicznie czysta woda i skaliste dno — idealne warunki do freedivingu z Piotrem.",
     },
     {
       name: "Epidauros",
-      tagline: "Starożytny teatr, w którym szept niesie się do ostatniego rzędu.",
+      tagline:
+        "Starożytny teatr, w którym szept niesie się do ostatniego rzędu.",
       hints: [
         "Akustyka, której nie da się wyjaśnić — trzeba usłyszeć",
         "Dojście od strony morza, nie z parkingu turystycznego",
