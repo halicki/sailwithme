@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     locale: "pl_PL",
     images: [
       {
-        url: "/opengraph-image",
+        url: "/og-image.svg",
         width: 1200,
         height: 630,
         alt: "ODDECH i WIATR — Rejs transformacyjny w Grecji 2026",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: "ODDECH i WIATR — Rejs transformacyjny",
     description:
       "7 dni na Morzu Egejskim. Żeglowanie, freediving, breathwork. Zatoka Sarońska, czerwiec 2026.",
-    images: ["/opengraph-image"],
+    images: ["/og-image.svg"],
   },
 };
 
