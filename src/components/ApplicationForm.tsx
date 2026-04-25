@@ -15,7 +15,7 @@ export default function ApplicationForm() {
     const formData = new FormData(e.currentTarget);
 
     const email = formData.get("email") as string;
-    if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    if (email && !/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/.test(email)) {
       setStatus("error");
       setErrorMessage("Podaj poprawny adres email.");
       return;
