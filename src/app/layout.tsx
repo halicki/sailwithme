@@ -21,31 +21,31 @@ const siteUrl =
     : "http://localhost:3000");
 
 export const metadata: Metadata = {
-  title: "ODDECH i WIATR — Rejs transformacyjny · Grecja 2026",
+  title: "ODDECH i WIATR — Żagle, freediving, breathwork · Grecja 2026",
   description:
-    "7 dni na Morzu Egejskim. Żeglowanie, freediving, breathwork. Nie szukamy pasażerów — szukamy załogi. Zatoka Sarońska, 20–27 czerwca 2026.",
+    "7 dni na Morzu Egejskim. Żagle, freediving, breathwork i dobra załoga. Zatoka Sarońska, 20–27 czerwca 2026.",
   metadataBase: new URL(siteUrl),
   openGraph: {
-    title: "ODDECH i WIATR — Rejs transformacyjny",
+    title: "ODDECH i WIATR — Żagle, freediving, breathwork",
     description:
-      "7 dni na Morzu Egejskim. Żeglowanie, freediving, breathwork. Zatoka Sarońska, czerwiec 2026.",
+      "7 dni na Morzu Egejskim. Żagle, freediving, breathwork i greckie wyspy. Zatoka Sarońska, czerwiec 2026.",
     type: "website",
     locale: "pl_PL",
     images: [
       {
-        url: "/og-image.svg",
+        url: "/og-preview.png",
         width: 1200,
         height: 630,
-        alt: "ODDECH i WIATR — Rejs transformacyjny w Grecji 2026",
+        alt: "ODDECH i WIATR — żagle, freediving, breathwork w Grecji 2026",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ODDECH i WIATR — Rejs transformacyjny",
+    title: "ODDECH i WIATR — Żagle, freediving, breathwork",
     description:
-      "7 dni na Morzu Egejskim. Żeglowanie, freediving, breathwork. Zatoka Sarońska, czerwiec 2026.",
-    images: ["/og-image.svg"],
+      "7 dni na Morzu Egejskim. Żagle, freediving, breathwork i greckie wyspy. Zatoka Sarońska, czerwiec 2026.",
+    images: ["/og-preview.png"],
   },
 };
 
