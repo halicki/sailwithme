@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { routeContent } from "@/data/content";
 
 export default function Route() {
@@ -7,7 +8,7 @@ export default function Route() {
       className="relative"
       style={{ background: "var(--bg-secondary)", padding: "var(--section-py) 0" }}
     >
-      <div className="max-w-3xl mx-auto px-6">
+      <div className="max-w-5xl mx-auto px-6">
         {/* Label */}
         <p
           className="uppercase mb-6"
@@ -53,65 +54,85 @@ export default function Route() {
         </p>
 
         {/* Stops */}
-        <div className="flex flex-col gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {routeContent.stops.map((stop) => (
             <div
               key={stop.name}
-              className="theme-card"
+              className="theme-card overflow-hidden"
               style={{
                 background: "var(--card-bg)",
                 border: "var(--card-border-width) solid var(--border-subtle)",
                 borderRadius: "var(--card-radius)",
-                padding: "var(--card-padding)",
               }}
             >
-              <h3
-                className="text-lg sm:text-xl mb-1"
-                style={{
-                  fontFamily: "var(--font-display)",
-                  fontWeight: "var(--heading-weight)",
-                  color: "var(--text-primary)",
-                }}
-              >
-                {stop.name}
-              </h3>
+              <div className="relative aspect-[16/10] overflow-hidden">
+                <Image
+                  src={stop.image.src}
+                  alt={stop.image.alt}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
 
-              <p
-                className="text-xs sm:text-sm mb-4"
-                style={{ color: "var(--accent)", opacity: 0.8 }}
-              >
-                {stop.tagline}
-              </p>
-
-              <ul className="flex flex-col gap-2 mb-0">
-                {stop.hints.map((hint) => (
-                  <li
-                    key={hint}
-                    className="text-xs sm:text-sm flex items-start gap-2"
-                    style={{ color: "var(--text-secondary)" }}
-                  >
-                    <span
-                      className="mt-1.5 block w-1 h-1 rounded-full shrink-0"
-                      style={{ background: "var(--accent)", opacity: 0.5 }}
-                    />
-                    {hint}
-                  </li>
-                ))}
-              </ul>
-
-              {stop.freeDivingNote && (
-                <p
-                  className="text-xs sm:text-sm mt-4 pt-3"
+              <div style={{ padding: "var(--card-padding)" }}>
+                <a
+                  href={stop.image.sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block mb-4 text-[10px] leading-relaxed hover:brightness-125"
+                  style={{ color: "var(--text-muted)" }}
+                >
+                  {stop.image.credit}
+                </a>
+                <h3
+                  className="text-lg sm:text-xl mb-1"
                   style={{
-                    color: "var(--accent)",
-                    opacity: 0.7,
-                    borderTop: "1px solid var(--border-subtle)",
-                    fontStyle: "italic",
+                    fontFamily: "var(--font-display)",
+                    fontWeight: "var(--heading-weight)",
+                    color: "var(--text-primary)",
                   }}
                 >
-                  {stop.freeDivingNote}
+                  {stop.name}
+                </h3>
+
+                <p
+                  className="text-xs sm:text-sm mb-4"
+                  style={{ color: "var(--accent)", opacity: 0.8 }}
+                >
+                  {stop.tagline}
                 </p>
-              )}
+
+                <ul className="flex flex-col gap-2 mb-0">
+                  {stop.hints.map((hint) => (
+                    <li
+                      key={hint}
+                      className="text-xs sm:text-sm flex items-start gap-2"
+                      style={{ color: "var(--text-secondary)" }}
+                    >
+                      <span
+                        className="mt-1.5 block w-1 h-1 rounded-full shrink-0"
+                        style={{ background: "var(--accent)", opacity: 0.5 }}
+                      />
+                      {hint}
+                    </li>
+                  ))}
+                </ul>
+
+                {stop.freeDivingNote && (
+                  <p
+                    className="text-xs sm:text-sm mt-4 pt-3"
+                    style={{
+                      color: "var(--accent)",
+                      opacity: 0.7,
+                      borderTop: "1px solid var(--border-subtle)",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    {stop.freeDivingNote}
+                  </p>
+                )}
+              </div>
             </div>
           ))}
         </div>

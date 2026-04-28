@@ -22,7 +22,7 @@ export default function Manifesto() {
             fontWeight: "var(--label-weight)",
           }}
         >
-          Manifesto
+          O co chodzi
         </p>
 
         <h2

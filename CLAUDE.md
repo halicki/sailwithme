@@ -6,6 +6,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 "Oddech i Wiatr" — a landing page for a curated sailing retreat in Greece (June 2026). Polish-language one-pager with an application form backed by Supabase. Full design spec lives in `docs/superpowers/specs/2026-03-16-oddech-i-wiatr-landing-page-design.md`.
 
+## Hard rules (do not violate)
+
+- **Termin rejsu: 20–27 czerwca 2026 — JEDYNY. Nigdy nie proponować innych dat, nie sugerować "flexibility", nie pytać o przesunięcie tygodnia.**
+- **Komunikacja z brokerami / formularzami: pisać liczbę osób jako total (np. "10 osób" / "11 osób"). NIE rozbijać na guests + crew.**
+- **Email Arka: `halicki.arkadiusz@gmail.com`. Nie wymyślać innych adresów (np. `arek@oddechiwiatr.pl` — taki nie istnieje).**
+- **W gotowych draftach (maile, formularze) nie wstawiać placeholderów typu `[Twój numer]` / `[Your name]` — albo realne dane, albo pominąć linijkę.**
+
 ## Commands
 
 - `npm run dev` — start dev server (Next.js, localhost:3000)

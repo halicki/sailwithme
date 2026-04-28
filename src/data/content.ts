@@ -45,6 +45,10 @@ export interface RouteStop {
   tagline: string;
   hints: string[];
   freeDivingNote?: string;
+  image: YachtImage & {
+    credit: string;
+    sourceUrl: string;
+  };
 }
 
 export interface RouteContent {
@@ -55,51 +59,82 @@ export interface RouteContent {
   closingTease: string;
 }
 
+export interface PricingInfo {
+  headline: string;
+  description: string;
+  priceRange: string;
+  priceNote: string;
+  included: string[];
+  notIncluded: string[];
+}
+
 // ─── Hero ────────────────────────────────────────────────────────────────────
 
 export const heroContent = {
-  preTitle: "Rejs transformacyjny · Grecja 2026",
+  preTitle: "Żagle, freediving, breathwork · Grecja 2026",
   titleTop: "ODDECH",
   titleBottom: "WIATR",
   subtitle: "20–27 Czerwca · Zatoka Sarońska · 7 dni",
   tagline:
-    "Żeglowanie. Freediving. Breathwork. 7 dni, które zmieniają wszystko.",
+    "Tydzień na jachcie: żeglowanie, freediving, poranny oddech i greckie wyspy.",
   ctaText: "Dołącz do załogi ↓",
   backgroundVideo: "/videos/hero-bg.mp4",
+};
+
+export const pricingInfo: PricingInfo = {
+  headline: "Wiesz, na co się piszesz.",
+  description:
+    "To nie jest luksusowy all-inclusive ani survival. To dobrze zorganizowany tydzień na jachcie: prosto, konkretnie, z miejscem na morze, ludzi i oddech.",
+  priceRange: "5 900 zł",
+  priceNote:
+    "Cena udziału za osobę. Lot do Aten, ubezpieczenie i wydatki własne są po Twojej stronie.",
+  included: [
+    "miejsce na jachcie",
+    "opieka skippera",
+    "zajęcia freedivingowe",
+    "sesje oddechowe",
+    "opłaty portowe, paliwo i podstawowy prowiant",
+  ],
+  notIncluded: [
+    "lot do Aten",
+    "część posiłków na lądzie",
+    "ubezpieczenie podróżne",
+    "wydatki własne",
+  ],
 };
 
 // ─── Manifesto ───────────────────────────────────────────────────────────────
 
 export const manifesto = {
-  heading: "To nie jest zwykły rejs.",
-  body: `Nie imprezowy. Nie all-inclusive. Nie z przypadkowymi ludźmi.
+  heading: "To jest rejs dla ludzi, którzy chcą naprawdę popłynąć.",
+  body: `Nie imprezowy. Nie hotelowy. Nie z przypadkowymi ludźmi z ogłoszenia.
 
-7 dni na Morzu Egejskim. Żeglowanie, freediving z mistrzem Polski, breathwork o wschodzie słońca. Każdy dzień to nowe wyzwanie — każdy wieczór to refleksja.`,
-  closing: "Nie szukamy pasażerów. Szukamy załogi.",
+7 dni na Morzu Egejskim. Żeglowanie, freediving z mistrzem Polski, spokojne sesje oddechowe, greckie porty i życie na pokładzie. Trochę wysiłku, dużo wody, dobre rozmowy i proste rytmy dnia.`,
+  closing: "Nie szukamy pasażerów. Szukamy ludzi do załogi.",
 };
 
 // ─── For Whom ────────────────────────────────────────────────────────────────
 
 export const forWhomTraits = [
   {
-    icon: "🚀",
-    title: "Prowadzisz firmę, tworzysz, budujesz",
-    description: "Przedsiębiorcy, twórcy, liderzy — ludzie, którzy działają.",
+    title: "Żeglowanie",
+    description:
+      "Będziesz na pokładzie podczas manewrów i przepłynięć. Nie musisz mieć doświadczenia, ale warto chcieć się włączyć.",
   },
   {
-    icon: "🌊",
-    title: "Szukasz doświadczeń, nie relaksu",
-    description: "Chcesz czegoś więcej niż leżenie pod parasolem.",
+    title: "Życie na jachcie",
+    description:
+      "Kabiny, wspólna kuchnia, porty, kotwicowiska, prysznice w marinach. Komfort jest prosty i morski.",
   },
   {
-    icon: "⚡",
-    title: "Jesteś gotowy na wyzwania",
-    description: "Freediving, nocne żeglowanie, breathwork — to nie wakacje.",
+    title: "Freediving i oddech",
+    description:
+      "Zajęcia są prowadzone od podstaw. Zakres zależy od pogody, warunków i tego, jak czuje się grupa.",
   },
   {
-    icon: "🔄",
-    title: "Chcesz transformacji",
-    description: "Wracasz jako inna osoba niż ta, która wsiadła na jacht.",
+    title: "Tempo tygodnia",
+    description:
+      "Pływamy między wyspami, schodzimy na ląd, gotujemy, odpoczywamy. Plan jest konkretny, ale morze ma pierwszeństwo.",
   },
 ];
 
@@ -132,21 +167,21 @@ export const programDays = [
   },
   {
     day: 5,
-    name: "Wyzwanie",
-    description: "Nocne żeglowanie, cisza, rozmowy pod gwiazdami",
-    location: "w morzu",
+    name: "Noc",
+    description:
+      "Jeśli pogoda i załoga będą chciały — nocne żeglowanie pod gwiazdami",
+    location: "w trasie",
   },
   {
     day: 6,
-    name: "Ekspedycja",
-    description:
-      "Odkrywanie ukrytych zatok, nurkowanie, gotowanie na pokładzie",
-    location: "ukryte zatoki",
+    name: "Zatoki",
+    description: "Kotwicowiska, pływanie, freediving i gotowanie na pokładzie",
+    location: "zatoki po drodze",
   },
   {
     day: 7,
-    name: "Transformacja",
-    description: "Podsumowanie podróży — co zabierasz ze sobą?",
+    name: "Powrót",
+    description: "Zamknięcie rejsu, poranna kawa, ostatnie mile do mariny",
     location: "Ateny",
   },
 ];
@@ -167,14 +202,14 @@ export const crewMembers: CrewMember[] = [
     portraitImage: "/images/piotr-portrait.jpg",
     bio: {
       intro:
-        "Wielokrotny mistrz Polski w wodach słodkich. Człowiek, który zamienił fascynację głębiną w sposób życia — i potrafi zabrać Cię tam ze sobą.",
+        "Wielokrotny mistrz Polski w wodach słodkich. Na rejsie pokaże freediving spokojnie, technicznie i bez napinki.",
       story: `Wszystko zaczęło się na basenie Y-40 we Włoszech. Jedno zanurzenie wystarczyło, żeby Piotr zrozumiał, że pod powierzchnią wody jest coś, czego szukał całe życie — cisza, której nie da się znaleźć na lądzie.
 
 Zanim odkrył freediving, przez ponad 10 lat żył slacklinem i highlinem. Był współtwórcą Urban Highline Festival w Lublinie — pierwszego i największego festiwalu highline'owego w przestrzeni miejskiej na świecie. Przeskakiwanie między budynkami na taśmie nauczyło go tego, co potem okazało się kluczowe pod wodą: panowania nad strachem, kontroli oddechu i zaufania do własnego ciała.
 
 Od 2022 roku jest członkiem kadry narodowej w nurkowaniu głębokościowym. Trenuje i uczy w Deep Spot — najgłębszym basenie w Europie (45,5 metra czystej wody w temperaturze 32°C). Jako instruktor SSI Advanced Freedivier łączy technikę z treningiem mentalnym i hipnozą, pomagając uczniom przełamywać psychiczne bariery związane z głębokością.`,
       onRetreat:
-        "Na rejsie poprowadzi lekcje freedivingu — od pierwszego świadomego wdechu po zanurzenie w ciszę greckiego morza. Każda sesja to nie tylko technika, ale praca z głową: oddech, focus, zaufanie. Nie musisz mieć doświadczenia — musisz mieć odwagę.",
+        "Na rejsie poprowadzi lekcje freedivingu — od pierwszego świadomego wdechu po bezpieczne zanurzenia w greckim morzu. Nie musisz mieć doświadczenia.",
     },
     credentials: [
       "Reprezentant Polski — kadra narodowa od 2022",
@@ -192,7 +227,7 @@ Od 2022 roku jest członkiem kadry narodowej w nurkowaniu głębokościowym. Tre
       { label: "STA", value: "4:03" },
     ],
     quote:
-      "Freediving to nie sport ekstremalny. To najspokojniejsza rzecz, jaką możesz zrobić — jeśli pozwolisz sobie odpuścić.",
+      "Freediving nie musi być ekstremalny. Najpierw jest spokój, technika i zaufanie do ciała.",
   },
   {
     slug: "kamilla",
@@ -205,19 +240,19 @@ Od 2022 roku jest członkiem kadry narodowej w nurkowaniu głębokościowym. Tre
     portraitImage: "/images/kamilla-portrait.jpg",
     bio: {
       intro:
-        "Instruktorka breathworku i założycielka Respire — przestrzeni, w której oddech staje się narzędziem transformacji. Wierzy, że świadomy oddech zmienia nie tylko ciało, ale sposób, w jaki przeżywasz życie.",
+        "Instruktorka breathworku i założycielka Respire. Poprowadzi sesje oddechowe w prosty, dostępny i spokojny sposób.",
       story: `Kamilla odkryła breathwork w momencie, kiedy szukała czegoś głębszego niż medytacja. Pierwszy oddech świadomy — naprawdę świadomy — zmienił jej perspektywę. Zrozumiała, że mamy w sobie narzędzie, które jest dostępne zawsze, wszędzie, za darmo — i które większość z nas kompletnie ignoruje.
 
-Pod marką Respire prowadzi sesje oddechowe łączące różne techniki — od spokojnych, regulujących układ nerwowy, po intensywne sesje transformacyjne, które potrafią wydobyć emocje ukryte głęboko pod powierzchnią. Jej podejście jest ciepłe, ale bezkompromisowe: oddech nie kłamie i nie pozwala Ci się schować.`,
+Pod marką Respire prowadzi sesje oddechowe łączące różne techniki — od spokojnych, regulujących układ nerwowy, po intensywniejsze praktyki pracy z ciałem. Jej podejście jest ciepłe, konkretne i uważne.`,
       onRetreat:
-        "Na rejsie poprowadzi poranne rytuały oddechowe o wschodzie słońca na pokładzie oraz głębokie sesje transformacyjne. Wyobraź sobie breathwork na otwartym morzu, z widokiem na greckie wyspy — to doświadczenie, które zostaje z Tobą na długo.",
+        "Na rejsie poprowadzi poranne sesje oddechowe na pokładzie i spokojne praktyki regulujące po intensywnych dniach na wodzie.",
     },
     credentials: [
       "Certyfikowana instruktorka breathworku",
       "Założycielka Respire",
     ],
     quote:
-      "Możesz zrozumieć. Możesz wszystko zmienić. Możesz być. Wystarczy oddech.",
+      "Oddech jest prosty. I właśnie dlatego warto do niego wracać.",
   },
   {
     slug: "arek",
@@ -229,10 +264,10 @@ Pod marką Respire prowadzi sesje oddechowe łączące różne techniki — od s
     portraitImage: "/images/arek-portrait.jpg",
     bio: {
       intro:
-        "Żeglarz, programista i wizjoner tego rejsu. Człowiek, który wierzy, że morze uczy więcej niż jakikolwiek kurs rozwoju osobistego — jeśli pozwolisz mu mówić.",
-      story: `Arek żegluje od lat i z każdym rejsem utwierdza się w przekonaniu, że na morzu nie da się udawać. Wiatr nie negocjuje, fala nie czeka — albo się adaptujesz, albo się uczysz. Zwykle jedno i drugie naraz.
+        "Żeglarz, programista i organizator rejsu. Pilnuje tego, żeby było bezpiecznie, konkretnie i po ludzku.",
+      story: `Arek żegluje od lat i z każdym rejsem utwierdza się w przekonaniu, że na morzu szybko widać, co działa. Wiatr nie negocjuje, fala nie czeka — więc trzeba być uważnym, elastycznym i obecnym.
 
-Jako programista rozumie systemy i struktury, ale ten rejs zaprojektował z zupełnie innej perspektywy — jako doświadczenie, które ma Cię zmienić, nie rozrywkę, która ma Cię odciągnąć od codzienności. Zebrał ludzi, którzy są najlepsi w tym, co robią, i stworzył przestrzeń, w której każdy dzień jest inny, każde wyzwanie jest prawdziwe, a każdy wieczór to okazja do refleksji.`,
+Jako programista lubi dobrze zaprojektowane systemy, ale ten rejs jest prostszy: dobry jacht, dobra trasa, dobra ekipa i prowadzący, którzy wiedzą, co robią.`,
       onRetreat:
         "Sternik Beneteau Oceanis 51.1, organizator i człowiek odpowiedzialny za to, żeby wszystko działało. Na pokładzie nauczy Cię podstaw żeglowania — od stawiania żagli po czytanie wiatru.",
     },
@@ -241,7 +276,7 @@ Jako programista rozumie systemy i struktury, ale ten rejs zaprojektował z zupe
       "Nauczyciel żeglowania PZŻ",
       "Organizator rejsu",
     ],
-    quote: "Na morzu nie da się udawać. Wiatr nie negocjuje, fala nie czeka.",
+    quote: "Na morzu najlepiej działa prostota: patrzysz, reagujesz, płyniesz.",
   },
 ];
 
@@ -279,6 +314,8 @@ export const yachtInfo: YachtInfo = {
     },
     { src: "/images/yacht-cockpit.webp", alt: "Kokpit — przestrzeń wspólna" },
     { src: "/images/yacht-cabin.webp", alt: "Kabina z panoramicznymi oknami" },
+    { src: "/images/yacht-deck.webp", alt: "Pokład jachtu w trakcie rejsu" },
+    { src: "/images/yacht-interior.webp", alt: "Wnętrze jachtu" },
   ],
   specUrl: "https://www.beneteau.com/en/oceanis/oceanis-51-1",
 };
@@ -287,13 +324,20 @@ export const yachtInfo: YachtInfo = {
 
 export const routeContent: RouteContent = {
   heading: "Zatoka Sarońska",
-  subheading: "7 dni między wyspami Grecji",
+  subheading: "7 dni między wyspami i portami Grecji",
   intro:
-    "Pięćdziesiąt mil morskich od Aten zaczyna się inny świat. Wyspa bez samochodów, starożytny teatr z doskonałą akustyką, zatoki z turkusową wodą — i cisza, jakiej nie znajdziesz na lądzie.",
+    "Z Aten można szybko wypłynąć między wyspy, porty i spokojniejsze kotwicowiska Zatoki Sarońskiej. To dobra trasa na pierwszy taki rejs: ciekawa, różnorodna i bez potrzeby gonienia kilometrów.",
   stops: [
     {
       name: "Egina",
       tagline: "Pierwsza wyspa. Pierwszy oddech na morzu.",
+      image: {
+        src: "/images/route/aegina-aphaia.jpg",
+        alt: "Świątynia Afai na wyspie Egina",
+        credit: "Paweł 'pbm' Szubert, CC BY-SA 3.0, Wikimedia Commons",
+        sourceUrl:
+          "https://commons.wikimedia.org/wiki/File:Aegina_-_Temple_of_Aphaia_03.jpg",
+      },
       hints: [
         "Świątynia Afai z widokiem na trzy wyspy",
         "Pistacjowe gaje i portowe tawerny",
@@ -303,6 +347,12 @@ export const routeContent: RouteContent = {
     {
       name: "Poros",
       tagline: "Wąska cieśnina między wyspą a lądem, gdzie czas zwalnia.",
+      image: {
+        src: "/images/route/poros-aerial.jpg",
+        alt: "Poros widziany z góry",
+        credit: "Agnee, CC BY 2.0, Wikimedia Commons",
+        sourceUrl: "https://commons.wikimedia.org/wiki/File:Poros_aerial_viw.jpg",
+      },
       hints: [
         "Cytrynowy las u podnóża wzgórza",
         "Kotwicowisko w zatoce Love Bay",
@@ -312,6 +362,13 @@ export const routeContent: RouteContent = {
     {
       name: "Hydra",
       tagline: "Wyspa bez samochodów, bez pośpiechu, bez kompromisów.",
+      image: {
+        src: "/images/route/hydra-port-town.jpg",
+        alt: "Port Hydry z łodziami i miastem w tle",
+        credit: "KlipschFan, CC BY-SA 2.0, Wikimedia Commons",
+        sourceUrl:
+          "https://commons.wikimedia.org/wiki/File:Port_of_Hydra,_Greece_(156016592).jpg",
+      },
       hints: [
         "Klify, czysta woda i skalne formacje pod powierzchnią",
         "Port, w którym czas zatrzymał się sto lat temu",
@@ -322,16 +379,23 @@ export const routeContent: RouteContent = {
     },
     {
       name: "Epidauros",
-      tagline:
-        "Starożytny teatr, w którym szept niesie się do ostatniego rzędu.",
+      tagline: "Starożytny teatr i spokojniejszy port po stronie Peloponezu.",
+      image: {
+        src: "/images/route/epidaurus-theatre-wide.jpg",
+        alt: "Starożytny teatr w Epidauros",
+        credit: "Aristoboylos, CC BY-SA 4.0, Wikimedia Commons",
+        sourceUrl:
+          "https://commons.wikimedia.org/wiki/File:Ancient_Theater_of_Asclepius_Epidaurus_reception_angle_1.jpg",
+      },
       hints: [
-        "Akustyka, której nie da się wyjaśnić — trzeba usłyszeć",
-        "Dojście od strony morza, nie z parkingu turystycznego",
-        "Jedna z najlepszych kotwic w Zatoce Sarońskiej",
+        "Dobry przystanek po drodze z Hydry lub Poros",
+        "Teatr jest blisko najciekawszych miejsc archeologicznych regionu",
+        "Decyzja zależy od pogody, czasu i tego, jak układa się rejs",
       ],
     },
   ],
-  closingTease: "...i kilka zatok, których nie znajdziesz na żadnej mapie.",
+  closingTease:
+    "Dokładna trasa zależy od pogody i warunków na morzu, więc zostawiamy sobie miejsce na dobre decyzje po drodze.",
 };
 
 // ─── FAQ ─────────────────────────────────────────────────────────────────────
@@ -341,15 +405,47 @@ export const faqItems = [
   { question: "Gdzie?", answer: "Zatoka Sarońska, Grecja" },
   {
     question: "Ile osób?",
-    answer: "8–10 uczestników + stała załoga (3 osoby)",
+    answer:
+      "Maksymalnie 10 osób łącznie: 3 prowadzących i do 7 uczestników.",
   },
   {
     question: "Cena?",
-    answer: "Wkrótce — zgłoś się, poinformujemy o szczegółach",
+    answer:
+      "Cena udziału to 5 900 zł za osobę. Lot do Aten, ubezpieczenie i wydatki własne są po Twojej stronie.",
+  },
+  {
+    question: "Co jest w cenie?",
+    answer:
+      "Miejsce na jachcie, skipper, freediving, sesje oddechowe, paliwo, porty i podstawowy prowiant.",
+  },
+  {
+    question: "Czego nie ma w cenie?",
+    answer:
+      "Lotów do Aten, ubezpieczenia, części posiłków na lądzie i wydatków własnych.",
   },
   {
     question: "Czy muszę umieć żeglować?",
     answer: "Nie. Nauczymy Cię wszystkiego na miejscu.",
+  },
+  {
+    question: "Czy muszę umieć dobrze pływać?",
+    answer:
+      "Musisz czuć się w wodzie na tyle swobodnie, żeby bezpiecznie wejść do morza. Freediving prowadzimy od podstaw i bez presji.",
+  },
+  {
+    question: "Czy to będzie bardzo intensywne?",
+    answer:
+      "To aktywny tydzień, ale nie obóz przetrwania. Tempo dopasowujemy do pogody, morza i załogi.",
+  },
+  {
+    question: "Choroba morska?",
+    answer:
+      "Może się zdarzyć. Płyniemy po Zatoce Sarońskiej, zwykle spokojniejszej niż otwarte morze, ale warto zabrać sprawdzone środki.",
+  },
+  {
+    question: "Jak wygląda selekcja?",
+    answer:
+      "Po zgłoszeniu odpisujemy w ciągu 48h i sprawdzamy, czy klimat rejsu pasuje do Twoich oczekiwań.",
   },
   {
     question: "Loty?",

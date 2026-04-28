@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Favicon — 3 opcje · Oddech i Wiatr</title>
+<style>
+  body {
+    background: #0c1929;
+    color: #e6eef5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    padding: 48px;
+    margin: 0;
+  }
+  h1 { font-weight: 400; letter-spacing: 0.5px; margin-bottom: 8px; }
+  .intro { opacity: 0.6; margin-bottom: 56px; max-width: 600px; line-height: 1.6; }
+  .option {
+    margin-bottom: 64px;
+    padding-bottom: 64px;
+    border-bottom: 1px solid rgba(142, 184, 212, 0.12);
+  }
+  .option:last-child { border: none; }
+  .label {
+    font-size: 22px;
+    margin-bottom: 6px;
+    color: #8eb8d4;
+  }
+  .desc { opacity: 0.55; font-size: 14px; margin-bottom: 28px; }
+  .row {
+    display: flex;
+    gap: 56px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  .size {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .size span {
+    font-size: 11px;
+    opacity: 0.5;
+    letter-spacing: 1px;
+  }
+  .s16  { width: 16px;  height: 16px;  image-rendering: -webkit-optimize-contrast; }
+  .s32  { width: 32px;  height: 32px;  }
+  .s64  { width: 64px;  height: 64px;  }
+  .s128 { width: 128px; height: 128px; }
+  .tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #1a2942;
+    padding: 10px 16px 10px 12px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 28px;
+  }
+  .tab img { width: 16px; height: 16px; }
+  .tab span {
+    font-size: 13px;
+    color: #ccd9e3;
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+<h1>Favicon — 3 opcje</h1>
+<p class="intro">
+  Każdy wariant w rozmiarach 16, 32, 64 i 128px + symulacja zakładki przeglądarki.
+  16px to test najważniejszy — tak to widać w pasku.
+</p>
+
+<div class="option">
+  <div class="label">A — Koło sterowe / kompas</div>
+  <div class="desc">Krzyż + okrąg. Czytelne, klasyczne. Może być postrzegane jako „O" z Oddech.</div>
+  <div class="row">
+    <div class="size"><img class="s16"  src="./option-a.svg" alt=""><span>16</span></div>
+    <div class="size"><img class="s32"  src="./option-a.svg" alt=""><span>32</span></div>
+    <div class="size"><img class="s64"  src="./option-a.svg" alt=""><span>64</span></div>
+    <div class="size"><img class="s128" src="./option-a.svg" alt=""><span>128</span></div>
+  </div>
+  <div class="tab"><img src="./option-a.svg" alt=""><span>ODDECH i WIATR — Grecja 2026</span></div>
+</div>
+
+<div class="option">
+  <div class="label">B — Horyzont / oddech</div>
+  <div class="desc">Słońce nad dwiema falami. Najbardziej miękki, abstrakcyjny — pasuje do tematu oddechu i ciszy.</div>
+  <div class="row">
+    <div class="size"><img class="s16"  src="./option-b.svg" alt=""><span>16</span></div>
+    <div class="size"><img class="s32"  src="./option-b.svg" alt=""><span>32</span></div>
+    <div class="size"><img class="s64"  src="./option-b.svg" alt=""><span>64</span></div>
+    <div class="size"><img class="s128" src="./option-b.svg" alt=""><span>128</span></div>
+  </div>
+  <div class="tab"><img src="./option-b.svg" alt=""><span>ODDECH i WIATR — Grecja 2026</span></div>
+</div>
+
+<div class="option">
+  <div class="label">C — Żagiel</div>
+  <div class="desc">Trójkąt żagla z masztem i linią horyzontu. Najbardziej dosłowny — od razu czytelny jako „rejs".</div>
+  <div class="row">
+    <div class="size"><img class="s16"  src="./option-c.svg" alt=""><span>16</span></div>
+    <div class="size"><img class="s32"  src="./option-c.svg" alt=""><span>32</span></div>
+    <div class="size"><img class="s64"  src="./option-c.svg" alt=""><span>64</span></div>
+    <div class="size"><img class="s128" src="./option-c.svg" alt=""><span>128</span></div>
+  </div>
+  <div class="tab"><img src="./option-c.svg" alt=""><span>ODDECH i WIATR — Grecja 2026</span></div>
+</div>
+
+</body>
+</html>

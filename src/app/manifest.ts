@@ -1,0 +1,25 @@
+import type { MetadataRoute } from "next";
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: "Oddech i Wiatr — Rejs Grecja 2026",
+    short_name: "Oddech i Wiatr",
+    description:
+      "7 dni na Morzu Egejskim. Żagle, freediving i breathwork w Zatoce Sarońskiej. 20–27 czerwca 2026.",
+    start_url: "/",
+    display: "standalone",
+    background_color: "#0c1929",
+    theme_color: "#0c1929",
+    lang: "pl-PL",
+    icons: [
+      { src: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { src: "/icon-512.png", sizes: "512x512", type: "image/png" },
+      {
+        src: "/icon-512.png",
+        sizes: "512x512",
+        type: "image/png",
+        purpose: "maskable",
+      },
+    ],
+  };
+}

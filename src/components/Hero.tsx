@@ -98,7 +98,7 @@ export default function Hero() {
 
         {/* Tagline */}
         <p
-          className="mt-6 max-w-lg mx-auto animate-fade-in-up animate-fade-in-up-d4"
+          className="mt-6 max-w-xl mx-auto animate-fade-in-up animate-fade-in-up-d4"
           style={{
             color: "var(--text-secondary)",
             fontSize: "0.9375rem",
@@ -124,6 +124,14 @@ export default function Hero() {
           }}
         >
           {heroContent.ctaText}
+        </a>
+
+        <a
+          href="#trasa"
+          className="block mt-5 text-xs tracking-wide animate-fade-in-up animate-fade-in-up-d5"
+          style={{ color: "var(--text-muted)" }}
+        >
+          Zobacz trasę
         </a>
 
         {/* Scroll indicator — SVG chevron */}

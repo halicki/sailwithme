@@ -66,7 +66,7 @@ export default function ApplicationForm() {
             Dziękujemy!
           </h2>
           <p className="text-sm" style={{ color: "var(--text-muted)" }}>
-            Twoje zgłoszenie dotarło. Odpowiemy w ciągu 48h.
+            Twoje zgłoszenie dotarło. Odpowiemy w ciągu 48h z konkretami i kolejnym krokiem.
           </p>
         </div>
       </section>
@@ -104,10 +104,10 @@ export default function ApplicationForm() {
           Dołącz do załogi
         </h2>
         <p className="text-xs mb-2" style={{ color: "var(--text-muted)" }}>
-          Odpowiemy w ciągu 48h. Miejsca ograniczone.
+          Odpowiemy w ciągu 48h i sprawdzimy, czy ten rejs pasuje do Twoich oczekiwań.
         </p>
         <p className="text-xs mb-8" style={{ color: "var(--text-muted)" }}>
-          Koszt udziału podamy w odpowiedzi na zgłoszenie.
+          Cena udziału: 5 900 zł. Maksymalnie 7 miejsc dla uczestników.
         </p>
 
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
@@ -138,7 +138,7 @@ export default function ApplicationForm() {
           <textarea
             name="motivation"
             required
-            placeholder="Dlaczego chcesz płynąć z nami?"
+            placeholder="Dlaczego chcesz płynąć z nami? Napisz też, czy masz doświadczenie z wodą lub żaglami."
             rows={4}
             className="theme-input focus:outline-none resize-none"
             style={inputStyle}
@@ -166,6 +166,10 @@ export default function ApplicationForm() {
           >
             {status === "loading" ? "Wysyłanie..." : "Wyślij zgłoszenie"}
           </button>
+
+          <p className="text-xs text-center mt-2" style={{ color: "var(--text-muted)" }}>
+            Bez spamu i automatycznych zapisów. Najpierw normalnie odpisujemy.
+          </p>
         </form>
       </div>
     </section>

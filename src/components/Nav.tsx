@@ -6,7 +6,7 @@ const links = [
   { label: "Rejs", href: "#program" },
   { label: "Trasa", href: "#trasa" },
   { label: "Jacht", href: "#jacht" },
-  { label: "Załoga", href: "#zaloga" },
+  { label: "Prowadzący", href: "#zaloga" },
   { label: "Dołącz", href: "#formularz" },
 ];
 
@@ -42,7 +42,7 @@ export default function Nav() {
       }}
     >
       {/* Desktop links */}
-      <div className="hidden sm:flex items-center justify-center gap-8">
+      <div className="hidden sm:flex items-center justify-center gap-7">
         {links.map((link) => (
           <a key={link.href} href={link.href} className="uppercase" style={linkStyle}>
             {link.label}

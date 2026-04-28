@@ -70,7 +70,16 @@ export default function Yacht() {
         {/* Comfort cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
           {yachtInfo.comforts.map((comfort) => (
-            <div key={comfort.title} className="theme-card">
+            <div
+              key={comfort.title}
+              className="theme-card"
+              style={{
+                padding: "var(--card-padding)",
+                background: "var(--card-bg)",
+                border: "var(--card-border-width) solid var(--border-subtle)",
+                borderRadius: "var(--card-radius)",
+              }}
+            >
               <h3
                 className="text-base sm:text-lg mb-2"
                 style={{

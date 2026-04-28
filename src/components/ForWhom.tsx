@@ -17,8 +17,19 @@ export default function ForWhom() {
             fontWeight: "var(--label-weight)",
           }}
         >
-          Czy to jest dla Ciebie?
+          Na pokładzie
         </p>
+
+        <h2
+          className="text-2xl sm:text-4xl mb-10 leading-tight"
+          style={{
+            fontFamily: "var(--font-display)",
+            fontWeight: "var(--heading-weight)",
+            letterSpacing: "var(--heading-tracking)",
+          }}
+        >
+          Czego się spodziewać
+        </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
           {forWhomTraits.map((trait, i) => (
@@ -33,7 +44,15 @@ export default function ForWhom() {
                 boxShadow: "var(--card-shadow)",
               }}
             >
-              <span className="text-2xl mb-3 block">{trait.icon}</span>
+              <span
+                className="text-xs mb-4 block"
+                style={{
+                  color: "var(--accent)",
+                  letterSpacing: "var(--label-tracking)",
+                }}
+              >
+                {String(i + 1).padStart(2, "0")}
+              </span>
               <p
                 className="text-sm mb-1"
                 style={{
@@ -62,10 +81,10 @@ export default function ForWhom() {
           }}
         >
           <span className="font-bold text-sm" style={{ color: "var(--text-primary)" }}>
-            8–10 miejsc.
+            Do 7 miejsc dla uczestników.
           </span>{" "}
           <span className="text-sm" style={{ color: "var(--text-muted)" }}>
-            Każda osoba jest wybierana.
+            Po zgłoszeniu odpisujemy i dogadujemy szczegóły.
           </span>
         </div>
       </div>

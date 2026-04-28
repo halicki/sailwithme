@@ -23,7 +23,7 @@ export default function Crew() {
               fontWeight: "var(--label-weight)",
             }}
           >
-            Załoga
+            Prowadzący
           </p>
 
           <h2
@@ -34,7 +34,7 @@ export default function Crew() {
               letterSpacing: "var(--heading-tracking)",
             }}
           >
-            Kto stoi za sterami
+            Kto płynie i prowadzi
           </h2>
         </div>
       </div>

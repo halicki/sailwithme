@@ -6,6 +6,7 @@ import Program from "@/components/Program";
 import Route from "@/components/Route";
 import Yacht from "@/components/Yacht";
 import Crew from "@/components/Crew";
+import Pricing from "@/components/Pricing";
 import ApplicationForm from "@/components/ApplicationForm";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
@@ -20,6 +21,7 @@ export default function Home() {
       <Route />
       <Crew />
       <Yacht />
+      <Pricing />
       <ApplicationForm />
       <FAQ />
       <Footer />

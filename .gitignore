@@ -50,3 +50,6 @@ public/images/instagram/
 # playwright mcp
 .playwright-mcp/
 .env*.local
+
+# claude code
+.claude/
