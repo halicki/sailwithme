@@ -130,6 +130,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl">
+      <head>
+        <link
+          rel="manifest"
+          href="/manifest.webmanifest"
+          crossOrigin="use-credentials"
+        />
+      </head>
       <body
         className={`${inter.variable} ${playfair.variable} antialiased`}
       >
