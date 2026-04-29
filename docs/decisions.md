@@ -26,6 +26,21 @@
 
 ## Aktywne decyzje
 
+### ADR-007: Model jachtu elastyczny — 51.1 (cel) / 46.1 (fallback)
+
+- **Data**: 2026-04-29
+- **Status**: accepted
+- **Kontekst**: Oferty z 5 firm charterowych. Oceanis 51.1 dostępny w PRIMA SAILING od 5 078 EUR. Ale finalna decyzja zależy od liczby uczestników — przy mniejszej grupie 46.1 wystarczy i jest tańszy (~3 726 EUR).
+- **Decyzja**: Cel = Oceanis 51.1 (5 kabin, crew cabin). Fallback = Oceanis 46.1 (4 kabiny). W komunikacji publicznej (stories, landing) nie podajemy modelu jachtu, żeby nie blokować decyzji.
+- **Alternatywy rozważane**:
+  - KAVAS Oceanis 52 (6 300 EUR) — za drogi, odrzucony.
+  - Hardcode 51.1 w komunikacji — ryzyko, że zmiana modelu = utrata wiarygodności.
+- **Konsekwencje**:
+  - ✅ Elastyczność cenowa — fallback na 46.1 obniża próg break-even.
+  - ✅ Brak kłamstwa w komunikacji — mówimy "jacht", nie "Oceanis 51.1".
+  - ❌ Landing page (`content.ts`) nadal wspomina Oceanis 51.1 — do aktualizacji po decyzji.
+- **Trigger do rewizji**: moment rezerwacji jachtu (deadline: 05.05.2026).
+
 ### ADR-006: Manifest serwowany jako statyczny plik z `use-credentials`
 
 - **Data**: 2026-04-27

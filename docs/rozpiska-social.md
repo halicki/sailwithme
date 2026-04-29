@@ -1,99 +1,82 @@
 # Rozpiska social — Oddech i Wiatr
 
-Notatka robocza: narracja ma działać jak ciąg stories na Instagramie. Najpierw ciekawość, potem powód, potem ludzie, potem reveal. Fakty trzymamy zgodnie ze stroną: Piotr Błaszczak, Kamilla Kowalczyk, Arek Halicki, 20–27 czerwca 2026, Zatoka Sarońska, do 7 uczestników, 5 900 zł, Beneteau Oceanis 51.1.
+Notatka robocza: narracja ma działać jak ciąg stories na Instagramie. Najpierw ciekawość, potem powód, potem ludzie, potem reveal. Fakty trzymamy zgodnie ze stroną: Piotr Błaszczak, Kamilla Kowalczyk, Arek Halicki, 20–27 czerwca 2026, Zatoka Sarońska, do 7 uczestników, 5 900 zł. Jacht: Beneteau Oceanis 51.1 (cel) / 46.1 (fallback przy mniejszej grupie) — w stories nie podajemy modelu jachtu, żeby nie blokować decyzji.
 
-## Dzień 1 — dzisiaj — "Coś robię"
+## Dzień 1 (28.04) — "Coś robię" ✅ OPUBLIKOWANE
 
-Status: pierwsze dwa stories są już wystawione. Nie dokładamy tam jeszcze nazwy, terminu, Grecji ani linku. Jeśli publikować coś jeszcze dzisiaj, to tylko miękki follow-up, który zbiera reakcje i nie psuje revealu.
+### Story 1 — opublikowane (skuterem po Bali)
 
-### Story 1 — opublikowane
+"Słuchajcie, robię coś, co od dawna chciałem zrobić. Jeszcze nic nie powiem, ale w czerwcu coś się zacznie. Już prawie wszystko mam gotowe, więc daję sobie tydzień na opowiedzenie wam o tym po kolei."
 
-"Słuchajcie, robię coś, czego od dawna chciałem spróbować. Jeszcze nie będę mówił dokładnie co, bo chcę wam to opowiedzieć po kolei, ale powiem tylko tyle: w czerwcu 2026 zabieram małą grupę ludzi w miejsce, w którym bardzo łatwo przestać udawać, że wszystko jest pilne."
+### Story 2 — opublikowane (coworking Bali)
 
-### Story 2 — opublikowane
+"siedzę nad tym od pół roku 🤔"
 
-Tekst na ekranie:
+→ Efekt: enigmatyczne, naturalne, krótkie. Bali w tle dodaje autentyczności. Nie pada nazwa, miejsce, grupa — tylko "czerwiec" i "tydzień na opowiedzenie".
 
-"morze"
-"oddech"
-"cisza"
-"i coś, co chodziło za mną od dawna"
+## Dzień 2 (29.04) — "Skąd się to wzięło"
 
-### Story 3 — opcjonalnie dzisiaj wieczorem (ankieta)
+### Story 1 (filmik, gadany — twarz w kamerze, naturalnie, z Bali)
 
-Tekst na ekranie:
+"Powiem wam, skąd się to wzięło. Przez lata moje żeglowanie wyglądały tak: doborowa ekipa, zakrapiane imprezy do rana. Niby fajnie, ale potem spanie do dwunastej, zmęczenie, kiepskie decyzje, generowanie strat na sprzęcie i straty moralne. Dopiero pod koniec dnia odżywasz i czujesz tę radość — ale zaraz trzeba spływać do portu. A po wyjeździe zjazd energetyczny na trzy dni i potrzebujesz wakacji po wakacjach.
 
-"jestem ciekaw, czy to też macie"
-"czasem potrzeba nie kolejnego wyjazdu, tylko tygodnia bez przebodźcowania"
+### Story 2 (zdjęcia z ostatniego wyjazdu — ognisko, ludzie, jacht, spokój)
 
-Ankieta:
+"A ostatnio popłynąłem z ludźmi, z którymi przez kilka dni wypiliśmy może dwa wina na sześć osób. I to był szok. Bo nagle było miejsce na rozmowy, na poznanie się naprawdę. Bębenek przy ognisku, śpiewanie, medytacja na dziobie. Żeglowanie, w którym naprawdę czujesz, że żeglujesz."
 
-"czujesz to?"
+### Story 3 (gadany, krótki — twarz)
+
+"I pomyślałem: kurczę, może nie miałem wcześniej z kim tego tak przeżyć. Albo sam nie byłem gotowy. Ale teraz chcę to komuś pokazać."
+
+### Story 4 (ankieta)
+
+"znasz to uczucie po wyjeździe, że musisz odpoczywać od odpoczynku?"
+
+- "o tak"
+- "opowiedz więcej"
+
+→ Cel: osobista, szczera historia z kontrastem (stare żegle vs nowe). Nie moralizuje — nie mówi "impreza jest zła", tylko "odkryłem coś lepszego dla siebie". Zdjęcia z tamtego wyjazdu to wizualny dowód. Ankieta łapie ludzi którzy znają ten melanżowy dół.
+
+## Dzień 3 — "Woda"
+
+### Story 1 (filmik — ujęcie pod wodą albo z maską, spokojny kadr)
+
+"Jest jedna rzecz, która mnie ciągnie od dawna. Zejście pod wodę. Nie na sprzęcie, nie z butlą. Tylko ty, oddech i cisza. Freediving. I chyba to było pierwsza rzecz, od której zaczął mi się ten pomysł układać."
+
+### Story 2 (tekst na ciemnym tle / zdjęcie morza z głębi)
+
+"pod wodą nie da się oszukiwać oddechu"
+
+### Story 3 (opcjonalnie — ankieta)
+
+"próbowałeś kiedyś freedivingu?"
 - "tak"
-- "bardzo"
+- "nie, ale kręci mnie"
 
-→ Cel: podtrzymać ciekawość i zebrać sygnał, bez przedwczesnego revealu.
-
-## Dzień 2 — jutro — "Dlaczego"
-
-### Story 1 (filmik, twarz w kamerze)
-
-"Jest coś takiego w byciu na wodzie, że człowiek bardzo szybko wraca do prostych rzeczy. Czy jest wiatr. Czy dobrze oddychasz. Czy słyszysz siebie. Czy umiesz być z ludźmi bez całego tego codziennego szumu. I chyba właśnie dlatego tak mnie ciągnie do morza."
-
-### Story 2 (tekst na ciemnym tle / morzu)
-
-"Nie chodzi mi o wakacje."
-"Bardziej o tydzień, w którym można się odłączyć od prądu."
-
-### Story 3 (jeśli ankieta nie poszła w Dniu 1)
-
-Ankieta:
-
-"Masz czasem potrzebę zniknąć na tydzień?"
-- "tak"
-- "bardzo tak"
-
-→ Cel: pokazać emocjonalny powód i zebrać pierwsze reakcje.
-
-## Dzień 3 — "Trzy elementy"
-
-### Story 1 (filmik / przebitki: woda, lina, maska, pokład)
-
-"Zacząłem układać to sobie z trzech rzeczy. Pierwsza: żeglowanie, bo na jachcie nie jesteś klientem, tylko częścią załogi. Druga: freediving, bo pod wodą nie da się oszukiwać oddechu. Trzecia: breathwork, bo bez zejścia do ciała to wszystko byłoby tylko ładnym wyjazdem."
-
-### Story 2 (plansza z trzema słowami)
-
-"żagle"
-"freediving"
-"oddech"
-
-Tekst pod spodem:
-
-"to zaczęło mi się składać w jeden tydzień"
-
-→ Cel: zacząć odsłaniać koncept, ale jeszcze bez pełnej oferty.
+→ Cel: odsłonić JEDEN z trzech elementów. Freediving jest najbardziej intrygujący — zostawiamy żeglowanie i breathwork na Dzień 4 razem z ludźmi. Buildup trzyma dłużej.
 
 ## Dzień 4 — "Z kim"
 
 ### Story 1 (zdjęcie / klip z Piotrem albo ujęcie wody i maski)
 
-"Do freedivingu zaprosiłem Piotra Błaszczaka. Reprezentant Polski, instruktor, człowiek z ogromnym spokojem do wody. To nie będzie udawanie ekstremalnego sportu dla twardzieli. Raczej nauka zaufania do ciała, oddechu i wody."
+"Freediving poprowadzi Piotr Błaszczak. Reprezentant Polski, instruktor, człowiek z ogromnym spokojem do wody. To nie będzie udawanie ekstremalnego sportu dla twardzieli. Raczej nauka zaufania do ciała, oddechu i wody."
 
 ### Story 2 (zdjęcie / klip z Kamillą albo spokojne ujęcie pokładu o poranku)
 
-"Oddech poprowadzi Kamilla Kowalczyk. Jej część tego wyjazdu jest dla mnie bardzo ważna, bo chcę, żeby to nie był tylko aktywny tydzień, ale też tydzień regulacji, ciszy i powrotu do siebie."
+"Oddech poprowadzi Kamilla Kowalczyk. Breathwork, poranne sesje, regulacja. Jej część tego wyjazdu jest dla mnie bardzo ważna, bo chcę, żeby to nie był tylko aktywny tydzień, ale też tydzień ciszy i powrotu do siebie."
 
 ### Story 3 (selfie / gadający Arek)
 
-"A ja ogarniam jacht, trasę i bezpieczeństwo. Czyli robię to, co na morzu lubię najbardziej: pilnuję, żeby było prosto, konkretnie i po ludzku."
+"A ja ogarniam jacht, trasę i bezpieczeństwo. Żeglowanie, nawigacja, logistyka. Czyli robię to, co na morzu lubię najbardziej: pilnuję, żeby było prosto, konkretnie i po ludzku."
 
 ### Story 4 (tekst)
 
+"żeglowanie · freediving · oddech"
 "3 prowadzących"
 "mała grupa"
-"niedługo powiem, gdzie płyniemy"
+"jutro mówię gdzie i kiedy"
 
-→ Cel: zbudować zaufanie przez ludzi i zostawić haczyk przed revealem.
+→ Cel: domknąć trzy elementy przez ludzi (Dzień 3 = freediving solo, Dzień 4 = cała trójka). Haczyk na reveal.
 
 ## Dzień 5 — REVEAL
 
@@ -111,36 +94,45 @@ Tekst na ekranie:
 
 ### Story 3 (filmik, krótko)
 
-"To nie jest rejs turystyczny i nie all-inclusive. Nie szukamy pasażerów. Szukamy ludzi do załogi. Maksymalnie 10 osób łącznie: 3 prowadzących i do 7 uczestników."
+"To nie jest rejs turystyczny i nie all-inclusive. Nie szukamy pasażerów. Szukamy ludzi do załogi. Maksymalnie 10 osób łącznie: 3 prowadzących i do 7 uczestników. Rozmawiamy z każdą osobą przed zapisem — nie każdy się dostanie."
 
-### Story 4 (link)
+### Story 4 (link + urgency)
 
-"Strona jest tutaj. Jest opis, załoga, jacht, cena, FAQ i formularz zgłoszeniowy."
+"Strona jest tutaj. Formularz, załoga, jacht, cena, FAQ — wszystko w jednym miejscu."
 
 "oddechiwiatr.pl"
 
 Sticker linku.
 
-→ Cel: pełny reveal. Dopiero tu pada nazwa, miejsce, termin i link.
+### Story 5 (tekst, urgency)
+
+"7 miejsc"
+"po wypełnieniu formularza rozmawiamy"
+"zamykam zapisy, kiedy zbiorę grupę"
+
+→ Cel: pełny reveal + urgency. Pada nazwa, miejsce, termin, link. Jasny sygnał: miejsc jest mało, selekcja jest realna.
 
 ## Dzień 6 — "Jak to będzie wyglądać"
 
-### Story 1 (filmik, narracja dnia)
+### Story 1 (filmik, rano)
 
-"Wyobraźcie sobie taki dzień. Rano kawa na pokładzie i oddech z Kamillą. Potem śniadanie, sprawdzamy pogodę, podnosimy żagle i płyniemy dalej. W ciągu dnia freediving z Piotrem, kąpiel, trochę nauki żeglowania, trochę zwykłego leżenia na dziobie. Wieczorem tawerna albo kolacja na jachcie. Bez napinki. Ale też bez bycia wożonym jak turysta."
+"Wyobraźcie sobie taki dzień. Rano kawa na pokładzie. Oddech z Kamillą. Śniadanie, sprawdzamy pogodę, podnosimy żagle."
 
-### Story 2 (plansza / zdjęcie mapy)
+### Story 2 (filmik, dzień)
+
+"W ciągu dnia freediving z Piotrem. Kąpiel. Trochę nauki żeglowania, trochę zwykłego leżenia na dziobie."
+
+### Story 3 (filmik, wieczór)
+
+"Wieczorem tawerna na lądzie albo kolacja na jachcie. Bez napinki. Ale też bez bycia wożonym jak turysta."
+
+### Story 4 (plansza / zdjęcie mapy)
 
 "Zatoka Sarońska"
 "Egina · Poros · Hydra · Epidauros"
 "ostatecznie decyduje pogoda"
 
-### Story 3 (tekst)
-
-"plan jest konkretny"
-"ale morze ma pierwszeństwo"
-
-→ Cel: sprzedać doświadczenie, nie listę atrakcji.
+→ Cel: sprzedać doświadczenie, nie listę atrakcji. Krótkie stories — jedno na porę dnia.
 
 ## Dzień 7 — "Dla kogo / nie dla kogo"
 
@@ -150,7 +142,7 @@ Sticker linku.
 
 ### Story 2 (gadany, kontra)
 
-"I od razu powiem, dla kogo to nie jest. Nie dla kogoś, kto szuka imprezy do rana. Nie dla kogoś, kto chce hotelu i obsługi. Nie dla osoby, która bardzo źle czuje się w wodzie albo nie chce brać udziału w życiu na pokładzie."
+"I od razu powiem, dla kogo to nie jest. Nie dla kogoś, kto szuka imprezy na wodzie — sam przez to przeszedłem i wiem, jak to wygląda. Ten rejs jest o czymś innym. Nie dla kogoś, kto chce hotelu i obsługi. Nie dla osoby, która bardzo źle czuje się w wodzie albo nie chce brać udziału w życiu na pokładzie."
 
 ### Story 3 (tekst)
 
@@ -162,47 +154,34 @@ Sticker linku.
 
 ## Dzień 8 — "Konkrety"
 
-### Story 1 (plansza / gadany)
+### Story 1 (plansza — jedno ujęcie, wszystkie fakty)
 
-"Konkrety, bo wiem, że będą pytania. Termin: 20–27 czerwca 2026. Miejsce: Grecja, Zatoka Sarońska. Jacht: Beneteau Oceanis 51.1. Cena: 5 900 zł za osobę."
+"5 900 zł / osoba"
+"20–27 czerwca 2026 · Grecja · jacht w Zatoce Sarońskiej"
+"w cenie: jacht, skipper, freediving, breathwork, porty, paliwo, prowiant"
+"po twojej stronie: lot do Aten, ubezpieczenie, część posiłków"
 
-### Story 2 (plansza z listą)
+### Story 2 (gadany / link)
 
-"W cenie:"
-"miejsce na jachcie"
-"opieka skippera"
-"freediving"
-"sesje oddechowe"
-"opłaty portowe, paliwo i podstawowy prowiant"
-
-### Story 3 (plansza z listą)
-
-"Po twojej stronie:"
-"lot do Aten"
-"ubezpieczenie"
-"część posiłków na lądzie"
-"wydatki własne"
-
-### Story 4 (link)
-
-"Wszystko jest rozpisane na stronie. Formularz też tam jest."
+"Konkrety, bo wiem, że pytania się pojawiają. Wszystko jest rozpisane na stronie — cena, co obejmuje, co nie, FAQ. Link tutaj."
 
 "oddechiwiatr.pl"
 
-→ Cel: domknąć praktyczne pytania bez psucia wcześniejszego revealu.
+→ Cel: jedno story z faktami, jedno z linkiem. Kto doczytał do Dnia 8, potrzebuje konkretu — nie powtórzenia całego landing page'a.
 
 ## Dzień 9 — "Ostatnie słowo"
 
-### Story 1 (filmik, ciepło i krótko)
+### Story 1 (filmik, bezpośrednio)
 
-"Tyle ode mnie na razie. Jeśli poczuliście, że to jest dla was, wejdźcie na stronę i wypełnijcie formularz. Jeśli znacie kogoś, komu przydałby się taki tydzień na morzu, podeślijcie mu. A jeśli macie pytania, piszcie normalnie w DM."
+"Ostatnia rzecz. Jeśli poczuliście, że to jest dla was — wejdźcie na stronę i wypełnijcie formularz. Potem rozmawiamy. Jeśli znacie kogoś, komu przydałby się taki tydzień — podeślijcie mu. Pytania? Piszcie w DM, odpowiadam na wszystko."
 
-### Story 2 (tekst + link)
+### Story 2 (tekst + link, urgency)
 
 "Oddech i Wiatr"
 "20–27 czerwca 2026"
-"do 7 miejsc dla uczestników"
+"zostało kilka miejsc"
+"zamykam zapisy, kiedy zbiorę grupę"
 
 "oddechiwiatr.pl"
 
-→ Cel: spokojne domknięcie i ostatni call to action.
+→ Cel: zamknięcie z konkretnym CTA i poczuciem, że okno się zamyka. Nie "tyle ode mnie" — tylko "działaj teraz".

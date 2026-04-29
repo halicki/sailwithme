@@ -12,9 +12,10 @@
 
 - [ ] **Jacht nie jest jeszcze zarezerwowany** — *dodane: 2026-04-28, zaktualizowane: 2026-04-29*
   - **Kontekst**: Zapytania wysłane 25.04 do 6 firm. 5 odpowiedziało (KAVAS, ISTION, DANIELIS, NAVIGARE, PRIMA SAILING), Pitter — mail nie dotarł.
-  - **Najlepsza oferta na Oceanis 51.1**: PRIMA SAILING — 3 jachty od 5 078 EUR (vs KAVAS Oceanis 52 za 6 300 EUR).
-  - **Uwaga**: Opcja NAVIGARE wygasła 28.04. Porównanie pełne w sesji 2026-04-29.
-  - **Następny krok**: Arek decyduje o firmie i modelu, potem rezerwacja + zaliczka. Deadline: 05.05 (Faza 1 timeline).
+  - **Najlepsza oferta na Oceanis 51.1**: PRIMA SAILING — 3 jachty od 5 078 EUR. KAVAS Oceanis 52 (6 300 EUR) odrzucony jako za drogi (ADR-007).
+  - **Uwaga**: Opcja NAVIGARE wygasła 28.04.
+  - **Brakujące dane od PRIMA**: kaucja, co w cenie (pościel, cleaning, cruising tax), warunki anulacji.
+  - **Następny krok**: Arek dopytuje PRIMA o brakujące dane → decyzja o firmie/modelu → rezerwacja. Deadline: 05.05.
 
 - [ ] **Tylko 1 z 8 miejsc sprzedanych** — *dodane: 2026-04-28*
   - **Kontekst**: Mateusz zapisany. Deadline na domknięcie reszty: ~25.05.2026 (~4 tygodnie).
