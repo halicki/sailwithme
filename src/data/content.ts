@@ -251,8 +251,7 @@ Pod marką Respire prowadzi sesje oddechowe łączące różne techniki — od s
       "Certyfikowana instruktorka breathworku",
       "Założycielka Respire",
     ],
-    quote:
-      "Oddech jest prosty. I właśnie dlatego warto do niego wracać.",
+    quote: "Oddech jest prosty. I właśnie dlatego warto do niego wracać.",
   },
   {
     slug: "arek",
@@ -351,7 +350,8 @@ export const routeContent: RouteContent = {
         src: "/images/route/poros-aerial.jpg",
         alt: "Poros widziany z góry",
         credit: "Agnee, CC BY 2.0, Wikimedia Commons",
-        sourceUrl: "https://commons.wikimedia.org/wiki/File:Poros_aerial_viw.jpg",
+        sourceUrl:
+          "https://commons.wikimedia.org/wiki/File:Poros_aerial_viw.jpg",
       },
       hints: [
         "Cytrynowy las u podnóża wzgórza",
@@ -405,8 +405,7 @@ export const faqItems = [
   { question: "Gdzie?", answer: "Zatoka Sarońska, Grecja" },
   {
     question: "Ile osób?",
-    answer:
-      "Maksymalnie 10 osób łącznie: 3 prowadzących i do 7 uczestników.",
+    answer: "Maksymalnie 10 osób łącznie: 3 prowadzących i do 7 uczestników.",
   },
   {
     question: "Cena?",

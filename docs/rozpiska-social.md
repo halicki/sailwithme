@@ -1,119 +1,208 @@
 # Rozpiska social — Oddech i Wiatr
 
-Źródło prawdy: aktualna strona + spec projektu. Jeśli coś się gryzie, trzymamy się strony.
+Notatka robocza: narracja ma działać jak ciąg stories na Instagramie. Najpierw ciekawość, potem powód, potem ludzie, potem reveal. Fakty trzymamy zgodnie ze stroną: Piotr Błaszczak, Kamilla Kowalczyk, Arek Halicki, 20–27 czerwca 2026, Zatoka Sarońska, do 7 uczestników, 5 900 zł, Beneteau Oceanis 51.1.
 
-Fakty do powtarzania:
-- **Nazwa:** Oddech i Wiatr
-- **Termin:** 20–27 czerwca 2026
-- **Miejsce:** Grecja, Zatoka Sarońska
-- **Format:** 7 dni na jachcie: żeglowanie, freediving, poranny oddech, greckie wyspy
-- **Załoga prowadząca:** Piotr Błaszczak — freediving, Kamilla Kowalczyk — breathwork, Arek Halicki — skipper & organizator
-- **Liczba osób:** maksymalnie 10 osób łącznie: 3 prowadzących i do 7 uczestników
-- **Cena:** 5 900 zł za osobę
-- **Jacht:** Beneteau Oceanis 51.1
-- **Trasa:** Zatoka Sarońska, m.in. Egina, Poros, Hydra, Epidauros; dokładny plan zależy od pogody
+## Dzień 1 — dzisiaj — "Coś robię"
 
-## Dzień 1 — "Coś robię" (zalążek)
+Status: pierwsze dwa stories są już wystawione. Nie dokładamy tam jeszcze nazwy, terminu, Grecji ani linku. Jeśli publikować coś jeszcze dzisiaj, to tylko miękki follow-up, który zbiera reakcje i nie psuje revealu.
 
-### Story 1 (filmik z kuchni / spaceru, casualnie)
+### Story 1 — opublikowane
 
-"Słuchajcie, robię coś, co od dawna chodziło mi po głowie. Morze, oddech, freediving, jacht i tydzień odłączenia od codziennego hałasu. Jeszcze nie będę wszystkiego zdradzał, ale w czerwcu 2026 robimy coś naprawdę konkretnego."
+"Słuchajcie, robię coś, czego od dawna chciałem spróbować. Jeszcze nie będę mówił dokładnie co, bo chcę wam to opowiedzieć po kolei, ale powiem tylko tyle: w czerwcu 2026 zabieram małą grupę ludzi w miejsce, w którym bardzo łatwo przestać udawać, że wszystko jest pilne."
 
-### Story 2 (zdjęcie morza / starego notesu z planami)
+### Story 2 — opublikowane
 
-Tekst na ekranie: "Grecja · czerwiec 2026 · 7 dni na wodzie"
+Tekst na ekranie:
 
-→ Cel: zasiać ciekawość, ale już osadzić temat w prawdziwych ramach.
+"morze"
+"oddech"
+"cisza"
+"i coś, co chodziło za mną od dawna"
 
-## Dzień 2 — "Dlaczego" (osobiste)
+### Story 3 — opcjonalnie dzisiaj wieczorem (ankieta)
 
-### Story 1 (filmik, twarz w kamerze, na łodzi / nad wodą jeśli masz archiwalne)
+Tekst na ekranie:
 
-"Na jachcie szybko wychodzi, co jest ważne. Jest wiatr, woda, ludzie i decyzje, których nie da się odkładać. Do tego freediving, który uczy spokoju pod powierzchnią, i oddech, który sprowadza człowieka z powrotem do ciała. Chciałem połączyć te rzeczy w jeden tydzień — prosty, morski i bardzo prawdziwy."
+"jestem ciekaw, czy to też macie"
+"czasem potrzeba nie kolejnego wyjazdu, tylko tygodnia bez przebodźcowania"
 
-### Story 2 (tekst na ciemnym tle)
+Ankieta:
 
-"morze + oddech + cisza"
-"bez hotelu. bez imprezowego klimatu. bez udawania."
+"czujesz to?"
+- "tak"
+- "bardzo"
 
-→ Cel: pokazać motywację i klimat: mocno, bez sprzedażowego tonu.
+→ Cel: podtrzymać ciekawość i zebrać sygnał, bez przedwczesnego revealu.
 
-## Dzień 3 — "Z kim" (załoga)
+## Dzień 2 — jutro — "Dlaczego"
 
-### Story 1 (zdjęcie / klip z Piotrem lub z Tobą + freediving)
+### Story 1 (filmik, twarz w kamerze)
 
-"Robię to z ludźmi, którzy wiedzą, co robią. Piotr Błaszczak — freediving, reprezentant Polski i instruktor. Kamilla Kowalczyk — breathwork i sesje oddechowe. Ja ogarniam jacht, bezpieczeństwo i całość rejsu jako skipper i organizator."
+"Jest coś takiego w byciu na wodzie, że człowiek bardzo szybko wraca do prostych rzeczy. Czy jest wiatr. Czy dobrze oddychasz. Czy słyszysz siebie. Czy umiesz być z ludźmi bez całego tego codziennego szumu. I chyba właśnie dlatego tak mnie ciągnie do morza."
 
-### Story 2 (close-up jakiegoś rekwizytu — okulary do nurkowania, mapa, kompas)
+### Story 2 (tekst na ciemnym tle / morzu)
 
-Tekst: "3 prowadzących. do 7 uczestników. 7 dni."
+"Nie chodzi mi o wakacje."
+"Bardziej o tydzień, w którym można się odłączyć od prądu."
 
-→ Cel: zbudować zaufanie przez ludzi, nie przez ofertę.
+### Story 3 (jeśli ankieta nie poszła w Dniu 1)
 
-## Dzień 4 — REVEAL 🎯
+Ankieta:
 
-### Story 1 (gadany, energia spokojna, nie ekscytowana sprzedażowo)
+"Masz czasem potrzebę zniknąć na tydzień?"
+- "tak"
+- "bardzo tak"
 
-"Okej. Robimy rejs. Grecja, 20–27 czerwca 2026. Nazywa się Oddech i Wiatr. Siedem dni na jachcie po Zatoce Sarońskiej: żeglowanie, freediving z Piotrem, poranne sesje oddechowe z Kamillą i życie na pokładzie. To nie jest rejs turystyczny ani all-inclusive. Szukamy do 7 osób — załogi, nie pasażerów — które chcą naprawdę popłynąć."
+→ Cel: pokazać emocjonalny powód i zebrać pierwsze reakcje.
 
-### Story 2 (link do strony, pierwsze zdjęcie OG)
+## Dzień 3 — "Trzy elementy"
 
-"Wszystko jest tutaj: termin, cena, jacht, załoga, trasa i formularz."
+### Story 1 (filmik / przebitki: woda, lina, maska, pokład)
+
+"Zacząłem układać to sobie z trzech rzeczy. Pierwsza: żeglowanie, bo na jachcie nie jesteś klientem, tylko częścią załogi. Druga: freediving, bo pod wodą nie da się oszukiwać oddechu. Trzecia: breathwork, bo bez zejścia do ciała to wszystko byłoby tylko ładnym wyjazdem."
+
+### Story 2 (plansza z trzema słowami)
+
+"żagle"
+"freediving"
+"oddech"
+
+Tekst pod spodem:
+
+"to zaczęło mi się składać w jeden tydzień"
+
+→ Cel: zacząć odsłaniać koncept, ale jeszcze bez pełnej oferty.
+
+## Dzień 4 — "Z kim"
+
+### Story 1 (zdjęcie / klip z Piotrem albo ujęcie wody i maski)
+
+"Do freedivingu zaprosiłem Piotra Błaszczaka. Reprezentant Polski, instruktor, człowiek z ogromnym spokojem do wody. To nie będzie udawanie ekstremalnego sportu dla twardzieli. Raczej nauka zaufania do ciała, oddechu i wody."
+
+### Story 2 (zdjęcie / klip z Kamillą albo spokojne ujęcie pokładu o poranku)
+
+"Oddech poprowadzi Kamilla Kowalczyk. Jej część tego wyjazdu jest dla mnie bardzo ważna, bo chcę, żeby to nie był tylko aktywny tydzień, ale też tydzień regulacji, ciszy i powrotu do siebie."
+
+### Story 3 (selfie / gadający Arek)
+
+"A ja ogarniam jacht, trasę i bezpieczeństwo. Czyli robię to, co na morzu lubię najbardziej: pilnuję, żeby było prosto, konkretnie i po ludzku."
+
+### Story 4 (tekst)
+
+"3 prowadzących"
+"mała grupa"
+"niedługo powiem, gdzie płyniemy"
+
+→ Cel: zbudować zaufanie przez ludzi i zostawić haczyk przed revealem.
+
+## Dzień 5 — REVEAL
+
+### Story 1 (filmik twarz w kamerze, spokojnie, bez sprzedażowego tonu)
+
+"Okej, to już mówię normalnie. Robimy rejs. Nazywa się Oddech i Wiatr. Grecja, Zatoka Sarońska, 20–27 czerwca 2026. Siedem dni na jachcie: żeglowanie, freediving z Piotrem, poranne sesje oddechowe z Kamillą i życie na wodzie."
+
+### Story 2 (ładny kadr morza / jachtu / mapa)
+
+Tekst na ekranie:
+
+"ODDECH I WIATR"
+"Grecja · 20–27 czerwca 2026"
+"7 dni na jachcie"
+
+### Story 3 (filmik, krótko)
+
+"To nie jest rejs turystyczny i nie all-inclusive. Nie szukamy pasażerów. Szukamy ludzi do załogi. Maksymalnie 10 osób łącznie: 3 prowadzących i do 7 uczestników."
+
+### Story 4 (link)
+
+"Strona jest tutaj. Jest opis, załoga, jacht, cena, FAQ i formularz zgłoszeniowy."
+
 "oddechiwiatr.pl"
+
 Sticker linku.
 
-### Story 3 (filmik twarz, krótkie)
+→ Cel: pełny reveal. Dopiero tu pada nazwa, miejsce, termin i link.
 
-"Na stronie jest formularz zgłoszeniowy. Po zgłoszeniu rozmawiamy z każdą osobą, bo to jest mała grupa i ważne jest, żeby klimat rejsu pasował w obie strony."
+## Dzień 6 — "Jak to będzie wyglądać"
 
-→ Cel: ujawnić bez przepraszania. Link w jednym miejscu, nie spamować.
+### Story 1 (filmik, narracja dnia)
 
-## Dzień 5 — "Co tam się będzie działo" (treść)
+"Wyobraźcie sobie taki dzień. Rano kawa na pokładzie i oddech z Kamillą. Potem śniadanie, sprawdzamy pogodę, podnosimy żagle i płyniemy dalej. W ciągu dnia freediving z Piotrem, kąpiel, trochę nauki żeglowania, trochę zwykłego leżenia na dziobie. Wieczorem tawerna albo kolacja na jachcie. Bez napinki. Ale też bez bycia wożonym jak turysta."
 
-### Story 1 (filmik, dzień jako narracja)
+### Story 2 (plansza / zdjęcie mapy)
 
-"Wyobraźcie sobie tak: poranek na pokładzie, kawa, słońce nad zatoką i sesja oddechowa z Kamillą. Potem śniadanie, podnosimy żagle i płyniemy dalej — Egina, Poros, Hydra, Epidauros albo inne miejsce, jeśli pogoda podpowie lepiej. W ciągu dnia freediving z Piotrem, kąpiel, trochę żeglowania, trochę życia na jachcie. Wieczorem tawerna albo kolacja na pokładzie. I tak przez tydzień."
+"Zatoka Sarońska"
+"Egina · Poros · Hydra · Epidauros"
+"ostatecznie decyduje pogoda"
 
-### Story 2 (tekst)
+### Story 3 (tekst)
 
-"to nie jest all inclusive"
-"to jest jacht, morze, ludzie i prosty rytm dnia"
+"plan jest konkretny"
+"ale morze ma pierwszeństwo"
 
-→ Cel: pokazać tempo, klimat i konkret bez obiecywania sztywnego programu.
+→ Cel: sprzedać doświadczenie, nie listę atrakcji.
 
-## Dzień 6 — "Konkrety" (cena, jacht, warunki)
+## Dzień 7 — "Dla kogo / nie dla kogo"
 
-### Story 1 (gadany / plansza z prostymi punktami)
+### Story 1 (gadany, bez agresji)
 
-"Konkrety, bo wiem, że będą pytania. Termin: 20–27 czerwca 2026. Miejsce: Grecja, Zatoka Sarońska. Jacht: Beneteau Oceanis 51.1, pięć kabin, kuchnia, salon, kokpit i platforma kąpielowa. Cena: 5 900 zł za osobę. W cenie jest miejsce na jachcie, skipper, freediving, sesje oddechowe, paliwo, porty i podstawowy prowiant. Loty do Aten, ubezpieczenie, część posiłków na lądzie i wydatki własne są po waszej stronie."
+"To jest dla osób, które chcą aktywnego tygodnia, ale nie obozu przetrwania. Dla ludzi, którzy chcą wejść do wody, spróbować freedivingu od podstaw, pożyć na jachcie i naprawdę odpocząć od przebodźcowania."
 
-### Story 2 (tekst na zdjęciu jachtu / morza)
+### Story 2 (gadany, kontra)
 
-"5 900 zł"
-"20–27 czerwca 2026"
-"do 7 uczestników"
+"I od razu powiem, dla kogo to nie jest. Nie dla kogoś, kto szuka imprezy do rana. Nie dla kogoś, kto chce hotelu i obsługi. Nie dla osoby, która bardzo źle czuje się w wodzie albo nie chce brać udziału w życiu na pokładzie."
 
-→ Cel: zdjąć niepewność i pokazać, że oferta jest policzona.
+### Story 3 (tekst)
 
-## Dzień 7 — "Dla kogo to nie jest" (filtr, kontra-marketing)
-
-### Story 1 (gadany, prosto)
-
-"Powiem wam też, dla kogo to nie jest. To nie jest dla osoby, która szuka imprezy do białego rana. To nie jest dla kogoś, kto chce być obsłużony jak w hotelu. To nie jest dla osoby, która źle czuje się w wodzie albo nie chce życia na jachcie. To jest dla ludzi, którzy chcą wejść w tydzień morza, oddechu, prostoty i aktywnego uczestnictwa."
-
-### Story 2 (tekst na zdjęciu morza)
-
-"do 7 miejsc dla uczestników"
+"załoga, nie pasażerowie"
+"mała grupa"
 "po formularzu rozmawiamy z każdą osobą"
 
-→ Cel: dać ludziom wymówkę żeby się nie zgłosić, jeśli to nie ich wibracja. Paradoksalnie zwiększa konwersję u właściwych osób.
+→ Cel: samoselekcja i jasny filtr.
 
-## Dzień 8 — "Ostatnie słowo" (close)
+## Dzień 8 — "Konkrety"
 
-### Story 1 (filmik, krótki, ciepły)
+### Story 1 (plansza / gadany)
 
-"Tyle ode mnie na razie. Strona stoi, formularz działa, miejsc dla uczestników jest maksymalnie siedem. Jeśli czujecie, że to dla was — zgłoście się. Jeśli znacie kogoś, komu by się przydał tydzień na morzu, podeślijcie. A jeśli macie pytania, piszcie normalnie w DM."
+"Konkrety, bo wiem, że będą pytania. Termin: 20–27 czerwca 2026. Miejsce: Grecja, Zatoka Sarońska. Jacht: Beneteau Oceanis 51.1. Cena: 5 900 zł za osobę."
 
-### Story 2 (link)
+### Story 2 (plansza z listą)
+
+"W cenie:"
+"miejsce na jachcie"
+"opieka skippera"
+"freediving"
+"sesje oddechowe"
+"opłaty portowe, paliwo i podstawowy prowiant"
+
+### Story 3 (plansza z listą)
+
+"Po twojej stronie:"
+"lot do Aten"
+"ubezpieczenie"
+"część posiłków na lądzie"
+"wydatki własne"
+
+### Story 4 (link)
+
+"Wszystko jest rozpisane na stronie. Formularz też tam jest."
 
 "oddechiwiatr.pl"
+
+→ Cel: domknąć praktyczne pytania bez psucia wcześniejszego revealu.
+
+## Dzień 9 — "Ostatnie słowo"
+
+### Story 1 (filmik, ciepło i krótko)
+
+"Tyle ode mnie na razie. Jeśli poczuliście, że to jest dla was, wejdźcie na stronę i wypełnijcie formularz. Jeśli znacie kogoś, komu przydałby się taki tydzień na morzu, podeślijcie mu. A jeśli macie pytania, piszcie normalnie w DM."
+
+### Story 2 (tekst + link)
+
+"Oddech i Wiatr"
+"20–27 czerwca 2026"
+"do 7 miejsc dla uczestników"
+
+"oddechiwiatr.pl"
+
+→ Cel: spokojne domknięcie i ostatni call to action.

@@ -234,7 +234,66 @@ Uczestnik płaci za: charter, prowiant, transfery, porty. Kolacje w tawernach na
 
 ---
 
-## Scenariusz realny — cena 4 999 PLN/os
+## Scenariusz aktualny (2026-04-28) — Mateusz @ 4 999 + reszta @ 5 900
+
+Decyzja: **cena standardowa 5 900 PLN/os** (bez lotu). Mateusz (1. uczestnik) — wyjątek 4 999 PLN (early bird, zaliczka 1000 PLN). Dopuszczamy maks. **2 dodatkowe wyjątki** @ 4 999 (early bird / polecenia załogi). Reszta = pełna cena.
+
+Próg uruchomienia = break-even przychodów względem kosztów wybranego jachtu (nie stała liczba osób).
+
+### Przychód baseline (Mateusz + reszta @ 5 900, bez dodatkowych wyjątków)
+
+Wzór: `4 999 + (N-1) × 5 900`, gdzie N = liczba uczestników.
+
+| Uczestników | Przychód     | 51.1 KAVAS (37 380)   | 46.1 KAVAS (36 520)   | 51.1 tańsza (31 360)  |
+| ----------- | ------------ | --------------------- | --------------------- | --------------------- |
+| 5           | 28 599 PLN   | **−8 781**            | **−7 921**            | **−2 761**            |
+| 6           | 34 499 PLN   | **−2 881**            | **−2 021**            | +3 139 (~10%)         |
+| **7**       | **40 399**   | **+3 019 (~7,5%)**    | **+3 879 (~9,6%)**    | +9 039 (~22%)         |
+| **8**       | **46 299**   | **+8 919 (~24%)**     | **+9 779 (~27%)**     | +14 939 (~32%)        |
+| 9           | 52 199 PLN   | +14 819 (~28%)*       | +15 679 (~30%)*       | +20 839 (~40%)*       |
+
+\*Przy 9 osobach rosną koszty jedzenia/prowiantu proporcjonalnie — tabelka uproszczona.
+
+### Próg uruchomienia (break-even, baseline)
+
+- **Oceanis 51.1 KAVAS** → minimum **7 osób** (~7,5% bufor, cienko).
+- **Oceanis 46.1 KAVAS** → minimum **7 osób** (~9,6% bufor).
+- **Oceanis 51.1 tańsza platforma** → minimum **6 osób** (~10% bufor).
+
+Cel komfortowy: **8 osób** (bufor ≥24% przy każdym wariancie jachtu).
+
+### Wpływ dodatkowych wyjątków na bufor
+
+Każdy dodatkowy wyjątek @ 4 999 zamiast 5 900 zmniejsza przychód o **−901 PLN**.
+
+| Wyjątki (poza Mateuszem) | 7 osób, 51.1 KAVAS | 8 osób, 51.1 KAVAS |
+| ------------------------ | ------------------ | ------------------ |
+| 0                        | +3 019 (~7,5%)     | +8 919 (~24%)      |
+| 1                        | +2 118 (~5,2%)     | +8 018 (~21%)      |
+| 2                        | +1 217 (~3,0%)     | +7 117 (~19%)      |
+
+Przy 7 osobach + 2 wyjątkach bufor schodzi do ~3% — niebezpiecznie cienko, każde ryzyko (Period B, kurs EUR) generuje stratę.
+
+### Główne ryzyka
+
+1. **Period 20–27.06 u KAVAS** — jeśli Period B zamiast C: +1 900 EUR (~+8 170 PLN). Przy 7 osobach + 1 wyjątek = strata ~6 000 PLN. **Pilnie potwierdzić z KAVAS.**
+2. **Kurs EUR/PLN** — przy 4,5 zamiast 4,3 koszty rosną o ~1 700 PLN.
+3. **Mniej niż 7 osób** — strata przy 51.1/46.1 KAVAS, patrz tabelka wyżej.
+4. **Kaucja 3 300 EUR** (~1 775 PLN/os) — potwierdzić, że pobierana osobno jako zwrotna.
+5. **Lot kupuje uczestnik sam** (450–700 PLN) — jasno zakomunikować.
+
+### Rekomendacja
+
+- **Cel sprzedażowy: 8 osób @ pełna cena** (poza Mateuszem) — komfortowy bufor na każdym jachcie.
+- **Wyjątki cenowe: maks. 2** poza Mateuszem. Każdy kolejny powyżej psuje sensowność.
+- **Decyzja jachtu (51.1 vs 46.1) podejmowana w Fazie 1** po potwierdzeniu Period z KAVAS — patrz `timeline-rejs-2026.md`.
+- Jeśli sprzedaż utknie na 6 osobach do połowy maja → rozważyć **51.1 z tańszej platformy** (próg break-even spada do 6 osób).
+
+---
+
+## Scenariusz historyczny — cena 4 999 PLN/os
+
+> Wstępne planowanie sprzed decyzji o baseline 5 900 PLN. Zostawione dla kontekstu — nieaktualne jako baseline. Aktualny scenariusz: sekcja powyżej.
 
 Pierwszy uczestnik (Mateusz Szklanko) zapłacił **4 999 PLN** — all-inclusive bez lotu, bez kaucji (zwrotna, pobierana osobno).
 
@@ -262,7 +321,7 @@ Cena 4 999 PLN jest na dolnej granicy rekomendacji (5 000–5 200 PLN). Bufor ~6
 
 **Próg opłacalności: 8 uczestników.** Poniżej 8 rejs staje się stratny. Warto ustalić minimalny próg uruchomienia (np. 7 osób) w warunkach dla uczestników.
 
-### Główne ryzyka dla scenariusza 4 999 PLN
+### Główne ryzyka dla scenariusza historycznego 4 999 PLN
 
 1. **Period 20–27.06 u KAVAS** — jeśli Period B zamiast C: +1 900 EUR (~+8 170 PLN) → strata ~5 500 PLN przy 8 osobach. **Pilnie potwierdzić z KAVAS.**
 2. **Kurs EUR/PLN** — przy 4,5 zamiast 4,3 koszty rosną o ~1 700 PLN, bufor spada do ~900 PLN.
@@ -270,7 +329,7 @@ Cena 4 999 PLN jest na dolnej granicy rekomendacji (5 000–5 200 PLN). Bufor ~6
 4. **Kaucja 3 300 EUR** (~1 775 PLN/os) — potwierdzić z Mateuszem i kolejnymi, że pobierana osobno jako zwrotna.
 5. **Lot kupuje uczestnik sam** (450–700 PLN) — jasno zakomunikować.
 
-### Rekomendacja
+### Rekomendacja historyczna (4 999 PLN)
 
 - Trzymając cenę 4 999 PLN rozważyć rezerwację **46.1** zamiast 51.1 (bufor wraca do ~8,7%).
 - Alternatywnie podnieść cenę dla kolejnych uczestników do **5 199 PLN** (utrzymanie 10% buforu przy 51.1).
