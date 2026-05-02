@@ -57,8 +57,8 @@
 - [ ] **FAQ do rozszerzenia** — *dodane: 2026-04-29 (z TODO.md)*
   - Pytania o cenę, pakowanie, poziom trudności. Do uzupełnienia po domknięciu organizacji.
 
-- [ ] **Domena oddechiwiatr.pl — do kupienia i podpięcia** — *dodane: 2026-04-29 (z TODO.md)*
-  - Link w kampanii Insta = oddechiwiatr.pl. Musi działać przed startem kampanii social.
+- [ ] **Domena oddechiwiatr.life — do kupienia i podpięcia** — *dodane: 2026-04-29 (z TODO.md)*
+  - Link w kampanii Insta = oddechiwiatr.life. Musi działać przed startem kampanii social.
 
 - [ ] **Facebook/Google pixel** — *dodane: 2026-04-29 (z TODO.md)*
   - Warunkowe: dopiero gdy rusza płatna reklama. Teraz niepilne.

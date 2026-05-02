@@ -38,7 +38,7 @@ Jeśli któryś nie istnieje albo wygląda na stary — **zasygnalizuj to przed 
 
 - **Termin rejsu: 20–27 czerwca 2026 — JEDYNY.** Nigdy nie proponować innych dat, nie sugerować "flexibility", nie pytać o przesunięcie tygodnia.
 - **Komunikacja z brokerami / formularzami: liczba osób jako total** (np. "10 osób" / "11 osób"). NIE rozbijać na guests + crew.
-- **Email Arka: `halicki.arkadiusz@gmail.com`.** Nie wymyślać innych adresów (np. `arek@oddechiwiatr.pl` — taki nie istnieje).
+- **Email Arka: `halicki.arkadiusz@gmail.com`.** Nie wymyślać innych adresów (np. `arek@oddechiwiatr.life` — taki nie istnieje).
 - **W gotowych draftach (maile, formularze) nie wstawiać placeholderów** typu `[Twój numer]` / `[Your name]` — albo realne dane, albo pominąć linijkę.
 - Schemat tabeli `applications` w Supabase — zmiany przez review.
 - Sekrety Supabase / GA — nawet w plikach przykładowych.

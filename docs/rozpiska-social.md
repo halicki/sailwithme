@@ -85,7 +85,7 @@ Tekst na ekranie:
 
 "Strona jest tutaj. Formularz, załoga, FAQ — wszystko w jednym miejscu."
 
-"oddechiwiatr.pl"
+"oddechiwiatr.life"
 
 "8 miejsc · zamykam zapisy, kiedy zbiorę grupę"
 
@@ -146,7 +146,7 @@ Sticker linku.
 
 "Konkrety, bo wiem, że to jest ważne. Wszystko jest rozpisane na stronie — cena, co obejmuje, co nie, FAQ. Link tutaj."
 
-"oddechiwiatr.pl"
+"oddechiwiatr.life"
 
 → Cel: jedno story z faktami, jedno z linkiem. Kto doczytał do Dnia 8, potrzebuje konkretu — nie powtórzenia całego landing page'a.
 
@@ -167,6 +167,6 @@ Sticker linku.
 "8 miejsc"
 "zamykam zapisy, kiedy zbiorę grupę"
 
-"oddechiwiatr.pl"
+"oddechiwiatr.life"
 
 → Cel: zamknięcie z konkretnym CTA. Prośba o polecenie wydzielona do osobnego story (story 2) — polecenia to główny kanał akwizycji, nie chowamy tego w jednym zdaniu. "8 miejsc" zamiast "kilka" — spójne z Dniem 5, nie kłamie.
