@@ -1,18 +1,26 @@
 import { heroContent } from "@/data/content";
+import HeroVideoOverlay from "./HeroVideoOverlay";
 
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
-      {/* Video background */}
+      {/* Video background — Server Component renders this as pure HTML.
+          React won't hydrate it, so `muted` stays in the DOM and
+          mobile browsers allow autoplay. */}
       <video
+        data-hero-video
         autoPlay
         muted
         loop
         playsInline
+        preload="auto"
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source src={heroContent.backgroundVideo} type="video/mp4" />
       </video>
+
+      {/* Poster — covers video until it plays, then removed from DOM */}
+      <HeroVideoOverlay />
 
       {/* Dark overlay gradient */}
       <div

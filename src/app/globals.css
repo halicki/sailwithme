@@ -5,6 +5,14 @@
 }
 
 @layer base {
+  /* Hide native video play button on mobile */
+  video[data-hero-video]::-webkit-media-controls {
+    display: none !important;
+  }
+  video[data-hero-video]::-webkit-media-controls-start-playback-button {
+    display: none !important;
+  }
+
   html {
     scroll-behavior: smooth;
 

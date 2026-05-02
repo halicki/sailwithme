@@ -136,6 +136,12 @@ export default function RootLayout({
           href="/manifest.webmanifest"
           crossOrigin="use-credentials"
         />
+        <link
+          rel="preload"
+          as="video"
+          href="/videos/hero-bg.mp4"
+          type="video/mp4"
+        />
       </head>
       <body
         className={`${inter.variable} ${playfair.variable} antialiased`}
