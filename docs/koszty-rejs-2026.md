@@ -51,8 +51,8 @@ Dwie najlepsze opcje:
 **Opcja 3 (budżetowa): Sun Odyssey 440 (4 kabiny, 13m)**
 
 - Czerwiec (Period C): **3 800 EUR (~16 340 PLN)**
-- Tylko 4 kabiny — przy 8 uczestnikach + 3 załogę = ciasno
-- Raczej za mały na 11 osób
+- Tylko 4 kabiny — przy 8 uczestnikach + 2 prowadzących = ciasno
+- Raczej za mały na 10 osób
 
 ### Inne źródła — Oceanis 51.1
 
@@ -113,7 +113,7 @@ Na innych platformach 51.1 bywa tańszy niż u KAVAS, ale starszy/gorzej utrzyma
 ### Zakupy na pokład (śniadania, lunche, przekąski, napoje)
 
 - Greckie supermarkety: 45–70 EUR/os/tydzień
-- Dla 11 osób: **500–800 EUR (2 150–3 440 PLN)**
+- Dla 10 osób: **450–700 EUR (1 935–3 010 PLN)**
 
 ### Jedzenie na lądzie (tawerny)
 
@@ -125,9 +125,9 @@ Na innych platformach 51.1 bywa tańszy niż u KAVAS, ale starszy/gorzej utrzyma
 
 ### Realistyczny mix (śniadania na pokładzie, ~5 kolacji w tawernach, ~3 lunche na lądzie)
 
-- Posiłki na lądzie: ~8 posiłków × 20 EUR × 11 osób = **1 760 EUR (7 570 PLN)**
-- Prowiant na pokład: **650 EUR (2 800 PLN)**
-- **Jedzenie RAZEM: ~2 410 EUR (~10 360 PLN), tj. ~219 EUR/os (~940 PLN/os)**
+- Posiłki na lądzie: ~8 posiłków × 20 EUR × 10 osób = **1 600 EUR (6 880 PLN)**
+- Prowiant na pokład: **600 EUR (2 580 PLN)**
+- **Jedzenie RAZEM: ~2 200 EUR (~9 460 PLN), tj. ~220 EUR/os (~946 PLN/os)**
 
 ---
 
@@ -170,12 +170,12 @@ MIN = 46.1 (Period C), REAL = 51.1 KAVAS (Period C), MAX = 51.1 z innej platform
 | Cruising tax + transit log   | 158              | 158              | 158                    |
 | Opłaty portowe               | 85               | 85               | 85                     |
 | Paliwo                       | 160              | 160              | 160                    |
-| Prowiant na pokład           | 650              | 650              | 650                    |
+| Prowiant na pokład           | 600              | 600              | 600                    |
 | Jedzenie na lądzie (10 osób) | 1 600            | 1 600            | 1 600                  |
 | Transfery + inne             | 300              | 300              | 300                    |
 | Lot Piotra                   | 140              | 140              | 140                    |
-| **RAZEM**                    | **8 493 EUR**    | **8 693 EUR**    | **7 293 EUR**          |
-| **RAZEM PLN**                | **36 520 PLN**   | **37 380 PLN**   | **31 360 PLN**         |
+| **RAZEM**                    | **8 143 EUR**    | **8 343 EUR**    | **6 943 EUR**          |
+| **RAZEM PLN**                | **35 015 PLN**   | **35 875 PLN**   | **29 855 PLN**         |
 
 ---
 
@@ -187,10 +187,10 @@ Uczestnik płaci za: charter, jedzenie, transfery, porty. Lot kupuje sam.
 
 |                     | 46.1 KAVAS    | 51.1 KAVAS    | 51.1 tańszy   |
 | ------------------- | ------------- | ------------- | ------------- |
-| Koszt/os (8 ucz.)   | 1 062 EUR     | 1 087 EUR     | 912 EUR       |
-| W PLN               | 4 565 PLN     | 4 673 PLN     | 3 920 PLN     |
-| Z 10% buforem       | 1 168 EUR     | 1 196 EUR     | 1 003 EUR     |
-| **W PLN z buforem** | **5 022 PLN** | **5 142 PLN** | **4 313 PLN** |
+| Koszt/os (8 ucz.)   | 1 018 EUR     | 1 043 EUR     | 868 EUR       |
+| W PLN               | 4 377 PLN     | 4 485 PLN     | 3 732 PLN     |
+| Z 10% buforem       | 1 120 EUR     | 1 147 EUR     | 955 EUR       |
+| **W PLN z buforem** | **4 816 PLN** | **4 932 PLN** | **4 107 PLN** |
 
 ### Wariant B: Jedzenie na lądzie osobno
 
@@ -198,9 +198,9 @@ Uczestnik płaci za: charter, prowiant, transfery, porty. Kolacje w tawernach na
 
 |                                      | 46.1 KAVAS    | 51.1 KAVAS    | 51.1 tańszy   |
 | ------------------------------------ | ------------- | ------------- | ------------- |
-| Koszty bez jedzenia na lądzie        | 6 733 EUR     | 6 933 EUR     | 5 533 EUR     |
-| Koszt/os (8 ucz.)                    | 842 EUR       | 867 EUR       | 692 EUR       |
-| **W PLN**                            | **3 621 PLN** | **3 728 PLN** | **2 976 PLN** |
+| Koszty bez jedzenia na lądzie        | 6 543 EUR     | 6 743 EUR     | 5 343 EUR     |
+| Koszt/os (8 ucz.)                    | 818 EUR       | 843 EUR       | 668 EUR       |
+| **W PLN**                            | **3 517 PLN** | **3 625 PLN** | **2 872 PLN** |
 | + jedzenie na lądzie ~160–200 EUR/os | ~690–860 PLN  |               |               |
 
 ---
@@ -226,11 +226,11 @@ Uczestnik płaci za: charter, prowiant, transfery, porty. Kolacje w tawernach na
 
 | Uczestników | Cena/os (PLN) | Z lotem (PLN)       |
 | ----------- | ------------- | ------------------- |
-| 6           | 6 855 PLN     | 7 300–7 600 PLN     |
-| 7           | 5 878 PLN     | 6 300–6 600 PLN     |
-| **8**       | **5 142 PLN** | **5 600–5 900 PLN** |
-| 9           | 4 570 PLN     | 5 000–5 300 PLN     |
-| 10          | 4 115 PLN     | 4 600–4 800 PLN     |
+| 6           | 6 577 PLN     | 7 000–7 300 PLN     |
+| 7           | 5 638 PLN     | 6 100–6 300 PLN     |
+| **8**       | **4 932 PLN** | **5 400–5 600 PLN** |
+| 9           | 4 384 PLN     | 4 800–5 100 PLN     |
+| 10          | 3 946 PLN     | 4 400–4 600 PLN     |
 
 ---
 
@@ -244,21 +244,21 @@ Próg uruchomienia = break-even przychodów względem kosztów wybranego jachtu 
 
 Wzór: `4 999 + (N-1) × 5 900`, gdzie N = liczba uczestników.
 
-| Uczestników | Przychód     | 51.1 KAVAS (37 380)   | 46.1 KAVAS (36 520)   | 51.1 tańsza (31 360)  |
+| Uczestników | Przychód     | 51.1 KAVAS (35 875)   | 46.1 KAVAS (35 015)   | 51.1 tańsza (29 855)  |
 | ----------- | ------------ | --------------------- | --------------------- | --------------------- |
-| 5           | 28 599 PLN   | **−8 781**            | **−7 921**            | **−2 761**            |
-| 6           | 34 499 PLN   | **−2 881**            | **−2 021**            | +3 139 (~10%)         |
-| **7**       | **40 399**   | **+3 019 (~7,5%)**    | **+3 879 (~9,6%)**    | +9 039 (~22%)         |
-| **8**       | **46 299**   | **+8 919 (~24%)**     | **+9 779 (~27%)**     | +14 939 (~32%)        |
-| 9           | 52 199 PLN   | +14 819 (~28%)*       | +15 679 (~30%)*       | +20 839 (~40%)*       |
+| 5           | 28 599 PLN   | **−7 276**            | **−6 416**            | **−1 256**            |
+| 6           | 34 499 PLN   | **−1 376**            | **−516**              | +4 644 (~16%)         |
+| **7**       | **40 399**   | **+4 524 (~13%)**     | **+5 384 (~15%)**     | +10 544 (~35%)        |
+| **8**       | **46 299**   | **+10 424 (~29%)**    | **+11 284 (~32%)**    | +16 444 (~55%)        |
+| 9           | 52 199 PLN   | +16 324 (~45%)*       | +17 184 (~49%)*       | +22 344 (~75%)*       |
 
 \*Przy 9 osobach rosną koszty jedzenia/prowiantu proporcjonalnie — tabelka uproszczona.
 
 ### Próg uruchomienia (break-even, baseline)
 
-- **Oceanis 51.1 KAVAS** → minimum **7 osób** (~7,5% bufor, cienko).
-- **Oceanis 46.1 KAVAS** → minimum **7 osób** (~9,6% bufor).
-- **Oceanis 51.1 tańsza platforma** → minimum **6 osób** (~10% bufor).
+- **Oceanis 51.1 KAVAS** → minimum **7 osób** (~13% bufor — komfortowo).
+- **Oceanis 46.1 KAVAS** → minimum **7 osób** (~15% bufor).
+- **Oceanis 51.1 tańsza platforma** → minimum **6 osób** (~16% bufor).
 
 Cel komfortowy: **8 osób** (bufor ≥24% przy każdym wariancie jachtu).
 
@@ -268,18 +268,18 @@ Każdy dodatkowy wyjątek @ 4 999 zamiast 5 900 zmniejsza przychód o **−901 P
 
 | Wyjątki (poza Mateuszem) | 7 osób, 51.1 KAVAS | 8 osób, 51.1 KAVAS |
 | ------------------------ | ------------------ | ------------------ |
-| 0                        | +3 019 (~7,5%)     | +8 919 (~24%)      |
-| 1                        | +2 118 (~5,2%)     | +8 018 (~21%)      |
-| 2                        | +1 217 (~3,0%)     | +7 117 (~19%)      |
+| 0                        | +4 524 (~13%)      | +10 424 (~29%)     |
+| 1                        | +3 623 (~10%)      | +9 523 (~27%)      |
+| 2                        | +2 722 (~8%)       | +8 622 (~24%)      |
 
-Przy 7 osobach + 2 wyjątkach bufor schodzi do ~3% — niebezpiecznie cienko, każde ryzyko (Period B, kurs EUR) generuje stratę.
+Przy 7 osobach + 2 wyjątkach bufor ~8% — akceptowalne, choć wrażliwe na Period B lub kurs EUR.
 
 ### Główne ryzyka
 
 1. **Period 20–27.06 u KAVAS** — jeśli Period B zamiast C: +1 900 EUR (~+8 170 PLN). Przy 7 osobach + 1 wyjątek = strata ~6 000 PLN. **Pilnie potwierdzić z KAVAS.**
 2. **Kurs EUR/PLN** — przy 4,5 zamiast 4,3 koszty rosną o ~1 700 PLN.
 3. **Mniej niż 7 osób** — strata przy 51.1/46.1 KAVAS, patrz tabelka wyżej.
-4. **Kaucja 3 300 EUR** (~1 775 PLN/os) — potwierdzić, że pobierana osobno jako zwrotna.
+4. **Kaucja 3 300 EUR** (~413 EUR/os przy 8 osobach, ~1 775 PLN/os) — potwierdzić, że pobierana osobno jako zwrotna.
 5. **Lot kupuje uczestnik sam** (450–700 PLN) — jasno zakomunikować.
 
 ### Rekomendacja
@@ -301,25 +301,25 @@ Pierwszy uczestnik (Mateusz Szklanko) zapłacił **4 999 PLN** — all-inclusive
 
 | Wariant jachtu                 | Koszty (PLN) | Bufor (PLN) | Bufor % |
 | ------------------------------ | ------------ | ----------- | ------- |
-| Oceanis 46.1 KAVAS             | 36 520       | +3 472      | ~8,7%   |
-| **Oceanis 51.1 KAVAS (rekom.)**| **37 380**   | **+2 612**  | **~6,5%** |
-| Oceanis 51.1 tańsza platforma  | 31 360       | +8 632      | ~27,5%  |
+| Oceanis 46.1 KAVAS             | 35 015       | +4 977      | ~12,4%  |
+| **Oceanis 51.1 KAVAS (rekom.)**| **35 875**   | **+4 117**  | **~10,3%** |
+| Oceanis 51.1 tańsza platforma  | 29 855       | +10 137     | ~25,3%  |
 
-Cena 4 999 PLN jest na dolnej granicy rekomendacji (5 000–5 200 PLN). Bufor ~6,5% przy 51.1 KAVAS zamiast planowanych 10% — akceptowalnie, ale wrażliwy na ryzyka poniżej.
+Cena 4 999 PLN daje bufor ~10,3% przy 51.1 KAVAS — komfortowo po odpadnięciu kosztów Kamilli.
 
 ### Wrażliwość na liczbę uczestników @ 4 999 PLN/os (51.1 KAVAS, koszty stałe nie maleją)
 
 | Uczestników | Przychód    | Koszt     | Wynik       |
 | ----------- | ----------- | --------- | ----------- |
-| 6           | 29 994 PLN  | 37 380    | **−7 386**  |
-| 7           | 34 993 PLN  | 37 380    | **−2 387**  |
-| **8**       | **39 992**  | **37 380**| **+2 612**  |
-| 9           | 44 991 PLN  | 37 380*   | +7 611      |
-| 10          | 49 990 PLN  | 37 380*   | +12 610     |
+| 6           | 29 994 PLN  | 35 875    | **−5 881**  |
+| 7           | 34 993 PLN  | 35 875    | **−882**    |
+| **8**       | **39 992**  | **35 875**| **+4 117**  |
+| 9           | 44 991 PLN  | 35 875*   | +9 116      |
+| 10          | 49 990 PLN  | 35 875*   | +14 115     |
 
 \*Przy 9–10 osobach rosną koszty jedzenia i prowiantu proporcjonalnie; tabelka uproszczona.
 
-**Próg opłacalności: 8 uczestników.** Poniżej 8 rejs staje się stratny. Warto ustalić minimalny próg uruchomienia (np. 7 osób) w warunkach dla uczestników.
+**Próg opłacalności: 8 uczestników** (bufor ~10%). Przy 7 osobach strata minimalna (−882 PLN) — prawie break-even.
 
 ### Główne ryzyka dla scenariusza historycznego 4 999 PLN
 
@@ -343,7 +343,7 @@ Cena 4 999 PLN jest na dolnej granicy rekomendacji (5 000–5 200 PLN). Bufor ~6
 2. **Dokładny period na 20–27.06** — KAVAS nie publikuje dat okresów. Zapytać czy to Period C czy D (różnica ~1 700 EUR).
 3. **Model kaucji** — 3 300 EUR (~413 EUR/os przy 8 osobach). Zwrotna. CDW 200-300 EUR zmniejsza ją.
 4. **All-inclusive vs. jedzenie osobno** — wpływa na cenę o ~700 PLN/os
-5. **51.1 vs 46.1** — różnica ~100 EUR/tydzień. 51.1 jest większy (15.9 vs 14.6m) i wygodniejszy dla 11 osób.
+5. **51.1 vs 46.1** — różnica ~200 EUR/tydzień. 51.1 jest większy (15.9 vs 14.6m) i wygodniejszy dla 10 osób.
 6. **Sprawdzić inne platformy** — Click&Boat, SamBoat mogą mieć 51.1 taniej, ale z gorszym stanem
 
 ## Źródła
