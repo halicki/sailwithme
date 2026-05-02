@@ -6,13 +6,12 @@ Arek organizuje cykliczny rejs żeglarski "Oddech i Wiatr" — transformacyjną 
 
 ## Koncept produktu
 
-**Pozycjonowanie:** Transformacyjna podróż żeglarska — miks retreatu, rozwoju osobistego i ekspedycji. Każdy dzień ma inny charakter (żeglowanie, freediving, breathwork, wyzwania). Narracja "podróży wojownika" — od spotkania do transformacji.
+**Pozycjonowanie:** Transformacyjna podróż żeglarska — miks retreatu, rozwoju osobistego i ekspedycji. Każdy dzień ma inny charakter (żeglowanie, freediving, oddech, wyzwania). Narracja "podróży wojownika" — od spotkania do transformacji.
 
 **Wyróżniki:**
 
 - Kuratowana grupa (przedsiębiorcy, twórcy, liderzy)
-- Piotr Błaszczak (@wobliczuwody) — reprezentant Polski we freedivingu — lekcje freedivingu
-- Kamilla Kowalczyk (@respire_kamilla_kowalczyk) — breathwork / sesje oddechowe
+- Piotr Błaszczak (@wobliczuwody) — reprezentant Polski we freedivingu — lekcje freedivingu i sesje oddechowe
 - Arek Halicki (@arek.halicki) — skipper & organizator
 - Jacht: [Beneteau Oceanis 52](https://www.beneteau.com/oceanis/oceanis-52)
 - Aktywne uczestnictwo w żeglowaniu (nie cruise)
@@ -71,8 +70,7 @@ Arek organizuje cykliczny rejs żeglarski "Oddech i Wiatr" — transformacyjną 
 
 - Nagłówek: "Kto stoi za sterami"
 - **Dedykowana, pełna sekcja per osoba** (nie małe karty):
-  - **Piotr Błaszczak** — freediving, reprezentant Polski, IG: @wobliczuwody, zdjęcie, opis co wnosi
-  - **Kamilla Kowalczyk** — breathwork / sesje oddechowe, IG: @respire_kamilla_kowalczyk, zdjęcie, opis
+  - **Piotr Błaszczak** — freediving & oddech, reprezentant Polski, IG: @wobliczuwody, zdjęcie, opis co wnosi
   - **Arek Halicki** — skipper & organizator, IG: @arek.halicki, zdjęcie, opis
 - **Ostatni element: "Ty?"** — dashed border, złoty akcent, CTA "Dołącz →"
 - Kliknięcie "Ty?" scrolluje do formularza

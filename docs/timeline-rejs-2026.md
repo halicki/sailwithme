@@ -72,7 +72,7 @@
   - Poziom doświadczenia żeglarskiego
 - [ ] **Crew list** — wysłać do KAVAS na 7 dni przed
 - [ ] **Plan trasy** — wstępny, z alternatywami pogodowymi
-- [ ] **Lista prowiantu** (Kamilla?) — zakupy na miejscu lub online delivery do mariny
+- [ ] **Lista prowiantu** — zakupy na miejscu lub online delivery do mariny
 - [ ] **Rezerwacja tawern w Hydrze i Poros** — popularne miejsca, czerwiec to sezon
 - [ ] **Transfer lotnisko ↔ Alimos** — minivan × 2 × 2 (tam/powrót), rezerwacja
 
@@ -95,7 +95,7 @@
 - [ ] **Finalna płatność KAVAS + kaucja** (jeśli nie pobrana wcześniej)
 - [ ] **Crew list do KAVAS** — T-7 dni
 - [ ] **Check pogody** — 10-dniowa prognoza, ewentualne zmiany planu
-- [ ] **Zakupy prowiantu** — Arek + Kamilla, dostawa do jachtu w sobotę
+- [ ] **Zakupy prowiantu** — Arek, dostawa do jachtu w sobotę
 - [ ] **Check in jachtu** — sobota 20.06, ~17:00 (standard KAVAS)
   - Odbiór techniczny (silnik, żagle, elektronika, bezpieczeństwo)
   - Podpisanie protokołu

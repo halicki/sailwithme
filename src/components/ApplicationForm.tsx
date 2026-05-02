@@ -107,7 +107,7 @@ export default function ApplicationForm() {
           Odpowiemy w ciągu 48h i sprawdzimy, czy ten rejs pasuje do Twoich oczekiwań.
         </p>
         <p className="text-xs mb-8" style={{ color: "var(--text-muted)" }}>
-          Cena udziału: 5 900 zł. Maksymalnie 7 miejsc dla uczestników.
+          Cena udziału: 5 900 zł. Maksymalnie 8 miejsc dla uczestników.
         </p>
 
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">

@@ -81,7 +81,7 @@ export default function ForWhom() {
           }}
         >
           <span className="font-bold text-sm" style={{ color: "var(--text-primary)" }}>
-            Do 7 miejsc dla uczestników.
+            Do 8 miejsc dla uczestników.
           </span>{" "}
           <span className="text-sm" style={{ color: "var(--text-muted)" }}>
             Po zgłoszeniu odpisujemy i dogadujemy szczegóły.

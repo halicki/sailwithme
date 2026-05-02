@@ -107,28 +107,20 @@ export default function CrewProfile({
               {member.bio.intro}
             </p>
 
-            <details className="group">
-              <summary
-                className="cursor-pointer text-xs uppercase tracking-[0.2em] list-none"
-                style={{ color: "var(--accent)" }}
-              >
-                Czytaj więcej
-              </summary>
-              <div className="mt-5">
-                {member.bio.story.split("\n\n").map((paragraph, i) => (
-                  <p
-                    key={i}
-                    className="text-sm sm:text-base mb-4"
-                    style={{
-                      color: "var(--text-muted)",
-                      lineHeight: "var(--body-line-height)",
-                    }}
-                  >
-                    {paragraph}
-                  </p>
-                ))}
-              </div>
-            </details>
+            <div className="mt-5">
+              {member.bio.story.split("\n\n").map((paragraph, i) => (
+                <p
+                  key={i}
+                  className="text-sm sm:text-base mb-4"
+                  style={{
+                    color: "var(--text-muted)",
+                    lineHeight: "var(--body-line-height)",
+                  }}
+                >
+                  {paragraph}
+                </p>
+              ))}
+            </div>
 
             {/* Links */}
             <div className="flex flex-wrap gap-4 mt-6">

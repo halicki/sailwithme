@@ -20,7 +20,7 @@
 - [ ] **Tylko 1 z 8 miejsc sprzedanych** — *dodane: 2026-04-28*
   - **Kontekst**: Mateusz zapisany. Deadline na domknięcie reszty: ~25.05.2026 (~4 tygodnie).
   - **Próbowane**: landing live, SEO meta + GA + favicon dorobione, OG preview ogarnięty.
-  - **Następny krok**: aktywna kampania Insta załogi (Arek/Piotr/Kamilla), bezpośrednie polecenia. Bez tego landing sam nie sprzeda.
+  - **Następny krok**: aktywna kampania Insta załogi (Arek/Piotr), bezpośrednie polecenia. Bez tego landing sam nie sprzeda.
 
 ### 🟡 Wysokiej wagi (psują doświadczenie / spowalniają)
 
@@ -48,7 +48,7 @@
   - Plik jest teraz jednym wielkim eksportem. Jeśli będziemy go często edytować w kilka osób, warto rozbić per-sekcja. Niepilne.
 
 - [ ] **Brak zdjęć na stronie** — *dodane: 2026-04-29 (z TODO.md)*
-  - Brak zdjęć przystanków (Egina, Poros, Hydra, Epidauros), jachtu, morza, breathwork, freediving. Landing pusty wizualnie.
+  - Brak zdjęć przystanków (Egina, Poros, Hydra, Epidauros), jachtu, morza, oddech, freediving. Landing pusty wizualnie.
   - Następny krok: Arek dostarcza zdjęcia, dodajemy do komponentów.
 
 - [ ] **Cena nie jest jeszcze na stronie** — *dodane: 2026-04-29 (z TODO.md)*

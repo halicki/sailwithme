@@ -2,7 +2,7 @@
 
 Notatka robocza: narracja odwzorowuje kolejność, w jakiej Arek SAM odkrywał elementy tego pomysłu — widz przechodzi tę samą drogę. Najpierw zmiana podejścia do wyjazdów, potem breathwork, potem freediving, potem ludzie, potem reveal. Nie sprzedajemy produktu — opowiadamy, jak się to ułożyło.
 
-Fakty trzymamy zgodnie ze stroną: Piotr Błaszczak, Kamilla Kowalczyk, Arek Halicki, 20–27 czerwca 2026, Zatoka Sarońska, do 7 uczestników, 5 900 zł. Jacht: Beneteau Oceanis 51.1 (cel) / 46.1 (fallback przy mniejszej grupie) — w stories nie podajemy modelu jachtu, żeby nie blokować decyzji. Widzowie kojarzą Arka z żeglowaniem i programowaniem — nie udajemy odkrycia morza.
+Fakty trzymamy zgodnie ze stroną: Piotr Błaszczak, Arek Halicki, 20–27 czerwca 2026, Zatoka Sarońska, do 8 uczestników, 5 900 zł. Kamilla Kowalczyk odpadła ze względów rodzinnych — Piotr przejmuje sesje oddechowe jako element freedivingu. Jacht: Beneteau Oceanis 51.1 (cel) / 46.1 (fallback przy mniejszej grupie) — w stories nie podajemy modelu jachtu, żeby nie blokować decyzji. Widzowie kojarzą Arka z żeglowaniem i programowaniem — nie udajemy odkrycia morza.
 
 ## Dzień 1 (28.04) — "Coś robię" ✅ OPUBLIKOWANE
 
@@ -67,7 +67,7 @@ Zdjęcia z bezalkoholowego wyjazdu żeglarskiego — spokojne ujęcia.
 
 ### Story 1 (filmik twarz w kamerze, spokojnie, bez sprzedażowego tonu)
 
-"Okej, to już mówię normalnie. Robimy rejs. Nazywa się Oddech i Wiatr. Grecja, Zatoka Sarońska, 20–27 czerwca 2026. Siedem dni na jachcie: żeglowanie, freediving z Piotrem, poranne sesje oddechowe z Kamillą i życie na wodzie."
+"Okej, to już mówię normalnie. Robimy rejs. Nazywa się Oddech i Wiatr. Grecja, Zatoka Sarońska, 20–27 czerwca 2026. Siedem dni na jachcie: żeglowanie, freediving i oddech z Piotrem, i życie na wodzie."
 
 ### Story 2 (ładny kadr morza / jachtu / mapa)
 
@@ -87,7 +87,7 @@ Tekst na ekranie:
 
 "oddechiwiatr.pl"
 
-"7 miejsc · zamykam zapisy, kiedy zbiorę grupę"
+"8 miejsc · zamykam zapisy, kiedy zbiorę grupę"
 
 Sticker linku.
 
@@ -97,7 +97,7 @@ Sticker linku.
 
 ### Story 1 (filmik, rano)
 
-"Wyobraźcie sobie taki dzień. Rano kawa na pokładzie. Oddech z Kamillą. Śniadanie, sprawdzamy pogodę, podnosimy żagle."
+"Wyobraźcie sobie taki dzień. Rano kawa na pokładzie. Poranny oddech. Śniadanie, sprawdzamy pogodę, podnosimy żagle."
 
 ### Story 2 (filmik, dzień)
 
@@ -139,7 +139,7 @@ Sticker linku.
 
 "5 900 zł / osoba"
 "20–27 czerwca 2026 · Grecja · jacht w Zatoce Sarońskiej"
-"w cenie: jacht, skipper, freediving, breathwork, porty, paliwo, prowiant"
+"w cenie: jacht, skipper, freediving, oddech, porty, paliwo, prowiant"
 "po twojej stronie: lot do Aten, ubezpieczenie, część posiłków"
 
 ### Story 2 (gadany / link)
@@ -164,9 +164,9 @@ Sticker linku.
 
 "Oddech i Wiatr"
 "20–27 czerwca 2026"
-"7 miejsc"
+"8 miejsc"
 "zamykam zapisy, kiedy zbiorę grupę"
 
 "oddechiwiatr.pl"
 
-→ Cel: zamknięcie z konkretnym CTA. Prośba o polecenie wydzielona do osobnego story (story 2) — polecenia to główny kanał akwizycji, nie chowamy tego w jednym zdaniu. "7 miejsc" zamiast "kilka" — spójne z Dniem 5, nie kłamie.
+→ Cel: zamknięcie z konkretnym CTA. Prośba o polecenie wydzielona do osobnego story (story 2) — polecenia to główny kanał akwizycji, nie chowamy tego w jednym zdaniu. "8 miejsc" zamiast "kilka" — spójne z Dniem 5, nie kłamie.

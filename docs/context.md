@@ -7,7 +7,7 @@
 
 ## Czym jest Oddech i Wiatr
 
-Curated sailing retreat w Grecji (Zatoka Sarońska, 20–27 czerwca 2026): tydzień na jachcie łączący żeglowanie, freediving i breathwork. Mała grupa (8 uczestników + 3 osoby załogi), polskojęzyczna. Nie jest to ani all-inclusive, ani impreza — pozycjonujemy się jako "rejs dla ludzi, którzy chcą naprawdę popłynąć", z konkretną zawartością merytoryczną (freediving z mistrzem Polski, sesje oddechowe).
+Curated sailing retreat w Grecji (Zatoka Sarońska, 20–27 czerwca 2026): tydzień na jachcie łączący żeglowanie, freediving i oddech. Mała grupa (8 uczestników + 2 prowadzących (Arek, Piotr) = 10 osób), polskojęzyczna. Nie jest to ani all-inclusive, ani impreza — pozycjonujemy się jako "rejs dla ludzi, którzy chcą naprawdę popłynąć", z konkretną zawartością merytoryczną (freediving z mistrzem Polski, sesje oddechowe).
 
 Repozytorium = jednostronicowy landing po polsku z formularzem zgłoszeniowym (Supabase). Cała wartość biznesowa: domknąć 7 wolnych miejsc do końca maja 2026.
 
@@ -27,12 +27,12 @@ Repozytorium = jednostronicowy landing po polsku z formularzem zgłoszeniowym (S
 - **Kim**: 30–45 lat, Polska, ma wolne 6 000 zł na tydzień + lot, wartości: ruch, woda, świadomy oddech, mała grupa.
 - **Główny ból**: nie chce ani imprezowego rejsu z boattrip, ani drogiego all-inclusive resortu. Szuka czegoś z treścią, prowadzonego przez ludzi, którym ufa. Próbuje nowych rzeczy.
 - **Co próbowali**: rejsy "na szyldzie", retreaty jogowe na lądzie, festiwale.
-- **Czego oczekuje**: dobrze poprowadzony tydzień, spokojni ludzie, prawdziwe żeglowanie, treść (freediving / breathwork), bez napinki.
-- **Gdzie są**: Instagram załogi (Arek, Piotr, Kamilla), word-of-mouth, polska scena freedivingowa/żeglarska.
+- **Czego oczekuje**: dobrze poprowadzony tydzień, spokojni ludzie, prawdziwe żeglowanie, treść (freediving / oddech), bez napinki.
+- **Gdzie są**: Instagram załogi (Arek, Piotr), word-of-mouth, polska scena freedivingowa/żeglarska.
 
 ### Persona 2: "Ktoś z sieci załogi"
 
-- **Kim**: znajomi/followers Piotra (freediving) lub Kamilli (breathwork) — już im ufają.
+- **Kim**: znajomi/followers Piotra (freediving, oddech) — już mu ufają.
 - **Główny ból**: chcą doświadczyć retreatu prowadzonego przez kogoś, kogo śledzą.
 - **Kanał akwizycji**: bezpośrednie polecenia załogi i ich Instagram.
 
@@ -43,7 +43,7 @@ Repozytorium = jednostronicowy landing po polsku z formularzem zgłoszeniowym (S
 - **Co obejmuje**: miejsce na jachcie, opieka skippera, zajęcia freediving, sesje oddechowe, opłaty portowe, paliwo, podstawowy prowiant.
 - **Co NIE obejmuje**: lot (~450–700 PLN), kaucja zwrotna (~1 775 PLN/os), część posiłków na lądzie, ubezpieczenie, wydatki własne.
 - **Próg uruchomienia**: rejs leci, gdy przychód od uczestników ≥ koszty wybranego jachtu (Oceanis 51.1 vs 46.1, KAVAS vs inna platforma, Period C vs B). **Nie hardcode'ujemy liczby osób** — zależy od finalnej decyzji jachtu. Kalkulacja scenariuszy: `koszty-rejs-2026.md`. Decyzja o uruchomieniu/odwołaniu zapada przy domknięciu sprzedaży (~25.05.2026).
-- **Koszty pokryte przez organizatora**: Piotr i Kamilla (loty + jedzenie).
+- **Koszty pokryte przez organizatora**: Piotr (lot + jedzenie).
 - **Główny kanał akwizycji**: Instagram załogi + polecenia. SEO/paid nie planowane (jednorazowe wydarzenie, krótkie okno).
 
 ## Ograniczenia
@@ -65,7 +65,7 @@ Stan na **27 czerwca 2026** (koniec rejsu):
 ## Co świadomie ODRZUCAMY
 
 - ❌ **Inne terminy / "elastyczność daty"** — jacht jest na konkretny tydzień, nie negocjujemy.
-- ❌ **Rozbijanie ceny na guests + crew** w komunikacji z brokerami — zawsze total (10/11 osób).
+- ❌ **Rozbijanie ceny na guests + crew** w komunikacji z brokerami — zawsze total (10 osób).
 - ❌ **Wielojęzyczny landing** — projekt jest polski, dla Polaków, koszt i18n nieuzasadniony.
 - ❌ **System rezerwacji online z płatnością** — formularz → manualna rozmowa → zaliczka przelewem. Mała skala, automatyzacja niepotrzebna.
 - ❌ **Auth / konta użytkownika** — to nie SaaS.

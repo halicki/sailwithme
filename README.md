@@ -1,6 +1,6 @@
 # Oddech i Wiatr
 
-Landing page dla kuratorowanego rejsu transformacyjnego w Grecji: żeglowanie, freediving i breathwork w Zatoce Sarońskiej, 20-27 czerwca 2026.
+Landing page dla kuratorowanego rejsu transformacyjnego w Grecji: żeglowanie, freediving i oddech w Zatoce Sarońskiej, 20-27 czerwca 2026.
 
 ## Stack
 

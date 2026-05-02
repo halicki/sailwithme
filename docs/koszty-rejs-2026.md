@@ -5,11 +5,11 @@
 
 ## Założenia
 
-- 8 uczestników + 3 załoga (Arek, Piotr, Kamilla) = 11 osób
+- 8 uczestników + 2 prowadzących (Arek, Piotr) = 10 osób
 - Termin: 20–27 czerwca 2026
 - Lokalizacja: Zatoka Sarońska, start z Aten (marina Alimos/Kalamaki)
 - Jacht: do wyboru — patrz sekcja A
-- Koszty Piotra i Kamili pokryte przez organizatora (loty + jedzenie)
+- Koszty Piotra pokryte przez organizatora (lot + jedzenie)
 
 ---
 
@@ -171,9 +171,9 @@ MIN = 46.1 (Period C), REAL = 51.1 KAVAS (Period C), MAX = 51.1 z innej platform
 | Opłaty portowe               | 85               | 85               | 85                     |
 | Paliwo                       | 160              | 160              | 160                    |
 | Prowiant na pokład           | 650              | 650              | 650                    |
-| Jedzenie na lądzie (11 osób) | 1 760            | 1 760            | 1 760                  |
+| Jedzenie na lądzie (10 osób) | 1 600            | 1 600            | 1 600                  |
 | Transfery + inne             | 300              | 300              | 300                    |
-| Loty Piotr + Kamilla         | 280              | 280              | 280                    |
+| Lot Piotra                   | 140              | 140              | 140                    |
 | **RAZEM**                    | **8 493 EUR**    | **8 693 EUR**    | **7 293 EUR**          |
 | **RAZEM PLN**                | **36 520 PLN**   | **37 380 PLN**   | **31 360 PLN**         |
 

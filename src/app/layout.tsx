@@ -21,9 +21,9 @@ const siteUrl =
     ? `https://${process.env.VERCEL_URL}`
     : "http://localhost:3000");
 
-const title = "ODDECH i WIATR — Żagle, freediving, breathwork · Grecja 2026";
+const title = "ODDECH i WIATR — Żagle, freediving, oddech · Grecja 2026";
 const description =
-  "7 dni na Morzu Egejskim. Żagle, freediving i breathwork w Zatoce Sarońskiej. 20–27 czerwca 2026 — szukamy załogi, nie pasażerów.";
+  "7 dni na Morzu Egejskim. Żagle, freediving i oddech w Zatoce Sarońskiej. 20–27 czerwca 2026 — szukamy załogi, nie pasażerów.";
 
 export const metadata: Metadata = {
   title,
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     "rejs Grecja 2026",
     "rejs z freedivingiem",
     "freediving Grecja",
-    "breathwork rejs",
+    "oddech rejs",
     "żeglarstwo Grecja",
     "wakacje na żaglach",
     "Zatoka Sarońska",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
         url: "/og-preview.jpg",
         width: 1200,
         height: 630,
-        alt: "ODDECH i WIATR — żagle, freediving, breathwork w Grecji 2026",
+        alt: "ODDECH i WIATR — żagle, freediving, oddech w Grecji 2026",
       },
     ],
   },

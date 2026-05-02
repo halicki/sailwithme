@@ -71,12 +71,12 @@ export interface PricingInfo {
 // ─── Hero ────────────────────────────────────────────────────────────────────
 
 export const heroContent = {
-  preTitle: "Żagle, freediving, breathwork · Grecja 2026",
+  preTitle: "Żagle, freediving, oddech · Grecja 2026",
   titleTop: "ODDECH",
   titleBottom: "WIATR",
   subtitle: "20–27 Czerwca · Zatoka Sarońska · 7 dni",
   tagline:
-    "Tydzień na jachcie: żeglowanie, freediving, poranny oddech i greckie wyspy.",
+    "Tydzień na jachcie: żeglowanie, freediving, świadomy oddech i greckie wyspy.",
   ctaText: "Dołącz do załogi ↓",
   backgroundVideo: "/videos/hero-bg.mp4",
 };
@@ -106,10 +106,10 @@ export const pricingInfo: PricingInfo = {
 // ─── Manifesto ───────────────────────────────────────────────────────────────
 
 export const manifesto = {
-  heading: "To jest rejs dla ludzi, którzy chcą naprawdę popłynąć.",
+  heading: "To jest rejs dla ludzi, którzy chcą doświadczyć więcej.",
   body: `Nie imprezowy. Nie hotelowy. Nie z przypadkowymi ludźmi z ogłoszenia.
 
-7 dni na Morzu Egejskim. Żeglowanie, freediving z mistrzem Polski, spokojne sesje oddechowe, greckie porty i życie na pokładzie. Trochę wysiłku, dużo wody, dobre rozmowy i proste rytmy dnia.`,
+7 dni na Morzu Egejskim. Żeglowanie, freediving z mistrzem Polski, świadomy oddech, greckie porty i życie na pokładzie. Wysiłek na wodzie, spokój na pokładzie i ludzie, z którymi chcesz rozmawiać.`,
   closing: "Nie szukamy pasażerów. Szukamy ludzi do załogi.",
 };
 
@@ -119,12 +119,12 @@ export const forWhomTraits = [
   {
     title: "Żeglowanie",
     description:
-      "Będziesz na pokładzie podczas manewrów i przepłynięć. Nie musisz mieć doświadczenia, ale warto chcieć się włączyć.",
+      "Staniesz się aktywnym członkiem załogi jachtu. Będziesz na pokładzie podczas manewrów i żeglugi. Nie musisz mieć doświadczenia, ale warto chcieć się włączyć.",
   },
   {
     title: "Życie na jachcie",
     description:
-      "Kabiny, wspólna kuchnia, porty, kotwicowiska, prysznice w marinach. Komfort jest prosty i morski.",
+      "Śpisz na koi, gotujesz w mesie, po kąpieli w morzu prysznic na rufie jachtu. Prosty komfort, który po dwóch dniach staje się naturalny.",
   },
   {
     title: "Freediving i oddech",
@@ -162,7 +162,7 @@ export const programDays = [
   {
     day: 4,
     name: "Oddech",
-    description: "Breathwork o wschodzie słońca, eksploracja wysp",
+    description: "Poranny oddech o wschodzie słońca, eksploracja wysp",
     location: "Hydra",
   },
   {
@@ -192,7 +192,7 @@ export const crewMembers: CrewMember[] = [
   {
     slug: "piotr",
     name: "Piotr Błaszczak",
-    role: "Freediving",
+    role: "Freediving & Oddech",
     tagline:
       "Freediving to nie tylko sport. To najspokojniejsza podróż w głąb siebie, jaką możesz odbyć.",
     instagram: "wobliczuwody",
@@ -209,7 +209,7 @@ Zanim odkrył freediving, przez ponad 10 lat żył slacklinem i highlinem. Był 
 
 Od 2022 roku jest członkiem kadry narodowej w nurkowaniu głębokościowym. Trenuje i uczy w Deep Spot — najgłębszym basenie w Europie (45,5 metra czystej wody w temperaturze 32°C). Jako instruktor SSI Advanced Freedivier łączy technikę z treningiem mentalnym i hipnozą, pomagając uczniom przełamywać psychiczne bariery związane z głębokością.`,
       onRetreat:
-        "Na rejsie poprowadzi lekcje freedivingu — od pierwszego świadomego wdechu po bezpieczne zanurzenia w greckim morzu. Nie musisz mieć doświadczenia.",
+        "Na rejsie poprowadzi lekcje freedivingu i sesje oddechowe — od pierwszego świadomego wdechu po bezpieczne zanurzenia w greckim morzu. Nie musisz mieć doświadczenia.",
     },
     credentials: [
       "Reprezentant Polski — kadra narodowa od 2022",
@@ -230,34 +230,10 @@ Od 2022 roku jest członkiem kadry narodowej w nurkowaniu głębokościowym. Tre
       "Freediving nie musi być ekstremalny. Najpierw jest spokój, technika i zaufanie do ciała.",
   },
   {
-    slug: "kamilla",
-    name: "Kamilla Kowalczyk",
-    role: "Breathwork",
-    tagline: "Oddech to najpotężniejsze narzędzie, jakie masz.",
-    instagram: "respire_kamilla_kowalczyk",
-    brand: "Respire",
-    heroImage: "/images/kamilla-hero.jpg",
-    portraitImage: "/images/kamilla-portrait.jpg",
-    bio: {
-      intro:
-        "Instruktorka breathworku i założycielka Respire. Poprowadzi sesje oddechowe w prosty, dostępny i spokojny sposób.",
-      story: `Kamilla odkryła breathwork w momencie, kiedy szukała czegoś głębszego niż medytacja. Pierwszy oddech świadomy — naprawdę świadomy — zmienił jej perspektywę. Zrozumiała, że mamy w sobie narzędzie, które jest dostępne zawsze, wszędzie, za darmo — i które większość z nas kompletnie ignoruje.
-
-Pod marką Respire prowadzi sesje oddechowe łączące różne techniki — od spokojnych, regulujących układ nerwowy, po intensywniejsze praktyki pracy z ciałem. Jej podejście jest ciepłe, konkretne i uważne.`,
-      onRetreat:
-        "Na rejsie poprowadzi poranne sesje oddechowe na pokładzie i spokojne praktyki regulujące po intensywnych dniach na wodzie.",
-    },
-    credentials: [
-      "Certyfikowana instruktorka breathworku",
-      "Założycielka Respire",
-    ],
-    quote: "Oddech jest prosty. I właśnie dlatego warto do niego wracać.",
-  },
-  {
     slug: "arek",
     name: "Arek Halicki",
     role: "Skipper & Organizator",
-    tagline: "Najlepsze rzeczy dzieją się na morzu.",
+    tagline: "Żeglarstwo to sztuka ciągłej adaptacji.",
     instagram: "arek.halicki",
     heroImage: "/images/arek-hero.jpg",
     portraitImage: "/images/arek-portrait.jpg",
@@ -275,7 +251,7 @@ Jako programista lubi dobrze zaprojektowane systemy, ale ten rejs jest prostszy:
       "Nauczyciel żeglowania PZŻ",
       "Organizator rejsu",
     ],
-    quote: "Na morzu najlepiej działa prostota: patrzysz, reagujesz, płyniesz.",
+    quote: "Żeglarstwo to sztuka ciągłej adaptacji do zmieniających się warunków. Praktyka uważności, bycia tu i teraz.",
   },
 ];
 
@@ -405,7 +381,7 @@ export const faqItems = [
   { question: "Gdzie?", answer: "Zatoka Sarońska, Grecja" },
   {
     question: "Ile osób?",
-    answer: "Maksymalnie 10 osób łącznie: 3 prowadzących i do 7 uczestników.",
+    answer: "Maksymalnie 10 osób łącznie: 2 prowadzących i do 8 uczestników.",
   },
   {
     question: "Cena?",
