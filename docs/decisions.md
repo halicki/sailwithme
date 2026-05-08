@@ -26,6 +26,24 @@
 
 ## Aktywne decyzje
 
+### ADR-008: Angielska wersja przez `[locale]` dynamic segment, bez i18n libki
+
+- **Data**: 2026-05-08
+- **Status**: accepted
+- **Kontekst**: Potrzeba udostępnienia landing page zagranicznym znajomym Piotra/Arka. ADR-001 świadomie odrzucał i18n, ale grupa docelowa się rozszerzyła.
+- **Decyzja**: Native Next.js App Router `[locale]` dynamic segment z `generateStaticParams()` dla `pl` i `en`. Zero zewnętrznych bibliotek (`next-intl` / `i18next`). Content w dwóch plikach: `src/data/content.ts` (PL) i `src/data/content-en.ts` (EN), hardcoded UI labels w `src/data/ui-strings.ts`. Komponenty są props-based — `page.tsx` ładuje content/strings i przekazuje. Auto-detect języka z `Accept-Language` w `src/proxy.ts`.
+- **Alternatywy rozważane**:
+  - `next-intl` / `i18next` — overkill przy 2 językach i jednorazowym wydarzeniu, dodaje zależność.
+  - Manualny `lang` prop drilling bez `[locale]` — działa, ale brzydki, każdy komponent musi importować ui-strings.
+  - Druga strona `/en/page.tsx` jako kopia bez wspólnej infrastruktury — duplikacja kodu.
+- **Konsekwencje**:
+  - ✅ Zero deps, czysta separacja przez `params`, oba locale jako static SSG.
+  - ✅ `generateMetadata` per locale, hreflang alternates, OG tags, JSON-LD — wszystko natywne.
+  - ✅ Łatwo dodać 3. język w przyszłości.
+  - ❌ Wszystkie komponenty trzeba było zrefactorować (props zamiast direct imports).
+  - ❌ Server Action musi obsługiwać 2 zestawy komunikatów (hidden `locale` input).
+- **Trigger do rewizji**: jeśli pojawią się 3+ języki — wtedy rozważyć `next-intl` z plikami JSON.
+
 ### ADR-007: Model jachtu elastyczny — 51.1 (cel) / 46.1 (fallback)
 
 - **Data**: 2026-04-29

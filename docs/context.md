@@ -19,6 +19,7 @@ Repozytorium = jednostronicowy landing po polsku z formularzem zgłoszeniowym (S
 - **Deadline sprzedaży**: ~25.05.2026 (zaliczki + ostateczna decyzja jachtu — patrz `timeline-rejs-2026.md`).
 - **Model finansowy**: jednorazowe wydarzenie, samofinansujące się przy progu osób; nie SaaS.
 - **Czas Arka**: projekt poboczny — landing utrzymywać prosto, większość energii na sprzedaż i logistykę.
+- **Zasięg językowy**: od 2026-05-08 dwujęzyczny (PL/EN). Główna sprzedaż nadal po polsku; EN wersja dla zagranicznych znajomych załogi (patrz Persona 3).
 
 ## Użytkownicy docelowi
 
@@ -36,6 +37,12 @@ Repozytorium = jednostronicowy landing po polsku z formularzem zgłoszeniowym (S
 - **Główny ból**: chcą doświadczyć retreatu prowadzonego przez kogoś, kogo śledzą.
 - **Kanał akwizycji**: bezpośrednie polecenia załogi i ich Instagram.
 
+### Persona 3: "Zagraniczny znajomy załogi"
+
+- **Kim**: anglojęzyczni znajomi Piotra (freediving community) lub Arka, mieszkający poza Polską.
+- **Kanał**: bezpośrednie polecenia, link do `/en`.
+- **Uwaga**: cena nadal w PLN — uczciwość i prostota nad konwersją walut.
+
 ## Model biznesowy
 
 - **Cena standardowa**: **5 900 PLN / osoba** (bez lotu). Spójne z copy w `src/data/content.ts`.
@@ -50,7 +57,7 @@ Repozytorium = jednostronicowy landing po polsku z formularzem zgłoszeniowym (S
 
 - **Czasowe**: ~4 tygodnie na sprzedaż reszty miejsc; Arek pracuje nad tym wieczorami / weekendami.
 - **Techniczne**: landing musi działać na mobile (większość ruchu z Insta), formularz musi po prostu działać — żadnych zaawansowanych funkcji.
-- **Komunikacyjne**: cała treść po polsku, bez i18n.
+- **Komunikacyjne**: główna treść po polsku, EN dostępna na `/en` dla zagranicznych znajomych załogi.
 - **Twarde**: termin 20–27.06.2026 jest jedyny, brak alternatywnych terminów.
 
 ## Definicja sukcesu
@@ -66,7 +73,6 @@ Stan na **27 czerwca 2026** (koniec rejsu):
 
 - ❌ **Inne terminy / "elastyczność daty"** — jacht jest na konkretny tydzień, nie negocjujemy.
 - ❌ **Rozbijanie ceny na guests + crew** w komunikacji z brokerami — zawsze total (10 osób).
-- ❌ **Wielojęzyczny landing** — projekt jest polski, dla Polaków, koszt i18n nieuzasadniony.
 - ❌ **System rezerwacji online z płatnością** — formularz → manualna rozmowa → zaliczka przelewem. Mała skala, automatyzacja niepotrzebna.
 - ❌ **Auth / konta użytkownika** — to nie SaaS.
 - ❌ **A/B testy, eksperymenty CRO** — za mała próba, lepiej iterować po feedbacku z 1:1.

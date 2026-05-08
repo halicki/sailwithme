@@ -63,6 +63,14 @@
 - [ ] **Facebook/Google pixel** — *dodane: 2026-04-29 (z TODO.md)*
   - Warunkowe: dopiero gdy rusza płatna reklama. Teraz niepilne.
 
+- [ ] **OG image jest po polsku, niezależnie od locale** — *dodane: 2026-05-08*
+  - **Kontekst**: `/og-preview.jpg` zawiera polski tekst i jest serwowany dla obu wersji (`/pl` i `/en`). Anglojęzyczny user widzi polski preview na Slacku/Discordzie/iMessage.
+  - **Następny krok**: stworzyć `/og-preview-en.jpg` i wybierać per locale w `generateMetadata` w `src/app/[locale]/layout.tsx`. Niepilne — kampania w 2026 jest głównie po polsku.
+
+- [ ] **Dwa hopy w redirect z root domain** — *dodane: 2026-05-08*
+  - **Kontekst**: `oddechiwiatr.life → www.oddechiwiatr.life → /pl` (dwa 307). Bez wpływu funkcjonalnego, ale brzydkie i lekko spowalnia first paint.
+  - **Następny krok**: w Vercel domains config rozważyć ustawienie `oddechiwiatr.life` jako primary albo połączyć redirecty. Niepilne.
+
 - [ ] **Model kaucji (CDW vs pełna)** — *dodane: 2026-04-29 (z TODO.md)*
   - Zależy od wybranej firmy charterowej. KAVAS: 3 500 EUR deposit. PRIMA/DANIELIS: 600 EUR z damage waiver. Wpływa na komunikację z uczestnikami.
 
@@ -129,6 +137,7 @@
 
 ## Zamknięte (ostatnie 30 dni)
 
+- [x] ~~Brak angielskiej wersji landing page~~ — zamknięte 2026-05-08: dodana pełna wersja EN przez `[locale]` dynamic segment, auto-detect z `Accept-Language`, switcher PL/EN w hero i nav. ADR-008. Commit `430895d`.
 - [x] ~~Supabase free tier pauzuje się po 7 dniach~~ — zamknięte 2026-05-06: dodany Vercel Cron (`/api/keep-alive`, codziennie 06:00 UTC) pingujący bazę. Env vars przeniesione na nazwy z integracji Marketplace (`NEXT_PUBLIC_SAILWITHME_SUPABASE_*`). Commit `4d2363f`.
 - [x] ~~Manifest 403 na produkcji~~ — zamknięte 2026-04-27: serwowanie statyczne + `use-credentials` (ADR-006, commit `bd1a597`).
 - [x] ~~GA event nie strzelał~~ — zamknięte 2026-04-27: trim env + JSON.stringify config ID (`51c8c4e`, `2ace8da`).
