@@ -1,4 +1,6 @@
-export default function CrewCTA() {
+import type { UIStrings } from "@/data/ui-strings";
+
+export default function CrewCTA({ t }: { t: UIStrings["crewCta"] }) {
   return (
     <div
       className="relative min-h-[60vh] flex items-center justify-center overflow-hidden"
@@ -27,7 +29,7 @@ export default function CrewCTA() {
             letterSpacing: "var(--heading-tracking)",
           }}
         >
-          Ty?
+          {t.heading}
         </h3>
 
         <p
@@ -37,7 +39,7 @@ export default function CrewCTA() {
             lineHeight: "1.7",
           }}
         >
-          Twoje miejsce w załodze czeka. Zgłoś się — odpowiemy w ciągu 48h.
+          {t.body}
         </p>
 
         <a
@@ -54,7 +56,7 @@ export default function CrewCTA() {
             letterSpacing: "var(--btn-tracking)",
           }}
         >
-          Dołącz do załogi →
+          {t.cta}
         </a>
       </div>
     </div>

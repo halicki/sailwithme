@@ -1,6 +1,13 @@
-import { manifesto } from "@/data/content";
+import type { SiteContent } from "@/data/get-content";
+import type { UIStrings } from "@/data/ui-strings";
 
-export default function Manifesto() {
+export default function Manifesto({
+  content,
+  t,
+}: {
+  content: SiteContent["manifesto"];
+  t: UIStrings["manifesto"];
+}) {
   return (
     <section
       id="manifesto"
@@ -22,7 +29,7 @@ export default function Manifesto() {
             fontWeight: "var(--label-weight)",
           }}
         >
-          O co chodzi
+          {t.eyebrow}
         </p>
 
         <h2
@@ -34,7 +41,7 @@ export default function Manifesto() {
             textTransform: "var(--heading-transform)" as React.CSSProperties["textTransform"],
           }}
         >
-          {manifesto.heading}
+          {content.heading}
         </h2>
 
         <div
@@ -44,7 +51,7 @@ export default function Manifesto() {
             lineHeight: "var(--body-line-height)",
           }}
         >
-          {manifesto.body.split("\n\n").map((paragraph, i) => (
+          {content.body.split("\n\n").map((paragraph, i) => (
             <p key={i}>{paragraph}</p>
           ))}
         </div>
@@ -56,7 +63,7 @@ export default function Manifesto() {
             fontWeight: "var(--heading-weight)",
           }}
         >
-          {manifesto.closing}
+          {content.closing}
         </p>
       </div>
     </section>

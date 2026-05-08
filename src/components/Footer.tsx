@@ -1,4 +1,6 @@
-export default function Footer() {
+import type { UIStrings } from "@/data/ui-strings";
+
+export default function Footer({ t }: { t: UIStrings["footer"] }) {
   return (
     <footer
       className="py-8"
@@ -12,7 +14,7 @@ export default function Footer() {
         className="text-center text-xs tracking-wider"
         style={{ color: "var(--text-muted)", opacity: 0.5 }}
       >
-        Oddech i Wiatr © 2026
+        {t.copyright}
       </p>
     </footer>
   );

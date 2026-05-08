@@ -8,9 +8,13 @@ import { useInView } from "@/hooks/useInView";
 export default function CrewProfile({
   member,
   bgVariant = "primary",
+  onRetreatLabel,
+  portraitAltSuffix,
 }: {
   member: CrewMember;
   bgVariant?: "primary" | "tertiary";
+  onRetreatLabel: string;
+  portraitAltSuffix: string;
 }) {
   const bg =
     bgVariant === "primary" ? "var(--bg-primary)" : "var(--bg-tertiary)";
@@ -166,7 +170,7 @@ export default function CrewProfile({
             >
               <Image
                 src={member.portraitImage}
-                alt={`${member.name} — portret`}
+                alt={`${member.name} — ${portraitAltSuffix}`}
                 fill
                 className="object-cover"
                 sizes="(max-width: 640px) 100vw, 320px"
@@ -238,7 +242,7 @@ export default function CrewProfile({
               fontWeight: "var(--label-weight)",
             }}
           >
-            Na rejsie
+            {onRetreatLabel}
           </p>
           <p
             className="text-sm sm:text-base"

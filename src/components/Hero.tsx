@@ -1,9 +1,37 @@
-import { heroContent } from "@/data/content";
+import Link from "next/link";
+import type { SiteContent } from "@/data/get-content";
+import type { Locale, UIStrings } from "@/data/ui-strings";
 import HeroVideoOverlay from "./HeroVideoOverlay";
 
-export default function Hero() {
+export default function Hero({
+  locale,
+  content,
+  t,
+}: {
+  locale: Locale;
+  content: SiteContent["heroContent"];
+  t: UIStrings["hero"];
+}) {
+  const otherLocale: Locale = locale === "pl" ? "en" : "pl";
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
+      {/* Language switcher — always visible in hero (top-right) */}
+      <Link
+        href={`/${otherLocale}`}
+        className="absolute top-4 right-4 sm:top-6 sm:right-6 z-30 uppercase px-3 py-1.5 rounded"
+        style={{
+          color: "var(--accent)",
+          fontSize: "var(--label-size)",
+          letterSpacing: "var(--label-tracking)",
+          background: "rgba(12, 25, 41, 0.4)",
+          backdropFilter: "blur(6px)",
+          border: "1px solid rgba(142, 184, 212, 0.2)",
+        }}
+        aria-label={`Switch to ${otherLocale.toUpperCase()}`}
+      >
+        {otherLocale.toUpperCase()}
+      </Link>
+
       {/* Video background — Server Component renders this as pure HTML.
           React won't hydrate it, so `muted` stays in the DOM and
           mobile browsers allow autoplay. */}
@@ -16,7 +44,7 @@ export default function Hero() {
         preload="auto"
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src={heroContent.backgroundVideo} type="video/mp4" />
+        <source src={content.backgroundVideo} type="video/mp4" />
       </video>
 
       {/* Poster — covers video until it plays, then removed from DOM */}
@@ -52,7 +80,7 @@ export default function Hero() {
             fontWeight: "var(--label-weight)",
           }}
         >
-          {heroContent.preTitle}
+          {content.preTitle}
         </p>
 
         <h1
@@ -67,7 +95,7 @@ export default function Hero() {
               letterSpacing: "var(--hero-title-tracking)",
             }}
           >
-            {heroContent.titleTop}
+            {content.titleTop}
           </span>
 
           <span
@@ -78,7 +106,7 @@ export default function Hero() {
               letterSpacing: "0.3em",
             }}
           >
-            i
+            {content.titleConnector}
           </span>
 
           <span
@@ -89,7 +117,7 @@ export default function Hero() {
               letterSpacing: "var(--hero-title-tracking)",
             }}
           >
-            {heroContent.titleBottom}
+            {content.titleBottom}
           </span>
         </h1>
 
@@ -101,7 +129,7 @@ export default function Hero() {
             letterSpacing: "0.15em",
           }}
         >
-          {heroContent.subtitle}
+          {content.subtitle}
         </p>
 
         {/* Tagline */}
@@ -114,7 +142,7 @@ export default function Hero() {
             letterSpacing: "0.03em",
           }}
         >
-          {heroContent.tagline}
+          {content.tagline}
         </p>
 
         <a
@@ -131,7 +159,7 @@ export default function Hero() {
             letterSpacing: "var(--btn-tracking)",
           }}
         >
-          {heroContent.ctaText}
+          {content.ctaText}
         </a>
 
         <a
@@ -139,7 +167,7 @@ export default function Hero() {
           className="block mt-5 text-xs tracking-wide animate-fade-in-up animate-fade-in-up-d5"
           style={{ color: "var(--text-muted)" }}
         >
-          Zobacz trasę
+          {t.ctaSeeRoute}
         </a>
 
         {/* Scroll indicator — SVG chevron */}

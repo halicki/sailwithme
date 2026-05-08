@@ -1,6 +1,13 @@
-import { programDays } from "@/data/content";
+import type { SiteContent } from "@/data/get-content";
+import type { UIStrings } from "@/data/ui-strings";
 
-export default function Program() {
+export default function Program({
+  days,
+  t,
+}: {
+  days: SiteContent["programDays"];
+  t: UIStrings["program"];
+}) {
   const opacities = [1, 0.7, 0.5, 0.4, 0.3, 0.5, 1];
 
   return (
@@ -19,7 +26,7 @@ export default function Program() {
             fontWeight: "var(--label-weight)",
           }}
         >
-          Podróż
+          {t.eyebrow}
         </p>
 
         <h2
@@ -31,11 +38,11 @@ export default function Program() {
             textTransform: "var(--heading-transform)" as React.CSSProperties["textTransform"],
           }}
         >
-          7 dni. 7 wyzwań.
+          {t.heading}
         </h2>
 
         <div className="flex flex-col gap-2">
-          {programDays.map((day, i) => {
+          {days.map((day, i) => {
             const opacity = opacities[i];
             return (
               <div

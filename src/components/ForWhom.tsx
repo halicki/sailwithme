@@ -1,6 +1,13 @@
-import { forWhomTraits } from "@/data/content";
+import type { SiteContent } from "@/data/get-content";
+import type { UIStrings } from "@/data/ui-strings";
 
-export default function ForWhom() {
+export default function ForWhom({
+  traits,
+  t,
+}: {
+  traits: SiteContent["forWhomTraits"];
+  t: UIStrings["forWhom"];
+}) {
   return (
     <section
       id="dla-kogo"
@@ -17,7 +24,7 @@ export default function ForWhom() {
             fontWeight: "var(--label-weight)",
           }}
         >
-          Na pokładzie
+          {t.eyebrow}
         </p>
 
         <h2
@@ -28,11 +35,11 @@ export default function ForWhom() {
             letterSpacing: "var(--heading-tracking)",
           }}
         >
-          Czego się spodziewać
+          {t.heading}
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-          {forWhomTraits.map((trait, i) => (
+          {traits.map((trait, i) => (
             <div
               key={i}
               className="theme-card"
@@ -81,10 +88,10 @@ export default function ForWhom() {
           }}
         >
           <span className="font-bold text-sm" style={{ color: "var(--text-primary)" }}>
-            Do 8 miejsc dla uczestników.
+            {t.footerStrong}
           </span>{" "}
           <span className="text-sm" style={{ color: "var(--text-muted)" }}>
-            Po zgłoszeniu odpisujemy i dogadujemy szczegóły.
+            {t.footerRest}
           </span>
         </div>
       </div>

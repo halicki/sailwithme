@@ -1,7 +1,14 @@
 import Image from "next/image";
-import { routeContent } from "@/data/content";
+import type { SiteContent } from "@/data/get-content";
+import type { UIStrings } from "@/data/ui-strings";
 
-export default function Route() {
+export default function Route({
+  content,
+  t,
+}: {
+  content: SiteContent["routeContent"];
+  t: UIStrings["route"];
+}) {
   return (
     <section
       id="trasa"
@@ -19,7 +26,7 @@ export default function Route() {
             fontWeight: "var(--label-weight)",
           }}
         >
-          Trasa
+          {t.eyebrow}
         </p>
 
         {/* Heading */}
@@ -31,7 +38,7 @@ export default function Route() {
             letterSpacing: "var(--heading-tracking)",
           }}
         >
-          {routeContent.heading}
+          {content.heading}
         </h2>
 
         {/* Subheading */}
@@ -39,7 +46,7 @@ export default function Route() {
           className="text-sm sm:text-base mb-10"
           style={{ color: "var(--text-muted)" }}
         >
-          {routeContent.subheading}
+          {content.subheading}
         </p>
 
         {/* Intro */}
@@ -50,12 +57,12 @@ export default function Route() {
             lineHeight: "var(--body-line-height)",
           }}
         >
-          {routeContent.intro}
+          {content.intro}
         </p>
 
         {/* Stops */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          {routeContent.stops.map((stop) => (
+          {content.stops.map((stop) => (
             <div
               key={stop.name}
               className="theme-card overflow-hidden"
@@ -145,7 +152,7 @@ export default function Route() {
             fontStyle: "italic",
           }}
         >
-          {routeContent.closingTease}
+          {content.closingTease}
         </p>
       </div>
     </section>

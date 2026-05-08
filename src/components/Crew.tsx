@@ -1,9 +1,17 @@
-import { crewMembers } from "@/data/content";
+import type { SiteContent } from "@/data/get-content";
+import type { UIStrings } from "@/data/ui-strings";
 import CrewProfile from "./crew/CrewProfile";
 import CrewCTA from "./crew/CrewCTA";
 
-
-export default function Crew() {
+export default function Crew({
+  members,
+  t,
+  ctaT,
+}: {
+  members: SiteContent["crewMembers"];
+  t: UIStrings["crew"];
+  ctaT: UIStrings["crewCta"];
+}) {
   return (
     <section id="zaloga">
       {/* Section header */}
@@ -23,7 +31,7 @@ export default function Crew() {
               fontWeight: "var(--label-weight)",
             }}
           >
-            Prowadzący
+            {t.eyebrow}
           </p>
 
           <h2
@@ -34,22 +42,24 @@ export default function Crew() {
               letterSpacing: "var(--heading-tracking)",
             }}
           >
-            Kto płynie i prowadzi
+            {t.heading}
           </h2>
         </div>
       </div>
 
       {/* Crew profiles */}
-      {crewMembers.map((member, i) => (
+      {members.map((member, i) => (
         <CrewProfile
           key={member.slug}
           member={member}
           bgVariant={i % 2 === 0 ? "tertiary" : "primary"}
+          onRetreatLabel={t.onRetreatLabel}
+          portraitAltSuffix={t.portraitAltSuffix}
         />
       ))}
 
-      {/* "Ty?" CTA */}
-      <CrewCTA />
+      {/* "Ty?" / "You?" CTA */}
+      <CrewCTA t={ctaT} />
     </section>
   );
 }

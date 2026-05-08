@@ -1,7 +1,14 @@
 import Image from "next/image";
-import { yachtInfo } from "@/data/content";
+import type { SiteContent } from "@/data/get-content";
+import type { UIStrings } from "@/data/ui-strings";
 
-export default function Yacht() {
+export default function Yacht({
+  info,
+  t,
+}: {
+  info: SiteContent["yachtInfo"];
+  t: UIStrings["yacht"];
+}) {
   return (
     <section
       id="jacht"
@@ -19,7 +26,7 @@ export default function Yacht() {
             fontWeight: "var(--label-weight)",
           }}
         >
-          Jacht
+          {t.eyebrow}
         </p>
 
         {/* Headline */}
@@ -31,7 +38,7 @@ export default function Yacht() {
             letterSpacing: "var(--heading-tracking)",
           }}
         >
-          {yachtInfo.headline}
+          {info.headline}
         </h2>
 
         {/* Description */}
@@ -42,12 +49,12 @@ export default function Yacht() {
             lineHeight: "var(--body-line-height)",
           }}
         >
-          {yachtInfo.description}
+          {info.description}
         </p>
 
         {/* Image grid */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
-          {yachtInfo.images.map((image) => (
+          {info.images.map((image) => (
             <div
               key={image.src}
               className="relative aspect-[4/3] overflow-hidden"
@@ -69,7 +76,7 @@ export default function Yacht() {
 
         {/* Comfort cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
-          {yachtInfo.comforts.map((comfort) => (
+          {info.comforts.map((comfort) => (
             <div
               key={comfort.title}
               className="theme-card"
@@ -105,7 +112,7 @@ export default function Yacht() {
 
         {/* Spec link */}
         <a
-          href={yachtInfo.specUrl}
+          href={info.specUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block text-xs tracking-wide hover:brightness-125"
@@ -115,7 +122,7 @@ export default function Yacht() {
             transition: "all var(--transition-duration) var(--transition-easing)",
           }}
         >
-          Zobacz pełną specyfikację →
+          {t.ctaSpec}
         </a>
       </div>
     </section>

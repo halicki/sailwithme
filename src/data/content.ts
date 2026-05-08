@@ -73,6 +73,7 @@ export interface PricingInfo {
 export const heroContent = {
   preTitle: "Żagle, freediving, oddech · Grecja 2026",
   titleTop: "ODDECH",
+  titleConnector: "i",
   titleBottom: "WIATR",
   subtitle: "20–27 Czerwca · Zatoka Sarońska · 7 dni",
   tagline:

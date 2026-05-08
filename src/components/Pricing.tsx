@@ -1,6 +1,13 @@
-import { pricingInfo } from "@/data/content";
+import type { SiteContent } from "@/data/get-content";
+import type { UIStrings } from "@/data/ui-strings";
 
-export default function Pricing() {
+export default function Pricing({
+  info,
+  t,
+}: {
+  info: SiteContent["pricingInfo"];
+  t: UIStrings["pricing"];
+}) {
   return (
     <section
       id="koszt"
@@ -18,7 +25,7 @@ export default function Pricing() {
                 letterSpacing: "var(--label-tracking)",
               }}
             >
-              Koszt i zakres
+              {t.eyebrow}
             </p>
             <h2
               className="text-3xl sm:text-5xl mb-4 leading-tight"
@@ -28,13 +35,13 @@ export default function Pricing() {
                 letterSpacing: "var(--heading-tracking)",
               }}
             >
-              {pricingInfo.headline}
+              {info.headline}
             </h2>
             <p
               className="text-sm sm:text-base max-w-xl"
               style={{ color: "var(--text-secondary)", lineHeight: "var(--body-line-height)" }}
             >
-              {pricingInfo.description}
+              {info.description}
             </p>
           </div>
 
@@ -55,10 +62,10 @@ export default function Pricing() {
                 fontWeight: "var(--heading-weight)",
               }}
             >
-              {pricingInfo.priceRange}
+              {info.priceRange}
             </p>
             <p className="text-xs mb-6" style={{ color: "var(--text-muted)" }}>
-              {pricingInfo.priceNote}
+              {info.priceNote}
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -71,10 +78,10 @@ export default function Pricing() {
                     letterSpacing: "var(--label-tracking)",
                   }}
                 >
-                  W cenie
+                  {t.included}
                 </p>
                 <ul className="space-y-2">
-                  {pricingInfo.included.map((item) => (
+                  {info.included.map((item) => (
                     <li
                       key={item}
                       className="text-sm flex gap-2"
@@ -95,10 +102,10 @@ export default function Pricing() {
                     letterSpacing: "var(--label-tracking)",
                   }}
                 >
-                  Poza ceną
+                  {t.excluded}
                 </p>
                 <ul className="space-y-2">
-                  {pricingInfo.notIncluded.map((item) => (
+                  {info.notIncluded.map((item) => (
                     <li
                       key={item}
                       className="text-sm flex gap-2"

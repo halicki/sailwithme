@@ -1,14 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import { useState, useEffect } from "react";
-
-const links = [
-  { label: "Rejs", href: "#program" },
-  { label: "Trasa", href: "#trasa" },
-  { label: "Jacht", href: "#jacht" },
-  { label: "Prowadzący", href: "#zaloga" },
-  { label: "Dołącz", href: "#formularz" },
-];
+import type { Locale, UIStrings } from "@/data/ui-strings";
 
 const linkStyle = {
   fontSize: "var(--label-size)",
@@ -17,9 +11,16 @@ const linkStyle = {
   textDecoration: "none",
 } as const;
 
-export default function Nav() {
+export default function Nav({
+  locale,
+  t,
+}: {
+  locale: Locale;
+  t: UIStrings["nav"];
+}) {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const otherLocale: Locale = locale === "pl" ? "en" : "pl";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -43,18 +44,34 @@ export default function Nav() {
     >
       {/* Desktop links */}
       <div className="hidden sm:flex items-center justify-center gap-7">
-        {links.map((link) => (
+        {t.links.map((link) => (
           <a key={link.href} href={link.href} className="uppercase" style={linkStyle}>
             {link.label}
           </a>
         ))}
+        <Link
+          href={`/${otherLocale}`}
+          className="uppercase"
+          style={{ ...linkStyle, opacity: 0.7 }}
+          aria-label={`Switch to ${otherLocale.toUpperCase()}`}
+        >
+          {otherLocale.toUpperCase()}
+        </Link>
       </div>
 
       {/* Mobile hamburger */}
-      <div className="flex sm:hidden items-center justify-end">
+      <div className="flex sm:hidden items-center justify-between">
+        <Link
+          href={`/${otherLocale}`}
+          className="uppercase"
+          style={{ ...linkStyle, opacity: 0.7 }}
+          aria-label={`Switch to ${otherLocale.toUpperCase()}`}
+        >
+          {otherLocale.toUpperCase()}
+        </Link>
         <button
           onClick={() => setMenuOpen((v) => !v)}
-          aria-label={menuOpen ? "Zamknij menu" : "Otwórz menu"}
+          aria-label={menuOpen ? t.closeMenu : t.openMenu}
           className="relative w-8 h-8 flex flex-col items-center justify-center gap-1.5"
           style={{ color: "var(--accent)" }}
         >
@@ -88,7 +105,7 @@ export default function Nav() {
           className="sm:hidden flex flex-col items-center gap-6 py-6"
           style={{ background: "var(--bg-primary)" }}
         >
-          {links.map((link) => (
+          {t.links.map((link) => (
             <a
               key={link.href}
               href={link.href}

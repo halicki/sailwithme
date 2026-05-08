@@ -2,8 +2,15 @@
 
 import { useState } from "react";
 import { submitApplication } from "@/app/actions";
+import type { Locale, UIStrings } from "@/data/ui-strings";
 
-export default function ApplicationForm() {
+export default function ApplicationForm({
+  locale,
+  t,
+}: {
+  locale: Locale;
+  t: UIStrings["form"];
+}) {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -17,7 +24,7 @@ export default function ApplicationForm() {
     const email = formData.get("email") as string;
     if (email && !/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/.test(email)) {
       setStatus("error");
-      setErrorMessage("Podaj poprawny adres email.");
+      setErrorMessage(t.errorEmail);
       return;
     }
 
@@ -27,7 +34,7 @@ export default function ApplicationForm() {
       setStatus("success");
     } else {
       setStatus("error");
-      setErrorMessage(result.error || "Coś poszło nie tak.");
+      setErrorMessage(result.error || t.errorFallback);
     }
   }
 
@@ -63,10 +70,10 @@ export default function ApplicationForm() {
               fontWeight: "var(--heading-weight)",
             }}
           >
-            Dziękujemy!
+            {t.successHeading}
           </h2>
           <p className="text-sm" style={{ color: "var(--text-muted)" }}>
-            Twoje zgłoszenie dotarło. Odpowiemy w ciągu 48h z konkretami i kolejnym krokiem.
+            {t.successBody}
           </p>
         </div>
       </section>
@@ -89,7 +96,7 @@ export default function ApplicationForm() {
             fontWeight: "var(--label-weight)",
           }}
         >
-          Zgłoszenie
+          {t.eyebrow}
         </p>
 
         <h2
@@ -101,21 +108,22 @@ export default function ApplicationForm() {
             textTransform: "var(--heading-transform)" as React.CSSProperties["textTransform"],
           }}
         >
-          Dołącz do załogi
+          {t.heading}
         </h2>
         <p className="text-xs mb-2" style={{ color: "var(--text-muted)" }}>
-          Odpowiemy w ciągu 48h i sprawdzimy, czy ten rejs pasuje do Twoich oczekiwań.
+          {t.subheading}
         </p>
         <p className="text-xs mb-8" style={{ color: "var(--text-muted)" }}>
-          Cena udziału: 5 900 zł. Maksymalnie 8 miejsc dla uczestników.
+          {t.priceNote}
         </p>
 
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+          <input type="hidden" name="locale" value={locale} />
           <input
             type="text"
             name="name"
             required
-            placeholder="Imię"
+            placeholder={t.placeholderName}
             className="theme-input focus:outline-none"
             style={inputStyle}
           />
@@ -123,7 +131,7 @@ export default function ApplicationForm() {
             type="email"
             name="email"
             required
-            placeholder="Email"
+            placeholder={t.placeholderEmail}
             className="theme-input focus:outline-none"
             style={inputStyle}
           />
@@ -131,14 +139,14 @@ export default function ApplicationForm() {
             type="text"
             name="occupation"
             required
-            placeholder="Kim jesteś / czym się zajmujesz?"
+            placeholder={t.placeholderOccupation}
             className="theme-input focus:outline-none"
             style={inputStyle}
           />
           <textarea
             name="motivation"
             required
-            placeholder="Dlaczego chcesz płynąć z nami? Napisz też, czy masz doświadczenie z wodą lub żaglami."
+            placeholder={t.placeholderMotivation}
             rows={4}
             className="theme-input focus:outline-none resize-none"
             style={inputStyle}
@@ -164,11 +172,11 @@ export default function ApplicationForm() {
               textTransform: "var(--btn-transform)" as React.CSSProperties["textTransform"],
             }}
           >
-            {status === "loading" ? "Wysyłanie..." : "Wyślij zgłoszenie"}
+            {status === "loading" ? t.submitting : t.submit}
           </button>
 
           <p className="text-xs text-center mt-2" style={{ color: "var(--text-muted)" }}>
-            Bez spamu i automatycznych zapisów. Najpierw normalnie odpisujemy.
+            {t.privacyNote}
           </p>
         </form>
       </div>

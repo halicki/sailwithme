@@ -129,6 +129,7 @@
 
 ## Zamknięte (ostatnie 30 dni)
 
+- [x] ~~Supabase free tier pauzuje się po 7 dniach~~ — zamknięte 2026-05-06: dodany Vercel Cron (`/api/keep-alive`, codziennie 06:00 UTC) pingujący bazę. Env vars przeniesione na nazwy z integracji Marketplace (`NEXT_PUBLIC_SAILWITHME_SUPABASE_*`). Commit `4d2363f`.
 - [x] ~~Manifest 403 na produkcji~~ — zamknięte 2026-04-27: serwowanie statyczne + `use-credentials` (ADR-006, commit `bd1a597`).
 - [x] ~~GA event nie strzelał~~ — zamknięte 2026-04-27: trim env + JSON.stringify config ID (`51c8c4e`, `2ace8da`).
 - [x] ~~Brakujące SEO meta + favicon~~ — zamknięte 2026-04-27 (`1f022e3`).

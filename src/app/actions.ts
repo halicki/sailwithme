@@ -10,6 +10,26 @@ const MAX_FIELD_LENGTH = {
   motivation: 2000,
 } as const;
 
+const messages = {
+  pl: {
+    required: "Wszystkie pola są wymagane.",
+    invalidEmail: "Podaj poprawny adres email.",
+    tooLong: "Jedno z pól jest za długie. Skróć odpowiedź i spróbuj ponownie.",
+    failed: "Coś poszło nie tak. Spróbuj ponownie.",
+  },
+  en: {
+    required: "All fields are required.",
+    invalidEmail: "Please enter a valid email address.",
+    tooLong: "One of the fields is too long. Shorten it and try again.",
+    failed: "Something went wrong. Please try again.",
+  },
+} as const;
+
+function getLocale(formData: FormData): "pl" | "en" {
+  const value = formData.get("locale");
+  return value === "en" ? "en" : "pl";
+}
+
 function getFormValue(formData: FormData, key: keyof typeof MAX_FIELD_LENGTH) {
   const value = formData.get(key);
   return typeof value === "string" ? value.trim() : "";
@@ -20,17 +40,20 @@ function isValidEmail(email: string) {
 }
 
 export async function submitApplication(formData: FormData) {
+  const locale = getLocale(formData);
+  const t = messages[locale];
+
   const name = getFormValue(formData, "name");
   const email = getFormValue(formData, "email").toLowerCase();
   const occupation = getFormValue(formData, "occupation");
   const motivation = getFormValue(formData, "motivation");
 
   if (!name || !email || !occupation || !motivation) {
-    return { success: false, error: "Wszystkie pola są wymagane." };
+    return { success: false, error: t.required };
   }
 
   if (!isValidEmail(email)) {
-    return { success: false, error: "Podaj poprawny adres email." };
+    return { success: false, error: t.invalidEmail };
   }
 
   if (
@@ -41,7 +64,7 @@ export async function submitApplication(formData: FormData) {
   ) {
     return {
       success: false,
-      error: "Jedno z pól jest za długie. Skróć odpowiedź i spróbuj ponownie.",
+      error: t.tooLong,
     };
   }
 
@@ -51,7 +74,7 @@ export async function submitApplication(formData: FormData) {
 
   if (error) {
     console.error("Supabase insert error:", error);
-    return { success: false, error: "Coś poszło nie tak. Spróbuj ponownie." };
+    return { success: false, error: t.failed };
   }
 
   try {

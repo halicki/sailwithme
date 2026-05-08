@@ -1,6 +1,13 @@
-import { faqItems } from "@/data/content";
+import type { SiteContent } from "@/data/get-content";
+import type { UIStrings } from "@/data/ui-strings";
 
-export default function FAQ() {
+export default function FAQ({
+  items,
+  t,
+}: {
+  items: SiteContent["faqItems"];
+  t: UIStrings["faq"];
+}) {
   return (
     <section
       id="faq"
@@ -17,7 +24,7 @@ export default function FAQ() {
             fontWeight: "var(--label-weight)",
           }}
         >
-          FAQ
+          {t.eyebrow}
         </p>
 
         <h2
@@ -28,11 +35,11 @@ export default function FAQ() {
             letterSpacing: "var(--heading-tracking)",
           }}
         >
-          Pytania i odpowiedzi
+          {t.heading}
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {faqItems.map((item) => (
+          {items.map((item) => (
             <div
               key={item.question}
               className="theme-faq-item pl-5"
