@@ -57,7 +57,7 @@ export const ui = {
       eyebrow: "Zgłoszenie",
       heading: "Dołącz do załogi",
       subheading:
-        "Odpowiemy w ciągu 48h. Najpierw rozmowa i dopasowanie, dopiero potem decyzja o zaliczce.",
+        "Odpowiemy w ciągu 48h. Najpierw rozmowa; decyzje i zaliczki zbieramy do ok. 25 maja 2026.",
       priceNote:
         "Cena udziału: 5 900 zł. Kaucja zwrotna za jacht jest dodatkowo, orientacyjnie ok. 1 775 zł/os. Maksymalnie 8 miejsc dla uczestników.",
       placeholderName: "Imię",
@@ -72,7 +72,8 @@ export const ui = {
         "Twoje zgłoszenie dotarło. Odpowiemy w ciągu 48h z konkretami i kolejnym krokiem.",
       errorFallback: "Coś poszło nie tak.",
       errorEmail: "Podaj poprawny adres email.",
-      privacyNote: "Bez spamu i automatycznych zapisów. Najpierw normalnie odpisujemy.",
+      privacyNote:
+        "Bez spamu i automatycznych zapisów. Zgłoszenie nie zobowiązuje finansowo.",
     },
     faq: {
       eyebrow: "FAQ",
@@ -138,7 +139,7 @@ export const ui = {
       eyebrow: "Application",
       heading: "Join the crew",
       subheading:
-        "We reply within 48h. First a conversation and fit check, then the advance payment decision.",
+        "We reply within 48h. First a conversation; decisions and advance payments are collected by around 25 May 2026.",
       priceNote:
         "Price: 5 900 zł per person. The refundable yacht deposit is extra, estimated at around 1 775 zł/person. 8 spots maximum.",
       placeholderName: "Name",
@@ -153,7 +154,8 @@ export const ui = {
         "Your application is in. We'll reply within 48h with specifics and the next step.",
       errorFallback: "Something went wrong.",
       errorEmail: "Please enter a valid email address.",
-      privacyNote: "No spam, no automatic bookings. We respond personally first.",
+      privacyNote:
+        "No spam, no automatic bookings. Applying doesn't commit you financially.",
     },
     faq: {
       eyebrow: "FAQ",

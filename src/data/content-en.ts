@@ -21,16 +21,17 @@ export const heroContent = {
 export const pricingInfo: PricingInfo = {
   headline: "You know what you're signing up for.",
   description:
-    "This isn't just a bunk on a yacht or a bare charter without guidance. It's a well-run week with a specific crew: sailing, freediving, breathwork, a small group and simple life on the water.",
+    "This isn't just a bunk on a yacht or a bare charter without guidance. It's a well-run week with a specific crew: sailing, freediving, breathwork, a small group, simple life on the water and help closing the logistics before the trip.",
   priceRange: "5 900 zł",
   priceNote:
     "Price per person. Not included: flight to Athens, insurance, personal expenses and the refundable yacht deposit (currently estimated at around 1 775 zł/person, depending on the final charter company).",
   included: [
-    "spot on the yacht for 7 days",
-    "skipper and sailing guidance",
-    "freediving sessions with Piotr Błaszczak",
-    "breathwork sessions",
+    "7 days on the yacht and real crew life",
+    "skipper, weather decisions and sailing guidance",
+    "freediving with Piotr Błaszczak from the basics",
+    "breathwork sessions as part of the water work",
     "harbour fees, fuel and basic provisions",
+    "logistics help before the voyage",
     "curated small group of up to 8 participants",
   ],
   notIncluded: [
@@ -340,6 +341,16 @@ export const faqItems = [
     question: "How does the advance payment work?",
     answer:
       "The form is not a payment and not an automatic booking. The process is simple: you apply, we reply within 48h, we talk, and only after confirming the fit do we ask for a bank transfer advance payment. The exact amount, deadline and terms are confirmed before you pay.",
+  },
+  {
+    question: "When do I need to decide?",
+    answer:
+      "We're collecting decisions and advance payments by around 25 May 2026, because that's when we close the group, yacht and logistics. This is not a pressure countdown, just a real organising deadline.",
+  },
+  {
+    question: "Are there still spots?",
+    answer:
+      "We don't show an automatic spot counter because the group is closed manually after a conversation. If the form is available, it's worth applying — we'll reply with the current status and next step.",
   },
   {
     question: "What if the voyage doesn't happen?",

@@ -260,3 +260,29 @@ Dodatkowo patrze na: ryzyko, scarcity, bonusy/value stack, CTA, zaufanie, spojno
 
 - FAQ ma jasno powiedziec, ze termin jest staly, ale uruchomienie zalezy od domkniecia grupy, jachtu i kosztow.
 - Jesli rejs nie ruszy po stronie organizatora, wplaty za udzial wracaja.
+
+## Czwarta iteracja: obserwacje 16-20
+
+### 16. Pokazac realny deadline
+
+- Formularz i FAQ maja mowic, ze decyzje i zaliczki zbieramy do ok. 25 maja 2026.
+- Deadline ma byc organizacyjny, nie presyjny: zamkniecie grupy, jachtu i logistyki.
+
+### 17. Dopakowac value stack
+
+- Lista "w cenie" ma czytelniej pokazywac pakiet: zycie zalogi, skipper, decyzje pogodowe, freediving od podstaw, oddech, paliwo, porty, prowiant i pomoc logistyczna.
+- Nadal bez sztucznego nazywania "bonusow", bo ton strony ma zostac uczciwy.
+
+### 18. Dodac neutralny sygnal procesu
+
+- Zamiast wymyslac social proof, FAQ wyjasnia, ze nie pokazujemy automatycznego licznika miejsc.
+- Aktualny status miejsc jest podawany po zgloszeniu, bo grupa jest domykana recznie po rozmowie.
+
+### 19. Utrzymac spojnosc PL/EN
+
+- Wszystkie zmiany o deadline, miejscach, value stacku i niskim ryzyku zgloszenia trafily do PL i EN.
+
+### 20. Obnizyc tarcie CTA
+
+- Formularz i notka prywatnosci maja wprost mowic, ze zgloszenie nie zobowiazuje finansowo.
+- Decyzja i zaliczka zostaja po rozmowie, zgodnie z manualnym procesem.

@@ -85,16 +85,17 @@ export const heroContent = {
 export const pricingInfo: PricingInfo = {
   headline: "Wiesz, na co się piszesz.",
   description:
-    "To nie jest sam nocleg na jachcie ani zwykły czarter bez prowadzenia. To dobrze zorganizowany tydzień z konkretną załogą: żeglowanie, freediving, oddech, mała grupa i proste życie na wodzie.",
+    "To nie jest sam nocleg na jachcie ani zwykły czarter bez prowadzenia. To dobrze zorganizowany tydzień z konkretną załogą: żeglowanie, freediving, oddech, mała grupa, proste życie na wodzie i pomoc w domknięciu logistyki przed rejsem.",
   priceRange: "5 900 zł",
   priceNote:
     "Cena udziału za osobę. Poza ceną: lot do Aten, ubezpieczenie, wydatki własne i kaucja zwrotna za jacht (orientacyjnie ok. 1 775 zł/os., zależnie od finalnej firmy charterowej).",
   included: [
-    "miejsce na jachcie przez 7 dni",
-    "opieka skippera i prowadzenie żeglarskie",
-    "zajęcia freedivingowe z Piotrem Błaszczakiem",
-    "sesje oddechowe",
+    "7 dni miejsca na jachcie i życia załogi",
+    "skipper, decyzje pogodowe i prowadzenie żeglarskie",
+    "freediving z Piotrem Błaszczakiem od podstaw",
+    "sesje oddechowe jako część pracy z wodą",
     "opłaty portowe, paliwo i podstawowy prowiant",
+    "pomoc logistyczna przed rejsem",
     "kuratorowana mała grupa do 8 uczestników",
   ],
   notIncluded: [
@@ -417,6 +418,16 @@ export const faqItems = [
     question: "Jak działa zaliczka?",
     answer:
       "Formularz nie jest płatnością ani automatyczną rezerwacją. Proces jest prosty: wysyłasz zgłoszenie, odpisujemy w ciągu 48h, rozmawiamy i dopiero po potwierdzeniu dopasowania prosimy o zaliczkę przelewem. Dokładną kwotę, termin i warunki potwierdzamy przed wpłatą.",
+  },
+  {
+    question: "Do kiedy trzeba się zdecydować?",
+    answer:
+      "Decyzje i zaliczki zbieramy do ok. 25 maja 2026, bo wtedy zamykamy grupę, jacht i logistykę. To nie jest odliczanie dla presji, tylko realny deadline organizacyjny.",
+  },
+  {
+    question: "Czy są jeszcze miejsca?",
+    answer:
+      "Nie pokazujemy automatycznego licznika miejsc, bo grupę domykamy ręcznie po rozmowie. Jeśli formularz jest dostępny, warto się zgłosić — odpiszemy z aktualnym statusem i kolejnym krokiem.",
   },
   {
     question: "Co jeśli rejs nie dojdzie do skutku?",
