@@ -21,19 +21,21 @@ export const heroContent = {
 export const pricingInfo: PricingInfo = {
   headline: "You know what you're signing up for.",
   description:
-    "This isn't a luxury all-inclusive or a survival camp. It's a well-run week on a yacht: simple, focused, with room for the sea, the people, and the breath.",
+    "This isn't just a bunk on a yacht or a bare charter without guidance. It's a well-run week with a specific crew: sailing, freediving, breathwork, a small group and simple life on the water.",
   priceRange: "5 900 zł",
   priceNote:
-    "Price per person. Flight to Athens, insurance, and personal expenses are on you.",
+    "Price per person. Not included: flight to Athens, insurance, personal expenses and the refundable yacht deposit (currently estimated at around 1 775 zł/person, depending on the final charter company).",
   included: [
-    "spot on the yacht",
-    "skipper",
-    "freediving sessions",
+    "spot on the yacht for 7 days",
+    "skipper and sailing guidance",
+    "freediving sessions with Piotr Błaszczak",
     "breathwork sessions",
     "harbour fees, fuel and basic provisions",
+    "curated small group of up to 8 participants",
   ],
   notIncluded: [
     "flight to Athens",
+    "refundable yacht deposit — estimated at around 1 775 zł/person",
     "some meals on land",
     "travel insurance",
     "personal expenses",
@@ -44,7 +46,7 @@ export const manifesto = {
   heading: "This is a voyage for people who want to experience more.",
   body: `Not a party trip. Not a hotel. Not strangers from a classified ad.
 
-7 days on the Aegean. Sailing, freediving with a Polish national champion, conscious breath, Greek harbours, and life on board. Effort on the water, calm on deck, and people you actually want to talk to.`,
+7 days on the Aegean. Sailing, freediving with a Polish national champion, conscious breath, Greek harbours, and life on board. After a week you have lived as real crew: more calm in the water, more breath, and the experience of sailing in a small group.`,
   closing: "We're not looking for passengers. We're looking for crew.",
 };
 
@@ -172,7 +174,7 @@ Since 2022 he's been a member of the Polish national team in depth diving. He tr
 
 As a software engineer he likes well-designed systems, but this voyage is simpler: a good yacht, a good route, a good crew, and instructors who know what they're doing.`,
       onRetreat:
-        "Skipper of the Beneteau Oceanis 51.1, organiser, and the person responsible for everything working. On board he'll teach you the basics of sailing — from setting the sails to reading the wind.",
+        "Skipper, organiser, and the person responsible for everything working. On board he leads the sailing side and teaches you the basics — from setting the sails to reading the wind.",
     },
     credentials: [
       "Yachtmaster Offshore",
@@ -185,14 +187,15 @@ As a software engineer he likes well-designed systems, but this voyage is simple
 ];
 
 export const yachtInfo: YachtInfo = {
-  name: "Beneteau Oceanis 51.1",
-  headline: "16 metres of home at sea",
+  name: "Planned standard: Beneteau Oceanis 51.1 or a comparable yacht",
+  headline: "Planned standard: a comfortable yacht for a week at sea",
   description:
-    "Beneteau Oceanis 51.1 — five cabins, a spacious cockpit and everything you need to live on the water for a week. This isn't a luxury hotel. It's a home that takes you where you want to go.",
+    "We're aiming for a Beneteau Oceanis 51.1 or a comparable yacht: a spacious cockpit, cabins and everything you need to live on the water for a week. The photos and specs show the target standard, not a guarantee of the exact boat before the final booking.",
   comforts: [
     {
-      title: "5 cabins with natural light",
-      description: "Everyone has their own private space to sleep and recover.",
+      title: "Cabins and natural light",
+      description:
+        "The layout depends on the final boat, but we're aiming for a comfortable standard for a small crew.",
     },
     {
       title: "Galley and saloon",
@@ -204,15 +207,15 @@ export const yachtInfo: YachtInfo = {
       description: "Jump straight into the sea from the yacht — every day.",
     },
     {
-      title: "16 metres of stability",
+      title: "Stable sea-going yacht",
       description:
-        "A yacht designed for open sea. Safe, stable, comfortable.",
+        "A boat chosen for a week of sailing in the Saronic Gulf: safe, stable and comfortable.",
     },
   ],
   images: [
     {
       src: "/images/yacht-main.webp",
-      alt: "Beneteau Oceanis 51.1 — exterior view",
+      alt: "Example of the target yacht standard — exterior view",
     },
     { src: "/images/yacht-cockpit.webp", alt: "Cockpit — shared space" },
     { src: "/images/yacht-cabin.webp", alt: "Cabin with panoramic windows" },
@@ -310,17 +313,37 @@ export const faqItems = [
   {
     question: "Price?",
     answer:
-      "5 900 zł per person. Flight to Athens, insurance, and personal expenses are on you.",
+      "5 900 zł per person. Not included: flight to Athens, insurance, personal expenses and the refundable yacht deposit.",
   },
   {
     question: "What's included?",
     answer:
-      "Spot on the yacht, skipper, freediving, breathwork, fuel, harbours and basic provisions.",
+      "Spot on the yacht for 7 days, skipper, sailing guidance, freediving with Piotr Błaszczak, breathwork, fuel, harbours, basic provisions and a curated small group.",
   },
   {
     question: "What's not included?",
     answer:
-      "Flight to Athens, insurance, some meals on land, and personal expenses.",
+      "Flight to Athens, insurance, the refundable yacht deposit, some meals on land, and personal expenses.",
+  },
+  {
+    question: "Is the yacht deposit extra?",
+    answer:
+      "Yes. The refundable yacht deposit is not included in the trip price. Right now we estimate around 1 775 zł per person; the final amount depends on the charter company, deposit or CDW model, and participant count. We settle it after the charter company returns it, assuming no damage.",
+  },
+  {
+    question: "How does the advance payment work?",
+    answer:
+      "The form is not a payment and not an automatic booking. After you apply, we reply, talk, and only after confirming the fit do we ask for a bank transfer advance payment. The exact amount, deadline and terms are confirmed before you pay.",
+  },
+  {
+    question: "What if the voyage doesn't happen?",
+    answer:
+      "If the voyage is cancelled on the organiser's side, we return the funds you've paid for the trip. It's worth waiting for final trip confirmation before buying flights or taking on larger extra costs.",
+  },
+  {
+    question: "What are the cancellation terms?",
+    answer:
+      "You get the cancellation terms before paying the advance. We're not pretending a full legal policy is already written here: final dates depend on the charter terms, so we confirm them during the conversation.",
   },
   {
     question: "Do I need to know how to sail?",

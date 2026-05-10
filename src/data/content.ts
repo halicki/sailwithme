@@ -85,19 +85,21 @@ export const heroContent = {
 export const pricingInfo: PricingInfo = {
   headline: "Wiesz, na co się piszesz.",
   description:
-    "To nie jest luksusowy all-inclusive ani survival. To dobrze zorganizowany tydzień na jachcie: prosto, konkretnie, z miejscem na morze, ludzi i oddech.",
+    "To nie jest sam nocleg na jachcie ani zwykły czarter bez prowadzenia. To dobrze zorganizowany tydzień z konkretną załogą: żeglowanie, freediving, oddech, mała grupa i proste życie na wodzie.",
   priceRange: "5 900 zł",
   priceNote:
-    "Cena udziału za osobę. Lot do Aten, ubezpieczenie i wydatki własne są po Twojej stronie.",
+    "Cena udziału za osobę. Poza ceną: lot do Aten, ubezpieczenie, wydatki własne i kaucja zwrotna za jacht (orientacyjnie ok. 1 775 zł/os., zależnie od finalnej firmy charterowej).",
   included: [
-    "miejsce na jachcie",
-    "opieka skippera",
-    "zajęcia freedivingowe",
+    "miejsce na jachcie przez 7 dni",
+    "opieka skippera i prowadzenie żeglarskie",
+    "zajęcia freedivingowe z Piotrem Błaszczakiem",
     "sesje oddechowe",
     "opłaty portowe, paliwo i podstawowy prowiant",
+    "kuratorowana mała grupa do 8 uczestników",
   ],
   notIncluded: [
     "lot do Aten",
+    "kaucja zwrotna za jacht — orientacyjnie ok. 1 775 zł/os.",
     "część posiłków na lądzie",
     "ubezpieczenie podróżne",
     "wydatki własne",
@@ -110,7 +112,7 @@ export const manifesto = {
   heading: "To jest rejs dla ludzi, którzy chcą doświadczyć więcej.",
   body: `Nie imprezowy. Nie hotelowy. Nie z przypadkowymi ludźmi z ogłoszenia.
 
-7 dni na Morzu Egejskim. Żeglowanie, freediving z mistrzem Polski, świadomy oddech, greckie porty i życie na pokładzie. Wysiłek na wodzie, spokój na pokładzie i ludzie, z którymi chcesz rozmawiać.`,
+7 dni na Morzu Egejskim. Żeglowanie, freediving z mistrzem Polski, świadomy oddech, greckie porty i życie na pokładzie. Po tygodniu masz za sobą realne życie załogi: więcej spokoju w wodzie, więcej oddechu i doświadczenie żeglowania w małej grupie.`,
   closing: "Nie szukamy pasażerów. Szukamy ludzi do załogi.",
 };
 
@@ -245,7 +247,7 @@ Od 2022 roku jest członkiem kadry narodowej w nurkowaniu głębokościowym. Tre
 
 Jako programista lubi dobrze zaprojektowane systemy, ale ten rejs jest prostszy: dobry jacht, dobra trasa, dobra ekipa i prowadzący, którzy wiedzą, co robią.`,
       onRetreat:
-        "Sternik Beneteau Oceanis 51.1, organizator i człowiek odpowiedzialny za to, żeby wszystko działało. Na pokładzie nauczy Cię podstaw żeglowania — od stawiania żagli po czytanie wiatru.",
+        "Skipper, organizator i człowiek odpowiedzialny za to, żeby wszystko działało. Na pokładzie prowadzi stronę żeglarską i nauczy Cię podstaw — od stawiania żagli po czytanie wiatru.",
     },
     credentials: [
       "Jachtowy sternik morski",
@@ -259,14 +261,15 @@ Jako programista lubi dobrze zaprojektowane systemy, ale ten rejs jest prostszy:
 // ─── Yacht ───────────────────────────────────────────────────────────────────
 
 export const yachtInfo: YachtInfo = {
-  name: "Beneteau Oceanis 51.1",
-  headline: "16 metrów domu na morzu",
+  name: "Planowany standard: Beneteau Oceanis 51.1 lub porównywalny jacht",
+  headline: "Planowany standard: wygodny jacht na tydzień na morzu",
   description:
-    "Beneteau Oceanis 51.1 — pięć kabin, przestronny kokpit i wszystko, czego potrzebujesz, żeby przez tydzień żyć na wodzie. To nie luksusowy hotel. To dom, który zabiera Cię tam, gdzie chcesz.",
+    "Celujemy w Beneteau Oceanis 51.1 lub porównywalny jacht: przestronny kokpit, kabiny i wszystko, czego potrzebujesz, żeby przez tydzień żyć na wodzie. Zdjęcia i specyfikacja pokazują docelowy standard, nie gwarancję konkretnej jednostki przed finalną rezerwacją.",
   comforts: [
     {
-      title: "5 kabin z naturalnym światłem",
-      description: "Każdy ma swoją prywatną przestrzeń na sen i regenerację.",
+      title: "Kabiny i naturalne światło",
+      description:
+        "Układ zależy od finalnej jednostki, ale celujemy w komfortowy standard dla małej załogi.",
     },
     {
       title: "Kuchnia i salon",
@@ -278,15 +281,15 @@ export const yachtInfo: YachtInfo = {
       description: "Skok do morza prosto z jachtu — codziennie.",
     },
     {
-      title: "16 metrów stabilności",
+      title: "Stabilny jacht morski",
       description:
-        "Jacht zaprojektowany na pełne morze. Bezpieczny, stabilny, wygodny.",
+        "Jednostka dobrana do tygodnia żeglugi po Zatoce Sarońskiej: bezpieczna, stabilna i wygodna.",
     },
   ],
   images: [
     {
       src: "/images/yacht-main.webp",
-      alt: "Beneteau Oceanis 51.1 — widok z zewnątrz",
+      alt: "Przykład docelowego standardu jachtu — widok z zewnątrz",
     },
     { src: "/images/yacht-cockpit.webp", alt: "Kokpit — przestrzeń wspólna" },
     { src: "/images/yacht-cabin.webp", alt: "Kabina z panoramicznymi oknami" },
@@ -387,17 +390,37 @@ export const faqItems = [
   {
     question: "Cena?",
     answer:
-      "Cena udziału to 5 900 zł za osobę. Lot do Aten, ubezpieczenie i wydatki własne są po Twojej stronie.",
+      "Cena udziału to 5 900 zł za osobę. Poza ceną są: lot do Aten, ubezpieczenie, wydatki własne i kaucja zwrotna za jacht.",
   },
   {
     question: "Co jest w cenie?",
     answer:
-      "Miejsce na jachcie, skipper, freediving, sesje oddechowe, paliwo, porty i podstawowy prowiant.",
+      "Miejsce na jachcie przez 7 dni, skipper, prowadzenie żeglarskie, freediving z Piotrem Błaszczakiem, sesje oddechowe, paliwo, porty, podstawowy prowiant i kuratorowana mała grupa.",
   },
   {
     question: "Czego nie ma w cenie?",
     answer:
-      "Lotów do Aten, ubezpieczenia, części posiłków na lądzie i wydatków własnych.",
+      "Lotów do Aten, ubezpieczenia, kaucji zwrotnej za jacht, części posiłków na lądzie i wydatków własnych.",
+  },
+  {
+    question: "Czy kaucja jest dodatkowo?",
+    answer:
+      "Tak. Kaucja zwrotna za jacht jest poza ceną udziału. Na dziś zakładamy orientacyjnie ok. 1 775 zł za osobę; finalna kwota zależy od firmy charterowej, modelu kaucji lub CDW i liczby uczestników. Rozliczamy ją po zwrocie z firmy, jeśli nie ma szkód.",
+  },
+  {
+    question: "Jak działa zaliczka?",
+    answer:
+      "Formularz nie jest płatnością ani automatyczną rezerwacją. Po zgłoszeniu odpisujemy, rozmawiamy i dopiero po potwierdzeniu dopasowania prosimy o zaliczkę przelewem. Dokładną kwotę, termin i warunki potwierdzamy przed wpłatą.",
+  },
+  {
+    question: "Co jeśli rejs nie dojdzie do skutku?",
+    answer:
+      "Jeśli rejs zostanie odwołany po stronie organizatora, zwracamy wpłacone przez Ciebie środki za udział. Z lotami i większymi kosztami dodatkowymi warto poczekać na finalne potwierdzenie rejsu.",
+  },
+  {
+    question: "Jakie są warunki rezygnacji?",
+    answer:
+      "Warunki rezygnacji dostajesz przed wpłatą zaliczki. Nie udajemy tu pełnego regulaminu: finalne terminy zależą od warunków charteru, dlatego potwierdzamy je na etapie rozmowy.",
   },
   {
     question: "Czy muszę umieć żeglować?",

@@ -45,7 +45,7 @@ export const ui = {
     },
     yacht: {
       eyebrow: "Jacht",
-      ctaSpec: "Zobacz pełną specyfikację →",
+      ctaSpec: "Zobacz przykładową specyfikację →",
     },
     pricing: {
       eyebrow: "Koszt i zakres",
@@ -57,7 +57,8 @@ export const ui = {
       heading: "Dołącz do załogi",
       subheading:
         "Odpowiemy w ciągu 48h i sprawdzimy, czy ten rejs pasuje do Twoich oczekiwań.",
-      priceNote: "Cena udziału: 5 900 zł. Maksymalnie 8 miejsc dla uczestników.",
+      priceNote:
+        "Cena udziału: 5 900 zł. Kaucja zwrotna za jacht jest dodatkowo, orientacyjnie ok. 1 775 zł/os. Maksymalnie 8 miejsc dla uczestników.",
       placeholderName: "Imię",
       placeholderEmail: "Email",
       placeholderOccupation: "Kim jesteś / czym się zajmujesz?",
@@ -124,7 +125,7 @@ export const ui = {
     },
     yacht: {
       eyebrow: "Yacht",
-      ctaSpec: "Full specs →",
+      ctaSpec: "Example specs →",
     },
     pricing: {
       eyebrow: "Cost & scope",
@@ -136,7 +137,8 @@ export const ui = {
       heading: "Join the crew",
       subheading:
         "We reply within 48h and check whether this voyage fits what you're looking for.",
-      priceNote: "Price: 5 900 zł per person. 8 spots maximum.",
+      priceNote:
+        "Price: 5 900 zł per person. The refundable yacht deposit is extra, estimated at around 1 775 zł/person. 8 spots maximum.",
       placeholderName: "Name",
       placeholderEmail: "Email",
       placeholderOccupation: "Who are you / what do you do?",

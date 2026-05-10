@@ -56,7 +56,7 @@
 - **Konsekwencje**:
   - ✅ Elastyczność cenowa — fallback na 46.1 obniża próg break-even.
   - ✅ Brak kłamstwa w komunikacji — mówimy "jacht", nie "Oceanis 51.1".
-  - ❌ Landing page (`content.ts`) nadal wspomina Oceanis 51.1 — do aktualizacji po decyzji.
+  - ✅ Landing page komunikuje Oceanis 51.1 jako planowany standard lub przykład, nie jako gwarancję konkretnej jednostki.
 - **Trigger do rewizji**: moment rezerwacji jachtu (deadline: 05.05.2026).
 
 ### ADR-006: Manifest serwowany jako statyczny plik z `use-credentials`
