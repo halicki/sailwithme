@@ -206,3 +206,30 @@ Dodatkowo patrze na: ryzyko, scarcity, bonusy/value stack, CTA, zaufanie, spojno
 - FAQ o zaliczce: dopiero po rozmowie i potwierdzeniu fitu.
 - FAQ o niedojściu rejsu do skutku: zwrot wplat, jesli odwolanie jest po stronie organizatora.
 - FAQ o rezygnacji: warunki potwierdzane przed wplata, bez udawania gotowego regulaminu.
+
+## Druga iteracja: obserwacje 6-10
+
+### 6. Doprecyzowac proces po formularzu
+
+- Formularz i CTA maja jasno mowic, ze zgloszenie nie jest platnoscia ani automatyczna rezerwacja.
+- FAQ ma pokazac sekwencje: zgloszenie, odpowiedz w 48h, rozmowa, potwierdzenie fitu, zaliczka.
+
+### 7. Uzasadnic scarcity
+
+- Limit 8 miejsc powinien wynikac z jednego jachtu, wspolnego zycia na pokladzie i malej zalogi.
+- Copy nie powinno brzmiec jak sztuczna presja sprzedazowa.
+
+### 8. Doprecyzowac prosty komfort jachtowy
+
+- Sekcja jachtu ma nadal pokazywac wygodny standard, ale bez hotelowych skojarzen.
+- Wprost nazwac koje, wspolna mese, ograniczona przestrzen i rytm morza.
+
+### 9. Dodac delikatne "dla kogo nie"
+
+- Dodac filtr w sekcji "Czego sie spodziewac" i FAQ.
+- Odfiltrowac oczekiwanie pelnego serwisu, imprezy, idealnej pogody i planu realizowanego bez wzgledu na morze.
+
+### 10. Spiac autorytet Piotra z bezpiecznym startem
+
+- Autorytet sportowy ma wspierac spokojne wejscie od podstaw, nie presje wyniku.
+- Podkreslic, ze wazniejsze od doswiadczenia sa spokoj, uwaznosc i sluchanie instrukcji.

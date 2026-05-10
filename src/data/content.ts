@@ -127,17 +127,22 @@ export const forWhomTraits = [
   {
     title: "Życie na jachcie",
     description:
-      "Śpisz na koi, gotujesz w mesie, po kąpieli w morzu prysznic na rufie jachtu. Prosty komfort, który po dwóch dniach staje się naturalny.",
+      "Śpisz na koi, gotujesz w mesie, dzielisz przestrzeń z załogą, a po kąpieli w morzu bierzesz prysznic na rufie. Prosty komfort, nie hotel.",
   },
   {
     title: "Freediving i oddech",
     description:
-      "Zajęcia są prowadzone od podstaw. Zakres zależy od pogody, warunków i tego, jak czuje się grupa.",
+      "Zajęcia są prowadzone od podstaw: spokojnie, technicznie i bez ciśnienia na wynik. Zakres zależy od pogody, warunków i tego, jak czuje się grupa.",
   },
   {
     title: "Tempo tygodnia",
     description:
       "Pływamy między wyspami, schodzimy na ląd, gotujemy, odpoczywamy. Plan jest konkretny, ale morze ma pierwszeństwo.",
+  },
+  {
+    title: "Dopasowanie",
+    description:
+      "To nie jest wyjazd dla osób szukających pełnego serwisu, imprezy albo planu odhaczanego co do minuty. Szukamy ludzi, którzy chcą być częścią załogi.",
   },
 ];
 
@@ -205,14 +210,14 @@ export const crewMembers: CrewMember[] = [
     portraitImage: "/images/piotr-portrait.jpg",
     bio: {
       intro:
-        "Wielokrotny mistrz Polski w wodach słodkich. Na rejsie pokaże freediving spokojnie, technicznie i bez napinki.",
+        "Wielokrotny mistrz Polski w wodach słodkich. Na rejsie wykorzystuje doświadczenie sportowe po to, żeby wprowadzić Cię do freedivingu spokojnie, technicznie i bez presji.",
       story: `Wszystko zaczęło się na basenie Y-40 we Włoszech. Jedno zanurzenie wystarczyło, żeby Piotr zrozumiał, że pod powierzchnią wody jest coś, czego szukał całe życie — cisza, której nie da się znaleźć na lądzie.
 
 Zanim odkrył freediving, przez ponad 10 lat żył slacklinem i highlinem. Był współtwórcą Urban Highline Festival w Lublinie — pierwszego i największego festiwalu highline'owego w przestrzeni miejskiej na świecie. Przeskakiwanie między budynkami na taśmie nauczyło go tego, co potem okazało się kluczowe pod wodą: panowania nad strachem, kontroli oddechu i zaufania do własnego ciała.
 
 Od 2022 roku jest członkiem kadry narodowej w nurkowaniu głębokościowym. Trenuje i uczy w Deep Spot — najgłębszym basenie w Europie (45,5 metra czystej wody w temperaturze 32°C). Jako instruktor SSI Advanced Freedivier łączy technikę z treningiem mentalnym i hipnozą, pomagając uczniom przełamywać psychiczne bariery związane z głębokością.`,
       onRetreat:
-        "Na rejsie poprowadzi lekcje freedivingu i sesje oddechowe — od pierwszego świadomego wdechu po bezpieczne zanurzenia w greckim morzu. Nie musisz mieć doświadczenia.",
+        "Na rejsie poprowadzi lekcje freedivingu i sesje oddechowe — od pierwszego świadomego wdechu po bezpieczne zanurzenia w greckim morzu. Nie musisz mieć doświadczenia; ważniejsze są spokój, uważność i słuchanie instrukcji.",
     },
     credentials: [
       "Reprezentant Polski — kadra narodowa od 2022",
@@ -264,12 +269,12 @@ export const yachtInfo: YachtInfo = {
   name: "Planowany standard: Beneteau Oceanis 51.1 lub porównywalny jacht",
   headline: "Planowany standard: wygodny jacht na tydzień na morzu",
   description:
-    "Celujemy w Beneteau Oceanis 51.1 lub porównywalny jacht: przestronny kokpit, kabiny i wszystko, czego potrzebujesz, żeby przez tydzień żyć na wodzie. Zdjęcia i specyfikacja pokazują docelowy standard, nie gwarancję konkretnej jednostki przed finalną rezerwacją.",
+    "Celujemy w Beneteau Oceanis 51.1 lub porównywalny jacht: przestronny kokpit, kabiny i wszystko, czego potrzebujesz, żeby przez tydzień żyć na wodzie. To wygodny standard jachtowy, ale nadal koja, wspólna mesa, ograniczona przestrzeń i rytm morza. Zdjęcia i specyfikacja pokazują docelowy standard, nie gwarancję konkretnej jednostki przed finalną rezerwacją.",
   comforts: [
     {
       title: "Kabiny i naturalne światło",
       description:
-        "Układ zależy od finalnej jednostki, ale celujemy w komfortowy standard dla małej załogi.",
+        "Układ zależy od finalnej jednostki, ale celujemy w komfortowy standard dla małej załogi. Prywatność jest jachtowa, nie hotelowa.",
     },
     {
       title: "Kuchnia i salon",
@@ -385,7 +390,8 @@ export const faqItems = [
   { question: "Gdzie?", answer: "Zatoka Sarońska, Grecja" },
   {
     question: "Ile osób?",
-    answer: "Maksymalnie 10 osób łącznie: 2 prowadzących i do 8 uczestników.",
+    answer:
+      "Maksymalnie 10 osób łącznie: 2 prowadzących i do 8 uczestników. Limit wynika z jednego jachtu, wspólnego życia na pokładzie i tego, że chcemy realnie znać ludzi, którzy płyną.",
   },
   {
     question: "Cena?",
@@ -410,7 +416,7 @@ export const faqItems = [
   {
     question: "Jak działa zaliczka?",
     answer:
-      "Formularz nie jest płatnością ani automatyczną rezerwacją. Po zgłoszeniu odpisujemy, rozmawiamy i dopiero po potwierdzeniu dopasowania prosimy o zaliczkę przelewem. Dokładną kwotę, termin i warunki potwierdzamy przed wpłatą.",
+      "Formularz nie jest płatnością ani automatyczną rezerwacją. Proces jest prosty: wysyłasz zgłoszenie, odpisujemy w ciągu 48h, rozmawiamy i dopiero po potwierdzeniu dopasowania prosimy o zaliczkę przelewem. Dokładną kwotę, termin i warunki potwierdzamy przed wpłatą.",
   },
   {
     question: "Co jeśli rejs nie dojdzie do skutku?",
@@ -432,6 +438,11 @@ export const faqItems = [
       "Musisz czuć się w wodzie na tyle swobodnie, żeby bezpiecznie wejść do morza. Freediving prowadzimy od podstaw i bez presji.",
   },
   {
+    question: "Dla kogo to nie jest?",
+    answer:
+      "Nie dla osób, które chcą pełnego serwisu hotelowego, imprezowego rejsu, gwarancji idealnej pogody albo planu realizowanego bez względu na morze. To aktywny tydzień w małej załodze.",
+  },
+  {
     question: "Czy to będzie bardzo intensywne?",
     answer:
       "To aktywny tydzień, ale nie obóz przetrwania. Tempo dopasowujemy do pogody, morza i załogi.",
@@ -444,7 +455,7 @@ export const faqItems = [
   {
     question: "Jak wygląda selekcja?",
     answer:
-      "Po zgłoszeniu odpisujemy w ciągu 48h i sprawdzamy, czy klimat rejsu pasuje do Twoich oczekiwań.",
+      "Po zgłoszeniu odpisujemy w ciągu 48h i sprawdzamy, czy klimat rejsu pasuje do Twoich oczekiwań. Chodzi o dopasowanie, nie o casting: jedna mała załoga mieszka razem przez tydzień.",
   },
   {
     question: "Loty?",

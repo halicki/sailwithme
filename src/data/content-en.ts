@@ -59,17 +59,22 @@ export const forWhomTraits = [
   {
     title: "Life on the yacht",
     description:
-      "You sleep in a bunk, cook in the galley, shower on the stern after a swim. Simple comfort that feels natural after two days.",
+      "You sleep in a bunk, cook in the galley, share space with the crew, and shower on the stern after a swim. Simple comfort, not a hotel.",
   },
   {
     title: "Freediving and breath",
     description:
-      "Sessions are run from the basics. Scope depends on the weather, the conditions, and how the group is feeling.",
+      "Sessions start from the basics: calm, technical and without pressure to perform. Scope depends on the weather, the conditions, and how the group is feeling.",
   },
   {
     title: "The week's pace",
     description:
       "We sail between islands, step ashore, cook, rest. The plan is concrete, but the sea has the final say.",
+  },
+  {
+    title: "Fit",
+    description:
+      "This isn't for people looking for full service, a party trip, or a minute-by-minute plan. We're looking for people who want to be part of the crew.",
   },
 ];
 
@@ -132,14 +137,14 @@ export const crewMembers: CrewMember[] = [
     portraitImage: "/images/piotr-portrait.jpg",
     bio: {
       intro:
-        "Multiple Polish champion in freshwater freediving. On the voyage he'll show freediving calmly, technically, and without pressure.",
+        "Multiple Polish champion in freshwater freediving. On the voyage he uses that sport experience to introduce you to freediving calmly, technically, and without pressure.",
       story: `It all started at the Y-40 pool in Italy. One descent was enough for Piotr to understand that beneath the surface there was something he'd been looking for his whole life — the kind of silence you can't find on land.
 
 Before he discovered freediving, he spent over 10 years in slacklining and highlining. He co-founded the Urban Highline Festival in Lublin — the first and largest highline festival in urban space in the world. Crossing between buildings on a webbing taught him what later turned out to be crucial underwater: managing fear, controlling the breath, and trusting the body.
 
 Since 2022 he's been a member of the Polish national team in depth diving. He trains and teaches at Deep Spot — the deepest pool in Europe (45.5 metres of clear water at 32°C). As an SSI Advanced Freediver instructor he combines technique with mental training and hypnosis, helping students break through psychological barriers around depth.`,
       onRetreat:
-        "On the voyage he'll lead freediving sessions and breathwork — from the first conscious inhale to safe descents in the Greek sea. No experience needed.",
+        "On the voyage he'll lead freediving sessions and breathwork — from the first conscious inhale to safe descents in the Greek sea. No experience needed; calm, attention and following instructions matter more.",
     },
     credentials: [
       "Polish national team member since 2022",
@@ -190,12 +195,12 @@ export const yachtInfo: YachtInfo = {
   name: "Planned standard: Beneteau Oceanis 51.1 or a comparable yacht",
   headline: "Planned standard: a comfortable yacht for a week at sea",
   description:
-    "We're aiming for a Beneteau Oceanis 51.1 or a comparable yacht: a spacious cockpit, cabins and everything you need to live on the water for a week. The photos and specs show the target standard, not a guarantee of the exact boat before the final booking.",
+    "We're aiming for a Beneteau Oceanis 51.1 or a comparable yacht: a spacious cockpit, cabins and everything you need to live on the water for a week. It's a comfortable yacht standard, but still bunks, a shared saloon, limited space and the rhythm of the sea. The photos and specs show the target standard, not a guarantee of the exact boat before the final booking.",
   comforts: [
     {
       title: "Cabins and natural light",
       description:
-        "The layout depends on the final boat, but we're aiming for a comfortable standard for a small crew.",
+        "The layout depends on the final boat, but we're aiming for a comfortable standard for a small crew. Privacy is yacht-style, not hotel-style.",
     },
     {
       title: "Galley and saloon",
@@ -308,7 +313,8 @@ export const faqItems = [
   { question: "Where?", answer: "Saronic Gulf, Greece" },
   {
     question: "How many people?",
-    answer: "Up to 10 people total: 2 instructors and up to 8 participants.",
+    answer:
+      "Up to 10 people total: 2 instructors and up to 8 participants. The limit comes from one yacht, shared life on board, and the fact that we want to actually know the people who sail with us.",
   },
   {
     question: "Price?",
@@ -333,7 +339,7 @@ export const faqItems = [
   {
     question: "How does the advance payment work?",
     answer:
-      "The form is not a payment and not an automatic booking. After you apply, we reply, talk, and only after confirming the fit do we ask for a bank transfer advance payment. The exact amount, deadline and terms are confirmed before you pay.",
+      "The form is not a payment and not an automatic booking. The process is simple: you apply, we reply within 48h, we talk, and only after confirming the fit do we ask for a bank transfer advance payment. The exact amount, deadline and terms are confirmed before you pay.",
   },
   {
     question: "What if the voyage doesn't happen?",
@@ -355,6 +361,11 @@ export const faqItems = [
       "You need to be comfortable enough in the water to safely get into the sea. Freediving starts from the basics, with no pressure.",
   },
   {
+    question: "Who is this not for?",
+    answer:
+      "Not for people who want full hotel service, a party cruise, guaranteed perfect weather, or a plan followed regardless of the sea. This is an active week with a small crew.",
+  },
+  {
     question: "Will it be very intense?",
     answer:
       "It's an active week, but not a survival camp. We adjust the pace to the weather, the sea and the crew.",
@@ -367,7 +378,7 @@ export const faqItems = [
   {
     question: "How does selection work?",
     answer:
-      "After your application we reply within 48h and check whether the voyage fits your expectations.",
+      "After your application we reply within 48h and check whether the voyage fits your expectations. It's about fit, not a casting process: one small crew lives together for a week.",
   },
   {
     question: "Flights?",

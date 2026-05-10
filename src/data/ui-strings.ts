@@ -23,7 +23,8 @@ export const ui = {
       eyebrow: "Na pokładzie",
       heading: "Czego się spodziewać",
       footerStrong: "Do 8 miejsc dla uczestników.",
-      footerRest: "Po zgłoszeniu odpisujemy i dogadujemy szczegóły.",
+      footerRest:
+        "Limit wynika z jednego jachtu i małej załogi, nie z presji sprzedażowej.",
     },
     program: {
       eyebrow: "Podróż",
@@ -40,7 +41,7 @@ export const ui = {
     },
     crewCta: {
       heading: "Ty?",
-      body: "Twoje miejsce w załodze czeka. Zgłoś się — odpowiemy w ciągu 48h.",
+      body: "Zgłoszenie nie blokuje miejsca i nie uruchamia płatności. Najpierw sprawdzamy, czy to dobry fit.",
       cta: "Dołącz do załogi →",
     },
     yacht: {
@@ -56,7 +57,7 @@ export const ui = {
       eyebrow: "Zgłoszenie",
       heading: "Dołącz do załogi",
       subheading:
-        "Odpowiemy w ciągu 48h i sprawdzimy, czy ten rejs pasuje do Twoich oczekiwań.",
+        "Odpowiemy w ciągu 48h. Najpierw rozmowa i dopasowanie, dopiero potem decyzja o zaliczce.",
       priceNote:
         "Cena udziału: 5 900 zł. Kaucja zwrotna za jacht jest dodatkowo, orientacyjnie ok. 1 775 zł/os. Maksymalnie 8 miejsc dla uczestników.",
       placeholderName: "Imię",
@@ -103,7 +104,8 @@ export const ui = {
       eyebrow: "On board",
       heading: "What to expect",
       footerStrong: "Up to 8 spots for participants.",
-      footerRest: "Once you apply, we get back to you and figure out the details.",
+      footerRest:
+        "The limit comes from one yacht and a small crew, not sales pressure.",
     },
     program: {
       eyebrow: "Journey",
@@ -120,7 +122,7 @@ export const ui = {
     },
     crewCta: {
       heading: "You?",
-      body: "Your spot on the crew is waiting. Apply — we reply within 48h.",
+      body: "Applying doesn't hold a spot or trigger payment. First we check whether this is the right fit.",
       cta: "Join the crew →",
     },
     yacht: {
@@ -136,7 +138,7 @@ export const ui = {
       eyebrow: "Application",
       heading: "Join the crew",
       subheading:
-        "We reply within 48h and check whether this voyage fits what you're looking for.",
+        "We reply within 48h. First a conversation and fit check, then the advance payment decision.",
       priceNote:
         "Price: 5 900 zł per person. The refundable yacht deposit is extra, estimated at around 1 775 zł/person. 8 spots maximum.",
       placeholderName: "Name",
@@ -151,7 +153,7 @@ export const ui = {
         "Your application is in. We'll reply within 48h with specifics and the next step.",
       errorFallback: "Something went wrong.",
       errorEmail: "Please enter a valid email address.",
-      privacyNote: "No spam, no auto-replies. We respond personally.",
+      privacyNote: "No spam, no automatic bookings. We respond personally first.",
     },
     faq: {
       eyebrow: "FAQ",
