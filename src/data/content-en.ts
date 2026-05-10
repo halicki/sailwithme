@@ -174,12 +174,12 @@ Since 2022 he's been a member of the Polish national team in depth diving. He tr
     portraitImage: "/images/arek-portrait.jpg",
     bio: {
       intro:
-        "Sailor, software engineer and the organiser of the voyage. He keeps things safe, focused, and human.",
+        "Sailor, software engineer and the organiser of the voyage. He keeps things safe, focused, and human — with safety taking priority over the plan.",
       story: `Arek has been sailing for years and every voyage reinforces what he already knows: at sea, you see fast what works. The wind doesn't negotiate, the waves don't wait — so you have to be attentive, flexible, and present.
 
 As a software engineer he likes well-designed systems, but this voyage is simpler: a good yacht, a good route, a good crew, and instructors who know what they're doing.`,
       onRetreat:
-        "Skipper, organiser, and the person responsible for everything working. On board he leads the sailing side and teaches you the basics — from setting the sails to reading the wind.",
+        "Skipper, organiser, and the person responsible for everything working. On board he leads the sailing side: route choices, manoeuvres, weather decisions and sailing basics — from setting the sails to reading the wind.",
     },
     credentials: [
       "Yachtmaster Offshore",
@@ -305,7 +305,7 @@ export const routeContent: RouteContent = {
     },
   ],
   closingTease:
-    "The exact route depends on weather and conditions at sea, so we leave room for good calls along the way.",
+    "The exact route depends on weather and conditions at sea. That's not a gap in the plan; it's how a good voyage is run: the skipper chooses safe decisions over ticking ports off a map at any cost.",
 };
 
 export const faqItems = [
@@ -319,7 +319,7 @@ export const faqItems = [
   {
     question: "Price?",
     answer:
-      "5 900 zł per person. Not included: flight to Athens, insurance, personal expenses and the refundable yacht deposit.",
+      "5 900 zł per person. This is not just the cost of a bunk or a bare charter: the price includes a week on the yacht with sailing guidance, freediving, breathwork, harbours, fuel and basic provisions. Not included: flight to Athens, insurance, personal expenses and the refundable yacht deposit.",
   },
   {
     question: "What's included?",
@@ -344,12 +344,22 @@ export const faqItems = [
   {
     question: "What if the voyage doesn't happen?",
     answer:
-      "If the voyage is cancelled on the organiser's side, we return the funds you've paid for the trip. It's worth waiting for final trip confirmation before buying flights or taking on larger extra costs.",
+      "If the voyage is cancelled on the organiser's side, we return the funds you've paid for the trip. The Go/No-Go decision depends on closing the group, final yacht choice and costs; we confirm it before recommending that you buy flights or take on larger extra costs.",
   },
   {
     question: "What are the cancellation terms?",
     answer:
-      "You get the cancellation terms before paying the advance. We're not pretending a full legal policy is already written here: final dates depend on the charter terms, so we confirm them during the conversation.",
+      "You get the cancellation terms before paying the advance, in the email with the next step. We're not pretending a full legal policy is already written here: final dates depend on the charter terms, so we confirm them during the conversation.",
+  },
+  {
+    question: "Is the voyage confirmed?",
+    answer:
+      "The dates are fixed: 20–27 June 2026. Whether we launch depends on closing the group and choosing the final yacht, because the threshold is not one fixed participant number. If the voyage doesn't run on our side, we return the trip payments.",
+  },
+  {
+    question: "Is the route guaranteed?",
+    answer:
+      "Not in the sense of ticking off harbours regardless of weather. The Saronic Gulf is the base plan, but the skipper makes the final calls on location, with safety, the sea and crew comfort first.",
   },
   {
     question: "Do I need to know how to sail?",

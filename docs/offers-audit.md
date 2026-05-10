@@ -216,7 +216,7 @@ Dodatkowo patrze na: ryzyko, scarcity, bonusy/value stack, CTA, zaufanie, spojno
 
 ### 7. Uzasadnic scarcity
 
-- Limit 8 miejsc powinien wynikac z jednego jachtu, wspolnego zycia na pokladzie i malej zalogi.
+- Limit 8 miejsc powinien wynikac z jednego jachtu, wspolnego zycia na pokładzie i malej załogi.
 - Copy nie powinno brzmiec jak sztuczna presja sprzedazowa.
 
 ### 8. Doprecyzowac prosty komfort jachtowy
@@ -233,3 +233,30 @@ Dodatkowo patrze na: ryzyko, scarcity, bonusy/value stack, CTA, zaufanie, spojno
 
 - Autorytet sportowy ma wspierac spokojne wejscie od podstaw, nie presje wyniku.
 - Podkreslic, ze wazniejsze od doswiadczenia sa spokoj, uwaznosc i sluchanie instrukcji.
+
+## Trzecia iteracja: obserwacje 11-15
+
+### 11. Doprecyzowac role Arka
+
+- Bio Arka ma mowic o skipperze i organizatorze, nie o sterniku konkretnego modelu jachtu.
+- Copy ma jasno nazwac, ze Arek odpowiada za trase, manewry, decyzje pogodowe i bezpieczenstwo.
+
+### 12. Wykorzystac elastycznosc trasy jako sygnal jakosci
+
+- Sekcja trasy ma tlumaczyc, ze brak gwarancji konkretnych portow nie jest luka, tylko element dobrze prowadzonego rejsu.
+- Decyzje na wodzie maja byc opisane jako bezpieczenstwo > odhaczanie mapy.
+
+### 13. Dac cenie punkt odniesienia
+
+- FAQ o cenie ma mowic, ze `5 900 zl` to nie sama koja ani zwykly czarter.
+- Cena obejmuje prowadzony tydzien: zeglowanie, freediving, oddech, paliwo, porty i podstawowy prowiant.
+
+### 14. Doprecyzowac rezygnacje bez udawania regulaminu
+
+- FAQ ma mowic, ze warunki rezygnacji przychodza przed zaliczka, w mailu z kolejnym krokiem.
+- Nadal nie obiecujemy gotowego pelnego regulaminu, jesli finalne terminy zaleza od charteru.
+
+### 15. Dodac Go/No-Go
+
+- FAQ ma jasno powiedziec, ze termin jest staly, ale uruchomienie zalezy od domkniecia grupy, jachtu i kosztow.
+- Jesli rejs nie ruszy po stronie organizatora, wplaty za udzial wracaja.

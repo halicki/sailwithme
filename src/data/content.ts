@@ -247,12 +247,12 @@ Od 2022 roku jest członkiem kadry narodowej w nurkowaniu głębokościowym. Tre
     portraitImage: "/images/arek-portrait.jpg",
     bio: {
       intro:
-        "Żeglarz, programista i organizator rejsu. Pilnuje tego, żeby było bezpiecznie, konkretnie i po ludzku.",
+        "Żeglarz, programista i organizator rejsu. Pilnuje tego, żeby było bezpiecznie, konkretnie i po ludzku — z zasadą, że bezpieczeństwo jest ważniejsze niż plan.",
       story: `Arek żegluje od lat i z każdym rejsem utwierdza się w przekonaniu, że na morzu szybko widać, co działa. Wiatr nie negocjuje, fala nie czeka — więc trzeba być uważnym, elastycznym i obecnym.
 
 Jako programista lubi dobrze zaprojektowane systemy, ale ten rejs jest prostszy: dobry jacht, dobra trasa, dobra ekipa i prowadzący, którzy wiedzą, co robią.`,
       onRetreat:
-        "Skipper, organizator i człowiek odpowiedzialny za to, żeby wszystko działało. Na pokładzie prowadzi stronę żeglarską i nauczy Cię podstaw — od stawiania żagli po czytanie wiatru.",
+        "Skipper, organizator i człowiek odpowiedzialny za to, żeby wszystko działało. Na pokładzie prowadzi stronę żeglarską: trasę, manewry, decyzje pogodowe i podstawy żeglowania — od stawiania żagli po czytanie wiatru.",
     },
     credentials: [
       "Jachtowy sternik morski",
@@ -380,7 +380,7 @@ export const routeContent: RouteContent = {
     },
   ],
   closingTease:
-    "Dokładna trasa zależy od pogody i warunków na morzu, więc zostawiamy sobie miejsce na dobre decyzje po drodze.",
+    "Dokładna trasa zależy od pogody i warunków na morzu. To nie luka w planie, tylko sposób prowadzenia dobrego rejsu: skipper wybiera bezpieczne decyzje zamiast odhaczania mapy za wszelką cenę.",
 };
 
 // ─── FAQ ─────────────────────────────────────────────────────────────────────
@@ -396,7 +396,7 @@ export const faqItems = [
   {
     question: "Cena?",
     answer:
-      "Cena udziału to 5 900 zł za osobę. Poza ceną są: lot do Aten, ubezpieczenie, wydatki własne i kaucja zwrotna za jacht.",
+      "Cena udziału to 5 900 zł za osobę. To nie jest koszt samej koi ani zwykłego czarteru: w cenie jest tydzień na jachcie z prowadzeniem żeglarskim, freedivingiem, oddechem, portami, paliwem i podstawowym prowiantem. Poza ceną są: lot do Aten, ubezpieczenie, wydatki własne i kaucja zwrotna za jacht.",
   },
   {
     question: "Co jest w cenie?",
@@ -421,12 +421,22 @@ export const faqItems = [
   {
     question: "Co jeśli rejs nie dojdzie do skutku?",
     answer:
-      "Jeśli rejs zostanie odwołany po stronie organizatora, zwracamy wpłacone przez Ciebie środki za udział. Z lotami i większymi kosztami dodatkowymi warto poczekać na finalne potwierdzenie rejsu.",
+      "Jeśli rejs zostanie odwołany po stronie organizatora, zwracamy wpłacone przez Ciebie środki za udział. Decyzja Go/No-Go zależy od domknięcia grupy, finalnego jachtu i kosztów; potwierdzamy ją przed rekomendacją kupowania lotów i ponoszenia większych kosztów dodatkowych.",
   },
   {
     question: "Jakie są warunki rezygnacji?",
     answer:
-      "Warunki rezygnacji dostajesz przed wpłatą zaliczki. Nie udajemy tu pełnego regulaminu: finalne terminy zależą od warunków charteru, dlatego potwierdzamy je na etapie rozmowy.",
+      "Warunki rezygnacji dostajesz przed wpłatą zaliczki, w mailu z kolejnym krokiem. Nie udajemy tu pełnego regulaminu: finalne terminy zależą od warunków charteru, dlatego potwierdzamy je na etapie rozmowy.",
+  },
+  {
+    question: "Czy rejs jest już pewny?",
+    answer:
+      "Termin jest stały: 20–27 czerwca 2026. Samo uruchomienie zależy od domknięcia grupy i wybranego jachtu, bo próg nie jest jedną sztywną liczbą osób. Jeśli z jakiegoś powodu rejs nie ruszy po naszej stronie, zwracamy wpłaty za udział.",
+  },
+  {
+    question: "Czy trasa jest gwarantowana?",
+    answer:
+      "Nie w sensie odhaczania portów niezależnie od pogody. Zatoka Sarońska jest planem bazowym, ale ostateczne decyzje podejmuje skipper na miejscu, z priorytetem bezpieczeństwa, morza i komfortu załogi.",
   },
   {
     question: "Czy muszę umieć żeglować?",
